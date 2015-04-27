@@ -1,0 +1,1 @@
+{"result":"success","creditcardid":3189,"redirecturl":"https://homologation-webpayment.payline.com/webpayment/step1.do?reqCode=prepareStep1&token=1PlF9vZdjh2ZP2YYFucl1406021549131"}

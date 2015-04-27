@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		66F5F13314DB195B0068FD20 /* FZBankSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66F5F13614DB195B0068FD20 /* Build configuration list for PBXAggregateTarget "FZBankSDK" */;
+			buildPhases = (
+				66F5F13A14DB19B20068FD20 /* Build .framework library */,
+			);
+			dependencies = (
+				66F5F13914DB19940068FD20 /* PBXTargetDependency */,
+			);
+			name = FZBankSDK;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C429740219A381A10017CDA5 /* FZAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42972F319A381A00017CDA5 /* FZAPI.framework */; };
+		C429743A19A381A10017CDA5 /* FZBankSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C429732E19A381A00017CDA5 /* FZBankSDK.framework */; };
+		C429744019A381A10017CDA5 /* FZBlackBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C429733519A381A00017CDA5 /* FZBlackBox.framework */; };
+		C429748B19A381A10017CDA5 /* FZCoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C429738319A381A00017CDA5 /* FZCoreUI.framework */; };
+		C42974B719A381A10017CDA5 /* FZP2P.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42973B219A381A00017CDA5 /* FZP2P.framework */; };
+		C42974BE19A381A10017CDA5 /* FZPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42973BC19A381A00017CDA5 /* FZPayment.framework */; };
+		C42974D219A381A10017CDA5 /* FZRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42973DD19A381A00017CDA5 /* FZRewards.framework */; };
+		E171677C190E9EA000E7F9A7 /* BankSDKMultiTargetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E171677A190E9EA000E7F9A7 /* BankSDKMultiTargetManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E171677D190E9EA000E7F9A7 /* BankSDKMultiTargetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E171677B190E9EA000E7F9A7 /* BankSDKMultiTargetManager.m */; };
+		E1988F5E18D3365C00283EE4 /* FZBankSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1988F4F18D3365C00283EE4 /* FZBankSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1988F5F18D3365C00283EE4 /* FZBankSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = E1988F5118D3365C00283EE4 /* FZBankSDK-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F5F13814DB19940068FD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = Serenity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		66E8B6D314D899500074EAA4 /* libFZBankSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFZBankSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C42972F319A381A00017CDA5 /* FZAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZAPI.framework; sourceTree = "<group>"; };
+		C429732E19A381A00017CDA5 /* FZBankSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZBankSDK.framework; sourceTree = "<group>"; };
+		C429733519A381A00017CDA5 /* FZBlackBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZBlackBox.framework; sourceTree = "<group>"; };
+		C429738319A381A00017CDA5 /* FZCoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZCoreUI.framework; sourceTree = "<group>"; };
+		C42973B219A381A00017CDA5 /* FZP2P.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZP2P.framework; sourceTree = "<group>"; };
+		C42973BC19A381A00017CDA5 /* FZPayment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZPayment.framework; sourceTree = "<group>"; };
+		C42973DD19A381A00017CDA5 /* FZRewards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZRewards.framework; sourceTree = "<group>"; };
+		E171677A190E9EA000E7F9A7 /* BankSDKMultiTargetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankSDKMultiTargetManager.h; sourceTree = "<group>"; };
+		E171677B190E9EA000E7F9A7 /* BankSDKMultiTargetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankSDKMultiTargetManager.m; sourceTree = "<group>"; };
+		E1988F4F18D3365C00283EE4 /* FZBankSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZBankSDK.h; sourceTree = "<group>"; };
+		E1988F5118D3365C00283EE4 /* FZBankSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FZBankSDK-Prefix.pch"; sourceTree = "<group>"; };
+		E1988F5318D3365C00283EE4 /* FZBankSDKResources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FZBankSDKResources-Info.plist"; sourceTree = "<group>"; };
+		E19A76AA18D6DF9B0037BD02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E8B6D014D899500074EAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C429744019A381A10017CDA5 /* FZBlackBox.framework in Frameworks */,
+				C42974D219A381A10017CDA5 /* FZRewards.framework in Frameworks */,
+				C42974BE19A381A10017CDA5 /* FZPayment.framework in Frameworks */,
+				C429748B19A381A10017CDA5 /* FZCoreUI.framework in Frameworks */,
+				C42974B719A381A10017CDA5 /* FZP2P.framework in Frameworks */,
+				C429740219A381A10017CDA5 /* FZAPI.framework in Frameworks */,
+				C429743A19A381A10017CDA5 /* FZBankSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333CA4CF1901791100F3326F /* CodeSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeSource;
+			sourceTree = "<group>";
+		};
+		66E8B6C814D899500074EAA4 = {
+			isa = PBXGroup;
+			children = (
+				E1CD323E190F9089003291A2 /* Target */,
+				333CA4CF1901791100F3326F /* CodeSource */,
+				E1988F4D18D3365C00283EE4 /* Configuration */,
+				E19A76B018D6E20B0037BD02 /* FrameworkManager */,
+				66E8B6D514D899500074EAA4 /* Frameworks */,
+				66E8B6D414D899500074EAA4 /* Products */,
+				E1988F5418D3365C00283EE4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		66E8B6D414D899500074EAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E8B6D314D899500074EAA4 /* libFZBankSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E8B6D514D899500074EAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E131BDB818FC1CD1000E0521 /* FZ */,
+				E19A76AA18D6DF9B0037BD02 /* UIKit.framework */,
+				66E8B6D614D899500074EAA4 /* Foundation.framework */,
+				664A268414E3222700C297E6 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C42972F019A381A00017CDA5 /* _FZFWS */ = {
+			isa = PBXGroup;
+			children = (
+				C42972F319A381A00017CDA5 /* FZAPI.framework */,
+				C429732E19A381A00017CDA5 /* FZBankSDK.framework */,
+				C429733519A381A00017CDA5 /* FZBlackBox.framework */,
+				C429738319A381A00017CDA5 /* FZCoreUI.framework */,
+				C42973B219A381A00017CDA5 /* FZP2P.framework */,
+				C42973BC19A381A00017CDA5 /* FZPayment.framework */,
+				C42973DD19A381A00017CDA5 /* FZRewards.framework */,
+			);
+			name = _FZFWS;
+			path = ../../_FZFWS;
+			sourceTree = "<group>";
+		};
+		E131BDB818FC1CD1000E0521 /* FZ */ = {
+			isa = PBXGroup;
+			children = (
+				C42972F019A381A00017CDA5 /* _FZFWS */,
+			);
+			name = FZ;
+			sourceTree = "<group>";
+		};
+		E1988F4D18D3365C00283EE4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F4E18D3365C00283EE4 /* AllHeaders */,
+				E1988F5018D3365C00283EE4 /* Prefix */,
+				E1988F5218D3365C00283EE4 /* Resources */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E1988F4E18D3365C00283EE4 /* AllHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F4F18D3365C00283EE4 /* FZBankSDK.h */,
+			);
+			path = AllHeaders;
+			sourceTree = "<group>";
+		};
+		E1988F5018D3365C00283EE4 /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F5118D3365C00283EE4 /* FZBankSDK-Prefix.pch */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		E1988F5218D3365C00283EE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F5318D3365C00283EE4 /* FZBankSDKResources-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1988F5418D3365C00283EE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F5518D3365C00283EE4 /* Interface */,
+				E1988F5718D3365C00283EE4 /* Localizable */,
+				E1988F5A18D3365C00283EE4 /* Resources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1988F5518D3365C00283EE4 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		E1988F5718D3365C00283EE4 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		E1988F5A18D3365C00283EE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E19A76B018D6E20B0037BD02 /* FrameworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				E19A76B518D6E2100037BD02 /* Resources */,
+			);
+			path = FrameworkManager;
+			sourceTree = "<group>";
+		};
+		E19A76B518D6E2100037BD02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E19A76B718D6E2580037BD02 /* Util */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E19A76B718D6E2580037BD02 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E1CD323E190F9089003291A2 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				E171677A190E9EA000E7F9A7 /* BankSDKMultiTargetManager.h */,
+				E171677B190E9EA000E7F9A7 /* BankSDKMultiTargetManager.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66E8B6D114D899500074EAA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E171677C190E9EA000E7F9A7 /* BankSDKMultiTargetManager.h in Headers */,
+				E1988F5E18D3365C00283EE4 /* FZBankSDK.h in Headers */,
+				E1988F5F18D3365C00283EE4 /* FZBankSDK-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66E8B6D214D899500074EAA4 /* Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Library" */;
+			buildPhases = (
+				66E8B6CF14D899500074EAA4 /* Sources */,
+				66E8B6D014D899500074EAA4 /* Frameworks */,
+				66E8B6D114D899500074EAA4 /* Headers */,
+				66E8B6E814D8A4D10074EAA4 /* Build .a library */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library;
+			productName = Serenity;
+			productReference = 66E8B6D314D899500074EAA4 /* libFZBankSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E8B6CA14D899500074EAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Google;
+			};
+			buildConfigurationList = 66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "FZBankSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66E8B6C814D899500074EAA4;
+			productRefGroup = 66E8B6D414D899500074EAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F5F13314DB195B0068FD20 /* FZBankSDK */,
+				66E8B6D214D899500074EAA4 /* Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E8B6E814D8A4D10074EAA4 /* Build .a library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build .a library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# The following conditionals come from\n# https://github.com/jverkoey/iOS-Framework\n#\n\nset -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+		66F5F13A14DB19B20068FD20 /* Build .framework library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build .framework library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# The following conditionals come from\n# https://github.com/jverkoey/iOS-Framework\n#\n\n\nset -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\nSF_BUNDLE_WRAPPER_NAME=\"${SF_TARGET_NAME}.bundle\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\n#cp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n\n# Old my-self working compile SDK (Don't manage bundle project)\n\n#SIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${SF_EXECUTABLE_PATH}\"\n\n#DEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${SF_EXECUTABLE_PATH}\"\n\n#UNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\n#UNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/${SF_WRAPPER_NAME}\"\n\n#BUNDLE_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${SF_BUNDLE_WRAPPER_NAME}\"\n\n#LIBRARY_PATH_SIMULATOR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${SF_BUNDLE_WRAPPER_NAME}\"\n\n#echo \"SIMULATOR_LIBRARY_PATH: ${SIMULATOR_LIBRARY_PATH}\"\n#echo \"DEVICE_LIBRARY_PATH: ${DEVICE_LIBRARY_PATH}\"\n#echo \"UNIVERSAL_LIBRARY_DIR: ${UNIVERSAL_LIBRARY_DIR}\"\n#echo \"UNIVERSAL_LIBRARY_PATH: ${UNIVERSAL_LIBRARY_PATH}\"\n#echo \"FRAMEWORK: ${FRAMEWORK}\"\n#echo \"SF_WRAPPER_NAME: ${SF_WRAPPER_NAME}\"\n#echo \"BUNDLE: ${BUNDLE}\"\n#echo \"BUNDLEVERSION: ${CFBundleVersion}\"\n\n\n# Create framework directory structure.\n#rm -rf \"${FRAMEWORK}\" &&\n#mkdir -p \"${UNIVERSAL_LIBRARY_DIR}\"\n#mkdir -p \"${FRAMEWORK}/Versions/A/Headers\" &&\n#mkdir -p \"${FRAMEWORK}/Versions/A/Resources\" &&\n\n# Generate universal binary for the device and simulator.\n#lipo -create \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -output \"${UNIVERSAL_LIBRARY_PATH}\"\n\n#cp -r ${BUNDLE_PATH}  ${UNIVERSAL_LIBRARY_DIR}\n\n# Move files to appropriate locations in framework paths.\n#cp \"${UNIVERSAL_LIBRARY_PATH}\" \"${FRAMEWORK}/Versions/A\" &&\n#ln -s \"A\" \"${FRAMEWORK}/Versions/Current\" &&\n#ln -s \"Versions/Current/Headers\" \"${FRAMEWORK}/Headers\" &&\n#ln -s \"Versions/Current/Resources\" \"${FRAMEWORK}/Resources\" &&\n#ln -s \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK}/${PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E8B6CF14D899500074EAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E171677D190E9EA000E7F9A7 /* BankSDKMultiTargetManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F5F13914DB19940068FD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8B6D214D899500074EAA4 /* Library */;
+			targetProxy = 66F5F13814DB19940068FD20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66E8B6DE14D899500074EAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = ../_FZFWS/;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		66E8B6DF14D899500074EAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = ../_FZFWS/;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E8B6E114D899500074EAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ODiSyFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Configuration/Prefix/FZBankSDK-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FZBankSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		66E8B6E214D899500074EAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ODiSyFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Configuration/Prefix/FZBankSDK-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FZBankSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		66F5F13414DB195B0068FD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../_FZFWS/;
+				FRAMEWORK_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = FZBankSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				VERSION_INFO_FILE = "";
+			};
+			name = Debug;
+		};
+		66F5F13514DB195B0068FD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../_FZFWS/;
+				FRAMEWORK_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = FZBankSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				VERSION_INFO_FILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "FZBankSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8B6DE14D899500074EAA4 /* Debug */,
+				66E8B6DF14D899500074EAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8B6E114D899500074EAA4 /* Debug */,
+				66E8B6E214D899500074EAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F5F13614DB195B0068FD20 /* Build configuration list for PBXAggregateTarget "FZBankSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F5F13414DB195B0068FD20 /* Debug */,
+				66F5F13514DB195B0068FD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E8B6CA14D899500074EAA4 /* Project object */;
+}

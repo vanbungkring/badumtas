@@ -1,0 +1,67 @@
+/* 
+  FZRewards.strings
+  FZRewards
+
+  Created by Matthieu Barile on 15/04/2014.
+  Copyright (c) 2014 FLASHiZ. All rights reserved.
+*/
+
+/** FidelizHomeViewController **/
+"fidelitizHomeViewController_navigation_title" = "Rewards";
+"rewards_search" = "Rechercher";
+
+/** FidelitizRulesEngine **/
+//"DISCOUNT.POINT.CASH"="Obtenez %@ point%@ pour %@€ d’achat.";
+"DISCOUNT.POINT.CASH.A"="Obtenez";
+"DISCOUNT.POINT.CASH.B1"="point";
+"DISCOUNT.POINT.CASH.B2"="points";
+"DISCOUNT.POINT.CASH.C"="pour";
+"DISCOUNT.POINT.CASH.D"=" d’achat.";
+
+//"DISCOUNT.POINT.PAIEMENT"="Obtenez %@ point%@ par achat.";
+"DISCOUNT.POINT.PAIEMENT.A"="Obtenez";
+"DISCOUNT.POINT.PAIEMENT.B1"="point";
+"DISCOUNT.POINT.PAIEMENT.B2"="points";
+"DISCOUNT.POINT.PAIEMENT.C"="par achat.";
+
+//"DISCOUNT.PERCENT.PAIEMENT"="Obtenez %@%% de réduction à chaque paiement.";
+"DISCOUNT.PERCENT.PAIEMENT.A"="Obtenez";
+"DISCOUNT.PERCENT.PAIEMENT.B"="% de réduction à chaque paiement.";
+
+//"DISCOUNT.POINT.CASH.GET"="Cumulez %@ point%@ pour obtenir un bon d’achat de %@€.";
+"DISCOUNT.POINT.CASH.GET.A"="Cumulez";
+"DISCOUNT.POINT.CASH.GET.B1"="point";
+"DISCOUNT.POINT.CASH.GET.B2"="points";
+"DISCOUNT.POINT.CASH.GET.C"="pour obtenir un bon d’achat de";
+"DISCOUNT.POINT.CASH.GET.D"="";
+
+//"DISCOUNT.POINT.PERCENT"="Cumulez %@ point%@ pour obtenir un bon de réduction de %@%%.";
+"DISCOUNT.POINT.PERCENT.A"="Cumulez";
+"DISCOUNT.POINT.PERCENT.B1"="point";
+"DISCOUNT.POINT.PERCENT.B2"="points";
+"DISCOUNT.POINT.PERCENT.C"="pour obtenir un bon de réduction de";
+"DISCOUNT.POINT.PERCENT.D"="%";
+
+/** FidelitizHomeViewController **/
+"fidelitizHomeViewController_navigationBar_title"="Rewards";
+"fidelitizHomeViewController_sgmCtrl_title_0"="Mes programmes";
+"fidelitizHomeViewController_sgmCtrl_title_1"="Tous les programmes";
+
+/** YourLoyaltyProgramDetailsViewController **/
+"yourLoyaltyProgramDetailsViewController_btn_deleteCard"="Arrêter";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfCoupons"="1 bon de";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfCoupons_s"="%@ bons de";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPoints"="%.0f Point";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPoints_s"="%.0f Points";
+"yourLoyaltyProgramDetailsViewController_lblAmountSaved"="%@ économisé";
+"yourLoyaltyProgramDetailsViewController_alertView_deleteCard"="Voulez-vous supprimer cette carte de fidélité ?";
+
+/** LoyaltyProgramDetailsViewController **/
+"loyaltyProgramDetailsViewController_btnSuscribe" = "Adhérer";
+"loyaltyProgramDetailsViewController_alert_title_private_code" = "Veuillez saisir votre code adhérent";
+"loyaltyProgramDetailsViewController_bad_password" = "Code invalide";
+
+/** FidelitizTermsOfUseViewController **/
+"FidelitizTermsOfUseViewController_start_use" = "Pour commencer à utiliser Flashiz Rewards";
+"FidelitizTermsOfUseViewController_term_button" = "Acceptez les conditions générales d'utilisation";
+"FidelitizTermsOfUseViewController_add_programs" = "Et adhérez à votre premier programme !";

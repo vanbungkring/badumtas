@@ -1,0 +1,379 @@
+/*
+  FZLeclerc.string.strings
+  FZResources
+
+  Created by Matthieu Barile on 22/04/2014.
+  Copyright (c) 2014 FLASHiZ. All rights reserved.
+*/
+
+/** Global **/
+"app_validate" = "Valider";
+"app_yes" = "Oui";
+"app_no" = "Non";
+"app_retype" = "Le retaper";
+"app_email" = "Email";
+"app_password" = "Mot de passe";
+"app_back" = "Retour";
+"app_male" = "H";
+"app_female" = "F";
+"app_delete" = "Supprimer";
+"app_male_server_value" = "male";//Don't localize
+"app_female_server_value" = "female";//Don't localize
+"app_please_wait" = "Veuillez patienter...";
+"app_error" = "Erreur";
+"app_error_default" = "Une erreur s'est produite, veuillez réessayer.";
+"app_error_default_simple" = "Une erreur s'est produite.";  //New - 21/10/13
+"app_error_mode" = "L’appareil photo n’est pas disponible.";
+"app_error_loading" = "Une erreur s'est produite lors du chargement des données.";
+"app_warning" = "Attention";
+"app_loading" = "Chargement en cours...";
+"app_ok" = "OK";
+"app_confirm" = "Confirmer";
+"app_cancel" = "Annuler";
+"app_continue" = "Continuer";
+
+/** Error messages **/
+
+"" = "Vous devez renseigner vos coordonnées pour effectuer un transfert d'argent.";
+"captcha_error_message" = "Le captcha indiqué est incorrect, veuillez réessayer.";
+"" = "L’adresse email ou le mot de passe saisi est incorrect, veuillez réessayer.";
+"" = "Erreur lors du chargement de l’historique, veuillez réessayer.";
+"" = "Le solde de votre compte n’est pas suffisant pour effectuer un transfert de %@.";
+"" = "Vous ne pouvez pas envoyer d’argent à votre propre compte.";
+"" = "L’adresse email indiquée est incorrecte.";
+"error_generic_message" = "Impossible d'effectuer l'opération (%@).";   //New
+
+/** Sort by Controller **/
+
+/** MenuViewController **/
+
+"menu_refill" = "Rechargez Votre Compte";
+"menu_my_informations" = "Vos Coordonnées";
+"menu_my_cards" = "Gérez vos cartes bancaires";
+"menu_security" = "Changez votre code d'accès";
+"menu_check_my_account" = "Vérifiez votre compte";
+"menu_shop_around_me" = "Centres E.Leclerc paiement flash";
+"menu_tutorial" = "Tutoriel";
+"menu_faq" = "FAQ";
+"menu_log_off" = "Déconnexion";
+"menu_home" = "Accueil";
+"menu_version" = "Leclerc 3.1.1";
+
+/** InitialViewController **/
+"initial_presentation_describe_1" = "Avec Paiement Flash payez avec votre mobile dans votre magasin";
+"initial_presentation_describe_2" = "Flashez le qr code... \net c'est payé !";
+"initial_presentation_describe_3" = "Payez et gérez vos cartes de fidélité avec votre mobile";
+"initial_create_account" = "Se créer un compte";
+"initial_connect" = "Se connecter";
+
+/** CountryViewController **/
+"countryViewController_country_downloading" = "Chargement de la liste des pays...";
+"countryViewController_navigation_title" = "Choisissez votre pays";
+"countryViewController_search" = "Rechercher";
+
+/** RegisterUserViewController **/
+"registerUserViewController_navigation_title" = "Inscrivez-vous !";
+"registerUserViewController_sub_navigation_title" = "Créer mes identifiants";
+"registerUserViewController_acknowledgement" = "En validant, vous reconnaissez avoir pris connaissance des";
+"registerUserViewController_terms_of_use" = "conditions générales d'utilisation";
+"registerUserViewController_check_email" = "Avez-vous bien vérifié votre email ?";
+"registerUserViewController_check_password" = "Avez-vous bien vérifié votre mot de passe ?";
+"registerUserViewController_unvalid_email" = "Votre email ne semble pas valide";
+"registerUserViewController_unvalid_password" = "Votre mot de passe ne semble pas valide. Il doit être composé au minimum de 8 caractères (chiffres et lettres).";
+
+/** PinViewController **/
+"pinViewController_your_personnal_code" = "Mon code personnel";
+"pinViewController_your_personnal_code_inforamtion" = "Le code personnel vous permet de vous assurer que vous êtes la seule personne à pouvoir utiliser Paiement Flash sur ce téléphone. Vous pouvez le modifier à tout moment.";
+"pinViewController_your_personnal_code_enter" = "Merci de vous identifier\n en indiquant votre code personnel.";
+"pinViewController_your_personnal_code_redefine" = "Merci de saisir un nouveau code personnel";
+"pinViewController_your_personnal_code_confirm" = "Merci de confirmer le code personnel que vous venez de définir.";
+"pinViewController_navigation_title" = "Dernière étape";
+"pinViewController_navigation_header" = "Modifier mon code personnel";
+"loading" = "Chargement…";
+"pinViewController_error_pincode_alert_title" = "Code personnel incorrect";
+"pinViewController_error_pincode_alert_message" = "Plus que %d essai(s)";
+
+
+/** RegisterCaptchaViewController **/
+"registerCaptchaViewController_navigation_title" = "C'est bientôt fini";
+"registerCaptchaViewController_security_questions_downloading" = "Chargement des questions  de sécurité...";
+"registerCaptchaViewController_sub_navigation_title" = "Sécurité";
+"registerCaptchaViewController_sub_navigation_text" = "Cette étape nous assure que vous êtes bien à l’origine de votre inscription.";
+"registerCaptchaViewController_select_security_question" = "Choisissez votre question de sécurité";
+"registerCaptchaViewController_rewrite_captcha" = "Recopiez le code";
+"registerCaptchaViewController_validate" = "Valider et passer à la dernière étape";
+"registerCaptchaViewController_response_validate" = "Votre réponse a bien été enregistrée";
+"registerCaptchaViewController_enter_captcha" = "Recopiez le code";
+"registerCaptchaViewController_mail_notification_title" = "Dernière étape"; //new
+"registerCaptchaViewController_mail_notification" = "Un email vient de vous être envoyé. Veuillez consulter votre messagerie pour activer votre compte si ce n’est déjà fait.";
+"registerCaptchaViewController_info" = "Votre banque est susceptible de vous envoyer un SMS de confirmation. Aucun prélèvement ne sera effectué pour cette opération.";
+
+/** RegisterResponseViewController **/
+"registerResponseViewController_response" = "Votre réponse";
+
+/** TransferHomeViewController **/
+"transferHomeViewController_navigation_title" = "Transfert d'argent";
+"transferHomeViewController_deal_success" = "La transaction est validée";
+"transferHomeViewController_deal_success_with_amount" = "Bravo, vous venez d'envoyer %@";
+
+/** PaymentHomeViewController **/
+"paymentHomeViewController_navigation_title" = "Payez";
+
+/** PaymentViewController **/
+"paymentViewController_lbl_setUserInfos" = "Finalisez votre inscription en renseignant vos coordonnées";
+"paymentViewController_btn_setUserInfos" = "Renseigner";
+"paymentViewController_lbl_addCreditCard" = "Ajouter une carte bancaire";
+"paymentViewController_btn_addCreditCard" = "Ajouter";
+"paymentViewController_not_flashiz_invoice_alert_title" = "Oups...";
+"paymentViewController_not_flashiz_invoice_alert_message" = "Ceci n'est pas un QR Code Paiement Flash. Vous allez être redirigé vers votre navigateur web.";
+"paymentViewController_not_flashiz_invoice_alert_message_default" = "Ceci n'est pas un QR Code Paiement Flash";
+"paymentViewController_not_flashiz_invoice_alert_message_not_url" = "Ceci n'est pas un QR Code Paiement Flash. Texte contenu:";//New
+"paymentViewController_not_flashiz_invoice_alert_message_not_rul_call_sms" = "Ceci n'est pas un QR Code Paiement Flash. Les appels/sms ne sont pas pris en compte";//New
+"paymentViewController_incorret_invoice_alert_message" = "Ce QR Code est inactif.";        //New
+"paymentViewController_not_flashiz_valid_account_title" = "Activation du compte"; //New
+"paymentViewController_not_flashiz_valid_account" = "Pour effectuer votre premier paiement, vous devez compléter vos informations."; //New
+
+/** FidelizHomeViewController **/
+"fidelitizHomeViewController_navigation_title" = "Rewards";
+
+/** PaymentCheckViewController **/
+"paymentCheckViewController_refill" = "Recharger";
+"paymentCheckViewController_pay" = "Payer";
+"paymentCheckViewController_tips" = "POURBOIRE";
+"paymentCheckViewController_use_bon" = "Utilisez vos bons de fidélité";
+"paymentCheckViewController_autorefill_of" = " Un rechargement automatique de %@ va être effectué";
+"paymentCheckViewController_fidelitiz_title"    = "Adhérer au programme";
+"paymentCheckViewController_fidelitiz_create"   = "Voulez-vous utiliser Flashiz Rewards et adhérer au programme de fidélité du commerçant ?";
+"paymentCheckViewController_fidelitiz_register" = "Voulez-vous adhérer au programme de fidélité du commerçant ?";
+
+/** LoginViewController **/
+"loginViewController_navigation_title" = "Se connecter";
+"user_invalid" = "Une erreur est survenue lors de la connexion";
+"pin_not_matching" = "Les codes personnels indiqués ne sont pas identiques.";
+"loginviewController_alertview_user_empty" = "Veuillez saisir un nom d'utilisateur.";
+"loginviewController_alertview_password_empty" = "Veuillez saisir un mot de passe.";
+
+
+/** UserInformationViewController **/
+"userInformationViewController_navigation_title" = "Modifier mes informations";
+"userInformationViewController_last_name" = "Nom";
+"userInformationViewController_first_name" = "Prénom";
+"userInformationViewController_sex" = "Sexe";
+"userInformationViewController_birthday" = "Date de naissance";
+"userInformationViewController_nationality" = "Nationalité";
+"userInformationViewController_adress" = "Adresse";
+"userInformationViewController_city_code" = "Code postal";
+"userInformationViewController_city_name" = "Ville";
+"userInformationViewController_country" = "Pays";
+"userInformationViewController_phone_number" = "Tel. portable";
+"userInformationViewController_birthday_date_format" = "dd/MM/yyyy";
+"saving_user_data" = "Enregistrement des données";
+
+/** CardListViewController **/
+"cardListViewController_navigation_title" = "Mes cartes bancaires";
+"cardListViewController_navigation_title_select" = "Selectionner une carte bancaire";
+"cardListViewController_navigation_title_manage" = "Gérer mes cartes bancaires";
+"cardListViewController_expired" = "Expire le %@/%@";
+"cardListViewController_already_expired" = "Attention cette carte a expiré";
+"cardListViewController_re_save" = "Réenregistrer";
+"cardListViewController_add" = "Ajouter une nouvelle carte";
+"cardListViewController_alert_deletion_title"= "Attention";
+"cardListViewController_alert_deletion_message" = "Etes-vous sûr de vouloir supprimer cette carte ?";
+"cardListViewController_confirmation" = "Cette carte sera utilisée pour vos prochains paiements.";
+"cardListViewController_not_flashiz_valid_account" = "Pour lier votre carte, vous devez compléter vos informations";
+
+
+"credit_cards_loading" = "Chargement des cartes…";
+"no_expired" = "Impossible de sélectionner une carte qui a expiré";
+"deleting_credit_card" = "Suppression de la carte bancaire...";
+
+/** CreateCardViewController **/
+"createCardViewController_navigation_title" = "Ajouter une carte bancaire";
+"createCardViewController_alert_title" = "Nom de votre carte";
+"createCardViewController_alert_message" = "Donnez un nom à votre carte.";
+"createCardViewController_namefield_placeholder" = "Nom de la carte";
+
+/** FidelitizRulesEngine **/
+//"DISCOUNT.POINT.CASH"="Obtenez %@ point%@ pour %@€ d’achat.";
+"DISCOUNT.POINT.CASH.A"="Obtenez";
+"DISCOUNT.POINT.CASH.B1"="point";
+"DISCOUNT.POINT.CASH.B2"="points";
+"DISCOUNT.POINT.CASH.C"="pour";
+"DISCOUNT.POINT.CASH.D"=" d’achat.";
+
+//"DISCOUNT.POINT.PAIEMENT"="Obtenez %@ point%@ par achat.";
+"DISCOUNT.POINT.PAIEMENT.A"="Obtenez";
+"DISCOUNT.POINT.PAIEMENT.B1"="point";
+"DISCOUNT.POINT.PAIEMENT.B2"="points";
+"DISCOUNT.POINT.PAIEMENT.C"="par achat.";
+
+//"DISCOUNT.PERCENT.PAIEMENT"="Obtenez %@%% de réduction à chaque paiement.";
+"DISCOUNT.PERCENT.PAIEMENT.A"="Obtenez";
+"DISCOUNT.PERCENT.PAIEMENT.B"="% de réduction à chaque paiement.";
+
+//"DISCOUNT.POINT.CASH.GET"="Cumulez %@ point%@ pour obtenir un bon d’achat de %@€.";
+"DISCOUNT.POINT.CASH.GET.A"="Cumulez";
+"DISCOUNT.POINT.CASH.GET.B1"="point";
+"DISCOUNT.POINT.CASH.GET.B2"="points";
+"DISCOUNT.POINT.CASH.GET.C"="pour obtenir un bon d’achat de";
+"DISCOUNT.POINT.CASH.GET.D"="";
+
+//"DISCOUNT.POINT.PERCENT"="Cumulez %@ point%@ pour obtenir un bon de réduction de %@%%.";
+"DISCOUNT.POINT.PERCENT.A"="Cumulez";
+"DISCOUNT.POINT.PERCENT.B1"="point";
+"DISCOUNT.POINT.PERCENT.B2"="points";
+"DISCOUNT.POINT.PERCENT.C"="pour obtenir un bon de réduction de";
+"DISCOUNT.POINT.PERCENT.D"="%";
+
+/** FidelitizHomeViewController **/
+"fidelitizHomeViewController_navigationBar_title"="Rewards";
+"fidelitizHomeViewController_sgmCtrl_title_0"="Mes programmes";
+"fidelitizHomeViewController_sgmCtrl_title_1"="Tous les programmes";
+
+/** YourLoyaltyProgramDetailsViewController **/
+"yourLoyaltyProgramDetailsViewController_btn_deleteCard"="Arrêter";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon"="Plus que 1 point";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon_s"="Plus que %@ points";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfCoupons"="1 bon de";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfCoupons_s"="%@ bons de";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPoints"="%d Point";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPoints_s"="%.0f Points";
+"yourLoyaltyProgramDetailsViewController_lblAmountSaved"="%@ économisé";
+"yourLoyaltyProgramDetailsViewController_alertView_deleteCard"="Voulez-vous supprimer cette carte de fidélité ?";
+
+/** LoyaltyProgramDetailsViewController **/
+"loyaltyProgramDetailsViewController_btnSuscribe" = "Adhérer";
+"loyaltyProgramDetailsViewController_alert_title_private_code" = "Veuillez saisir votre code adhérent";
+
+/** FidelitizTermsOfUseViewController **/
+"FidelitizTermsOfUseViewController_start_use" = "Pour commencer à utiliser Flashiz Rewards";
+"FidelitizTermsOfUseViewController_term_button" = "Acceptez les conditions générales d'utilisation";
+"FidelitizTermsOfUseViewController_add_programs" = "Et adhérez à votre premier programme !";
+
+/** TransferHomeViewController **/
+"transferHomeViewController_receiveButton" = "Recevoir";
+"transferHomeViewController_sendButton" = "Envoyer";
+
+/** TransferStep1ViewController **/
+"transferStep1ViewController_EmptyAmount" = "Le montant doit être supérieur à 0";
+"transferStep1ViewController_FillEmail" = "Veuillez indiquer une adresse email";
+"transferStep1ViewController_InsufficientAmount" = "Le solde de votre compte est insuffisant pour effectuer un transfert de %@";
+"transferStep1ViewController_FillAmount" = "Veuillez saisir un montant";
+"transferStep1ViewController_To" = "À :";
+"transferStep1ViewController_Amount" = "Montant :";
+"transferStep1ViewController_SearchEmailFriend" = "Entrez l’email de votre ami ou";
+"transferStep1ViewController_SearchInAdressBook" = "Cherchez-le dans votre répertoire";
+"transferStep1ViewController_Comment" = "Ajouter un commentaire";
+"transferStep1ViewController_Comment_title" = "Commentaire";
+
+/** AccountBannerViewController **/
+"historic" = "Historique";
+"x" = "X";
+"AccountBannerViewController_YourBalance" = "Mon solde";
+
+/** AccountBannerLightViewController **/
+"historic" = "Historique";
+"x" = "X";
+
+/** HistoryViewCOntroller **/
+"loading_transactions" = "Chargement des transactions…";
+"validating_transactions" = "Validation…";
+"cancelling_transactions" = "Annulation…";
+"all" = "Tout";
+"output" = "Débit";
+"input" = "Crédit";
+"waiting" = "En attente";
+
+/** ProgramTableViewCell **/
+"purchases" = "Achats";
+
+/** HistoryDetailCell **/
+"canceled" = "Annulé";
+"refused" = "Refusé";
+"cancel" = "Refuser";
+"accept" = "Accepter";
+
+/** HistoryConfirmationCell **/
+"thanks_you" = "Merci pour votre paiement !";
+
+/** PaymentRefillViewController **/
+"menu_refill_title" = "Recharger mon compte";
+"refill_account" = "Rechargement du compte…";
+"cancelling_autorefill_rule" = "Annulation du rechargement automatique…";
+"select_card_and_amount" = "Sélectionner une carte et un montant";
+"auto_refill_account" = "Chargement automatique du compte…";
+"paymentRefillViewController_choose_amount" = "Sélectionner un montant";
+"paymentRefillViewController_automatic_refill" = "Rechargement automatique quand mon compte arrive à 0";
+"paymentRefillViewController_your_balance" = "Mon solde";
+"paymentRefillViewController_select_card" = "Sélectionner une carte à débiter";
+"paymentRefillViewController_activate" = "Activer";
+"paymentRefillViewController_desactivate" = "Désactiver";
+"paymentRefillViewController_success" = "Le rechargement a bien été effectué";
+"paymentRefillViewController_success_setRule" = "Le rechargement automatique a bien été configuré";
+"paymentRefillViewController_success_setRule_off" = "Le rechargement automatique a bien été désactivé";
+"paymentRefillViewController_save" = "Enregistrer";
+"paymentRefillViewController_refill" = "Recharger";
+
+/** TimeoutViewController **/
+"timeoutViewController_deal_success" = "La modification a été effectuée avec succès";
+"timeoutViewController_min" = "min";
+"timeoutViewController_change_pin" = "Changer mon code personnel";
+"timeoutViewController_autolock_title" = "Changement de l’autolock";
+"timeoutViewController_autolock_description" = "Nombre de minutes avant que Paiement Flash ne se déconnecte s’il n’y a plus d’activité.";
+"timeoutViewController_pin_not_matching" = "Les codes personnels indiqués ne sont pas identiques.";
+
+/** CurrencyManager **/
+"currencyManager_error" = "La devise identifiée par le serveur n’est pas acceptée. Veuillez vous reconnecter.";
+
+/** AccountBannerViewController **/
+"accountBannerViewController_action_sheet" = "Sélectionner mon avatar :";
+"accountBannerViewController_from_library" = "Mes photos";
+"accountBannerViewController_from_camera" = "Prendre une photo";
+
+/** TransferReceiveStep1ViewController **/
+"transferReceiveStep1ViewController_your_balance" = "Mon solde :";
+"transferReceiveStep1ViewController_amount" = "Montant :";
+"transferReceiveStep1ViewController_description" = "Entrez le montant à recevoir pour générer le QR code à faire flasher par votre ami.";
+"transferReceiveStep1ViewController_alert_message" = "Veuillez entrer un montant.";
+
+/** TransferReceiveStep2ViewController **/
+"transferReceiveStep2ViewController_flashAndPay" = "Flashez et payez";
+
+/** ActionSuccessfulAfterPaymentViewController **/
+"actionSuccessfulAfterPaymentViewController_label_success" = "Le paiement a bien été effectué";
+"actionSuccessfulAfterPaymentViewController_btn_map" = "Voir les commerces E.Leclerc à proximité";
+
+
+"actionSuccessfulAfterPaymentViewController_lblThisPurchasePoints" = "Cet achat vient de vous rapporter";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn" = "1 point !";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn_s" = "%d points !";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchaseCoupons" = "Cet achat vient de vous rapporter";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons_s" = "%d bons de %@";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons" = "1 bon de %@";
+"actionSuccessfulAfterPaymentViewController_btnCongratulations" = "Bravo !";
+"actionSuccessfulAfterPaymentViewController_btnThanks" = "Merci !";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints_s" = "%.0f points";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints" = "1 point";
+
+/** TermsOfUseViewController **/
+"termsOfUseViewController_header_title" = "Conditions générales d'utilisation";
+
+/** AutoCloseViewController **/
+"autoCloseWindow_3ds_session_expired_title" = "Votre session a expiré";
+"autoCloseWindow_3ds_session_expired_message" = "Par mesure de sécurité l'enregistrement de votre carte bancaire a été annulé, veuillez rééssayer.";
+
+/** ForgottenPasswordSendMailViewController **/
+"loginViewController_btnForgottenPassword_title" = "Mot de passe oublié ?";
+"forgottenPasswordSendMailViewController_lblSubNavigation_text" = "Gestion du mot de passe";
+"forgottenPasswordSendMailViewController_actionSuccessful_title" = "Veuillez consulter votre messagerie pour définir votre nouveau mot de passe.";
+
+
+
+"forgottenPasswordNewPasswordViewController_lblNavigation_text" = "Mon nouveau mot de passe";
+"app_confirm_password" = "Confirmez le mot de passe ";
+
+
+"forgottenPasswordSecretAnswerViewController_lblQuestion_text" = "Question secrète";
+"forgottenPasswordSecretAnswerViewController_textFieldResponse_placeHolder" = "Votre réponse";
+"forgottenPasswordNewPasswordViewController_lblInstructions_text" = "Votre mot de passe doit etre composé au minimum de 8 caractères (chiffres et lettres)";
+"forgottenPasswordSecretAnswerViewController_lblBadAnswer_text" = "La réponse est incorrecte, veuillez réessayer.";

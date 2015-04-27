@@ -1,0 +1,35 @@
+/*
+ Localizable.strings
+ FZP2P
+ 
+ Created by Olivier Demolliens on 4/14/14.
+ Copyright (c) 2014 Flashiz. All rights reserved.
+ */
+
+/** TransferHomeViewController **/
+"transferHomeViewController_navigation_title" = "Geldtransfer";
+"transferHomeViewController_deal_success" = "Die Transaktion wird überprüft";
+"transferHomeViewController_deal_success_with_amount" = "Herzlichen Glückwunsch, Sie haben gerade %@ gesendet";
+"transferHomeViewController_receiveButton" = "Erhalten";
+"transferHomeViewController_sendButton" = "Senden";
+
+/** TransferStep1ViewController **/
+"transferStep1ViewController_EmptyAmount" = "Der Betrag muss größer als 0 sein";
+"transferStep1ViewController_FillEmail" = "Geben Sie bitte eine E-Mail-Adresse ein";
+"transferStep1ViewController_InsufficientAmount" = "Das Guthaben auf Ihrem Konto reicht nicht aus, um einen Transfer von %@ zu tätigen";
+"transferStep1ViewController_FillAmount" = "Bitte geben Sie einen Betrag ein";
+"transferStep1ViewController_To" = "An:";
+"transferStep1ViewController_Amount" = "Betrag:";
+"transferStep1ViewController_SearchEmailFriend" = "Geben Sie den E-Mail Ihres Freundes an oder";
+"transferStep1ViewController_SearchInAdressBook" = "Suchen Sie ihn in Ihrem Verzeichnis";
+"transferStep1ViewController_Comment" = "";
+"transferStep1ViewController_Comment_title" = "Deine Botschaft";
+
+/** TransferReceiveStep1ViewController **/
+"transferReceiveStep1ViewController_your_balance" = "Mein Saldo";
+"transferReceiveStep1ViewController_amount" = "Betrag:";
+"transferReceiveStep1ViewController_description" = "Geben Sie den Betrag an, um den QR-Code zu generieren, den ihr Freund flashen soll.";
+"transferReceiveStep1ViewController_alert_message" = "Bitte geben Sie einen Betrag ein.";
+
+/** TransferReceiveStep2ViewController **/
+"transferReceiveStep2ViewController_flashAndPay" = "Flashen und zahlen";

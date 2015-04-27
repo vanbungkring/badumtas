@@ -1,0 +1,404 @@
+//
+//  ColorsConstants.h
+//  iMobey
+//
+//  Created by Matthieu Barile on 10/12/13.
+//  Copyright (c) 2013 Neopixl. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import <CoreGraphics/CoreGraphics.h>
+
+@interface ColorsConstants : NSObject
+
+extern CGFloat const kAlphaOpaque;
+
+#pragma mark - Colors from the guideline
+extern NSString * const _kBlack;
+extern NSString * const _kWhite;
+extern NSString * const _kMainOne;
+extern NSString * const _kMainTwo;
+extern NSString * const _kMainThree;
+extern NSString * const _kTransferOne;
+extern NSString * const _kTransferTwo;
+extern NSString * const _kRewardsOne;
+extern NSString * const _kRewardsThree;
+extern NSString * const _kMonochromeOne;
+extern NSString * const _kMonochromeTwo;
+extern NSString * const _kMonochromeThree;
+
+#pragma mark - PaymentTopupViewController
+extern NSString * const kPaymentTopupViewController_lblAutomaticRefill_textColor;
+extern NSString * const kPaymentTopupViewController_autoButton_titleColor;
+extern NSString * const kPaymentTopupViewController_aButton_titleColor;
+extern NSString * const kPaymentTopupViewController_viewChooseCard_backgroundColor;
+extern NSString * const kPaymentTopupViewController_viewRefill_backgroundColor;
+extern NSString * const kPaymentTopupViewController_refillButton_backgroundColor;
+extern NSString * const kPaymentTopupViewController_autoButton_backgroundColor;
+extern NSString * const kPaymentTopupViewController_creditCardButton_backgroundColor;
+extern NSString * const kPaymentTopupViewController_header_backgroundColor;
+extern NSString * const kPaymentTopupViewController_viewAutomaticRefill_backgroundColor;
+extern NSString * const kPaymentTopupViewController_lblAmount_textColor;
+extern NSString * const kPaymentTopupViewController_viewChooseCard_selected_backgroundColor;
+extern NSString * const kPaymentTopupViewController_creditCardButton_selected_titleColor;
+extern NSString * const kPaymentTopupViewController_refillButton_highlighted_backgroundColor;
+extern NSString * const kPaymentTopupViewController_refillButton_titleColor;
+extern NSString * const kPaymentTopupViewController_refillButton_highlighted_titleColor;
+extern NSString * const kPaymentTopupViewController_refillButton_unvalid_titleColor;
+extern NSString * const kPaymentTopupViewController_refillButton_unvalid_backgroundColor;
+extern NSString * const kPaymentTopupViewController_creditCardButton_selected_backgroundColor;
+extern NSString * const kPaymentTopupViewController_viewRefill_unvalid_backgroundColor;
+
+#pragma mark - CardListViewController
+extern NSString * const kCardListViewController_backgroundColor;
+extern NSString * const kCardListViewController_viewValidate_backgroundColor;
+extern NSString * const kCardListViewController_btnValidate_backgroundColor;
+extern NSString * const kCardListViewController_btnValidate_highlighted_backgroundColor;
+extern NSString * const kCardListViewController_btnValidate_highlighted_textColor;
+extern NSString * const kCardListViewController_btnValidate_highlighted_backgroundColor;
+extern NSString * const kCardListViewController_btnValidate_highlighted_textColor;
+
+#pragma mark - BankAccountExpiredCell
+extern NSString * const kBankAccountExpiredCell_backgroundColor;
+extern NSString * const kBankAccountExpiredCell_stringColor_backgroundColor;
+extern NSString * const kBankAccountExpiredCell_lblCardExpired_textColor;
+extern NSString * const kBankAccountExpiredCell_btnRight_titleColor;
+extern NSString * const kBankAccountExpiredCell_btnRight_borderColor;
+extern NSString * const kBankAccountExpiredCell_btnRight_backgroundColor;
+extern NSString * const kBankAccountExpiredCell_btnLeft_backgroundColor;
+extern NSString * const kBankAccountExpiredCell_btnLeft_highlighted_titleColor;
+extern NSString * const kBankAccountExpiredCell_btnRight_highlighted_titleColor;
+extern NSString * const kBankAccountExpiredCell_btnLeft_highlighted_backgroundColor;
+extern NSString * const kBankAccountExpiredCell_btnRight_highlighted_backgroundColor;
+
+#pragma mark - BankAccountCell
+extern NSString * const kBankAccountCell_stringColorEditionMode_backgroundColor;
+extern NSString * const kBankAccountCell_stringColor_backgroundColor;
+extern NSString * const kBankAccountCell_lblCardNumber_textColor;
+extern NSString * const kBankAccountCell_lblCardExpired_textColor;
+
+#pragma mark - ActionSuccessfulViewController
+extern NSString * const kActionSuccessfulViewController_fromCardList_backgroundColor;
+extern NSString * const kActionSuccessfulViewController_fromTopUp_backgroundColor;
+
+#pragma mark - MenuViewController
+extern NSString * const kMenuViewController_btnLogOff_backgroundColor;
+extern NSString * const kMenuViewController_viewLogout_backgroundColor;
+extern NSString * const kMenuViewController_tableview_inAccountListMode_backgroundColor;
+extern NSString * const kMenuViewController_tableview_inAccountListMode_separatorColor;
+extern NSString * const kMenuViewController_tableview_backgroundColor;
+extern NSString * const kMenuViewController_tableview_separatorColor;
+
+#pragma mark - MenuUserCellManagement
+extern NSString * const kMenuUserCellManagement_myAccount_backgroundColor;
+extern NSString * const kMenuUserCellManagement_myAccount_stringColor;
+extern NSString * const kMenuUserCellManagement_home_stringColor;
+extern NSString * const kMenuUserCellManagement_refill_stringColor;
+extern NSString * const kMenuUserCellManagement_myInformations_stringColor;
+extern NSString * const kMenuUserCellManagement_myCards_stringColor;
+extern NSString * const kMenuUserCellManagement_security_stringColor;
+extern NSString * const kMenuUserCellManagement_verifyAccount_stringColor;
+
+#pragma mark - MenuUserCell
+extern NSString * const kMenuUserCell_backgroundColor;
+
+#pragma mark - MenuSmallCell
+extern NSString * const kMenuSmallCell_version_backgroundColor;
+extern NSString * const kMenuSmallCell_version_stringColor;
+extern NSString * const kMenuSmallCell_backgroundColor;
+extern NSString * const kMenuSmallCell_stringColor;
+extern NSString * const kMenuSmallCell_contentView_backgroundColor;
+extern NSString * const kMenuSmallCell_lbl_textColor;
+
+#pragma mark - MenuBigCell
+extern NSString * const kMenuBigCell_lbl_textColor;
+
+#pragma mark - TimeoutViewController
+extern NSString * const kTimeoutViewController_aButton_titleColor;
+extern NSString * const kTimeoutViewController_viewChangePin_BackgroundColor;
+extern NSString * const kTimeoutViewController_changePinButton_BackgroundColor;
+extern NSString * const kTimeoutViewController_header_backgroundColor;
+extern NSString * const kTimeoutViewController_changePinButton_highlighted_backgroundColor;
+extern NSString * const kTimeoutViewController_changePinButton_titleColor;
+extern NSString * const kTimeoutViewController_changePinButton_highlighted_titleColor;
+extern NSString * const kTimeoutViewController_timeoutTitleLabel_textColor;
+extern NSString * const kTimeoutViewController_timeoutDescriptionLabel_textColor;
+
+#pragma mark - TutorialViewController
+extern NSString * const kTutorialViewController_viewBottom_backgroundColor;
+
+#pragma mark - UserInformationViewController
+extern NSString * const kUserInformationViewController_viewValidate_actived_backgroundColor;
+extern NSString * const kUserInformationViewController_btnValidate_actived_titleColor;
+extern NSString * const kUserInformationViewController_btnValidate_actived_backgroundColor;
+extern NSString * const kUserInformationViewController_btnValidate_titleColor;
+extern NSString * const kUserInformationViewController_btnValidate_backgroundColor;
+extern NSString * const kUserInformationViewController_viewValidate_backgroundColor;
+extern NSString * const kUserInformationViewController_header_backgroundColor;
+extern NSString * const kUserInformationViewController_btnValidate_actived_highlighted_backgroundColor;
+extern NSString * const kUserInformationViewController_btnValidate_actived_highlighted_titleColor;
+
+#pragma mark - PaymentCheckViewController
+extern NSString * const kPayButtonGradientOne;
+extern NSString * const kPayButtonGradientTwo;
+extern NSString * const kPayButtonGradientThree;
+extern NSString * const kPaymentCheckViewController_view_backgroundColor;
+extern NSString * const kPaymentCheckViewController_couponButton_titleColor;
+extern NSString * const kPaymentCheckViewController_payButton_borderColor;
+extern NSString * const kPaymentCheckViewController_payButton_titleColor;
+extern NSString * const kPaymentCheckViewController_header_backgroundColor;
+
+#pragma mark - LoginViewController
+extern NSString * const kLoginViewController_headerView_backgroundColor;
+extern NSString * const kLoginViewController_bottomView_backgroundColor;
+extern NSString * const kLoginViewController_btnLogin_backgroundColor;
+extern NSString * const kLoginViewController_btnLogin_titleColor;
+extern NSString * const kLoginViewController_btnConnect_titleColor;
+extern NSString * const kLoginViewController_btnForgottenPassword_titleColor;
+
+extern NSString * const kLoginViewController_bottomView_valid_backgroundColor;
+extern NSString * const kLoginViewController_btnLogin_valid_backgroundColor;
+extern NSString * const kLoginViewController_btnLogin_valid_titleColor;
+
+#pragma mark - PinViewController
+extern NSString * const kPinViewController_colorThree;
+extern NSString * const kPinViewController_textField_backgroundColor;
+extern NSString * const kPinViewController_textField_2_backgroundColor;
+extern NSString * const kPinViewController_gradient_top;
+extern NSString * const kPinViewController_gradient_bottom;
+
+#pragma mark - PaymentViewController
+extern NSString * const kPaymentViewController_header_backgroundColor;
+extern NSString * const kPaymentViewController_btnSetUserInfos_highlighted_backgroundColor;
+extern NSString * const kPaymentViewController_btnAddCreditCard_highlighted_backgroundColor;
+extern NSString * const kPaymentViewController_btnSetUserInfos_titleColor;
+extern NSString * const kPaymentViewController_btnSetUserInfos_highlighted_titleColor;
+extern NSString * const kPaymentViewController_btnAddCreditCard_titleColor;
+extern NSString * const kPaymentViewController_btnAddCreditCard_highlighted_titleColor;
+
+#pragma mark - CountryViewController
+extern NSString * const kCountryViewController_header_backgroundColor;
+extern NSString * const kCountryViewController_tableview_separatorColor;
+extern NSString * const kCountryViewController_textFieldCountryName_placeHolderColor;
+
+#pragma mark - RegisterQuestionsViewController
+extern NSString * const kRegisterQuestionsViewController_tableview_separatorColor;
+
+#pragma mark - ActionSuccessfulAfterPaymentViewController
+extern NSString * const kActionSuccessfulAfterPaymentViewController_progressCircle_backgroundColor;
+
+#pragma mark - RewardsHomeViewController
+extern NSString * const kRewardsHomeViewController_yourProgramsButton_backgroundColor;
+extern NSString * const kRewardsHomeViewController_yourProgramsButton_selected_backgroundColor;
+extern NSString * const kRewardsHomeViewController_allProgramsButton_backgroundColor;
+extern NSString * const kRewardsHomeViewController_allProgramsButton_selected_backgroundColor;
+extern NSString * const kRewardsHomeViewController_viewAccountBanner_textColor;
+
+#pragma mark - LoginCell
+extern NSString * const kLoginCell_textField_textColor;
+
+#pragma mark - TransferStep1ViewController
+extern NSString * const kTransferStep1ViewController_lblYourbalance_textColor;
+extern NSString * const kTransferStep1ViewController_lblBalance_textColor;
+extern NSString * const kTransferStep1ViewController_searchContactButton_backgroundColor;
+extern NSString * const kTransferStep1ViewController_validateButton_backgroundColor;
+extern NSString * const kTransferStep1ViewController_commentButton_backgroundColor;
+extern NSString * const kTransferStep1ViewController_viewMail_backgroundColor;
+extern NSString * const kTransferStep1ViewController_toLabel_textColor;
+extern NSString * const kTransferStep1ViewController_mailTextField_textColor;
+extern NSString * const kTransferStep1ViewController_toLabel_after_textColor;
+extern NSString * const kTransferStep1ViewController_mailTextField_after_textColor;
+extern NSString * const kTransferStep1ViewController_searchContactButton_highlighted_backgroundColor;
+extern NSString * const kTransferStep1ViewController_validateButton_highlighted_backgroundColor;
+
+#pragma mark - ResponseCell
+extern NSString * const kResponseCell_bgView_backgroundColor;
+
+#pragma mark - CountryCell
+extern NSString * const kCountryCell_bgView_backgroundColor;
+
+#pragma mark - HistoryDetailCell
+extern NSString * const kHistoryDetailCell_indicatorColorView_pending_backgroundColor;
+extern NSString * const kHistoryDetailCell_lblAmount_pending_textColor;
+extern NSString * const kHistoryDetailCell_indicatorColorView_credit_backgroundColor;
+extern NSString * const kHistoryDetailCell_lblAmount_credit_textColor;
+extern NSString * const kHistoryDetailCell_indicatorColorView_debit_backgroundColor;
+extern NSString * const kHistoryDetailCell_lblAmount_debit_textColor;
+extern NSString * const kHistoryDetailCell_contentView_refused_backgroundColor;
+extern NSString * const kHistoryDetailCell_contentView_canceled_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingCreditorAcceptButton_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingCreditorCancelButton_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingDebitorCancelButton_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingCreditorActionView_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingDebitorActionView_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingCreditorAcceptButton_highlighted_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingCreditorCancelButton_highlighted_backgroundColor;
+extern NSString * const kHistoryDetailCell_pendingDebitorCancelButton_highlighted_backgroundColor;
+
+#pragma mark - SuscribeTextViewCell
+extern NSString * const kSuscribeTextViewCell_textField_textColor;
+extern NSString * const kSuscribeTextViewCell_textField_placeHolderColor;
+extern NSString * const kSuscribeTextViewCell_lbl_textColor;
+
+#pragma mark - SuscribeTextViewCellSegment
+extern NSString * const kSuscribeTextViewCellSegment_segmentedControl_tintColor;
+
+#pragma mark - SuscribeTextViewCellPicker
+extern NSString * const kSuscribeTextViewCellPicker_textField_backgroundColor;
+
+#pragma mark - RegisterUserViewController
+extern NSString * const kRegisterUserViewController_lblSubNavigation_textColor;
+extern NSString * const kRegisterUserViewController_viewHeader_backgroundColor;
+
+#pragma mark - CustomTabBarViewController
+extern NSString * const kCustomTabBarViewController_btnPay_riddleColor;
+
+#pragma mark - ProgramTableViewCell
+extern NSString * const kProgramTableViewCell_lblProgramName_odd_textColor;
+extern NSString * const kProgramTableViewCell_lblProgramName_odd_backgroundColor;
+extern NSString * const kProgramTableViewCell_lblMerchantName_odd_textColor;
+extern NSString * const kProgramTableViewCell_lblMerchantName_odd_backgroundColor;
+extern NSString * const kProgramTableViewCell_contentView_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_lblProgramName_even_textColor;
+extern NSString * const kProgramTableViewCell_lblProgramName_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_lblMerchantName_even_textColor;
+extern NSString * const kProgramTableViewCell_lblMerchantName_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_imageCoupons_even_bacgroundColor;
+extern NSString * const kProgramTableViewCell_imageLogo_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_lblNumberOfCoupons_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_lblAmountOfACoupons_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_viewIndicationsPointsAndPercent_even_backgroundColor;
+extern NSString * const kProgramTableViewCell_viewIndicationsCoupons_even_backgroundColor;
+
+#pragma mark - HistoryViewController
+extern NSString * const kHistoryViewController_allButton_borderColor;
+extern NSString * const kHistoryViewController_allButton_backgroundColor;
+extern NSString * const kHistoryViewController_outputButton_titleColor;
+extern NSString * const kHistoryViewController_outputButton_borderColor;
+extern NSString * const kHistoryViewController_inputButton_titleColor;
+extern NSString * const kHistoryViewController_inputButton_borderColor;
+extern NSString * const kHistoryViewController_pendingButton_titleColor;
+extern NSString * const kHistoryViewController_pendingButton_borderColor;
+extern NSString * const kHistoryViewController_contentView_backgroundColor;
+extern NSString * const kHistoryViewController_header_backgroundColor;
+
+#pragma mark - TransferReceiveStep1ViewController
+extern NSString * const kTransferReceiveStep1ViewController_lblYourBalance_textColor;
+extern NSString * const kTransferReceiveStep1ViewController_lblBalance_textColor;
+extern NSString * const kTransferReceiveStep1ViewController_header_backgroundColor;
+extern NSString * const kTransferReceiveStep1ViewController_viewDescription_backgroundColor;
+extern NSString * const kTransferReceiveStep1ViewController_lblAmount_textColor;
+extern NSString * const kTransferReceiveStep1ViewController_lblCurrencyBefore_textColor;
+extern NSString * const kTransferReceiveStep1ViewController_amountTextField_textColor;
+extern NSString * const kTransferReceiveStep1ViewController_lblCurrencyAfter_textColor;
+extern NSString * const kTransferReceiveStep1ViewController_lblDescription_textColor;
+extern NSString * const kTransferStep1ViewController_searchFriendMailLabel_backgroundColor;
+extern NSString * const kTransferStep1ViewController_viewSearchContact_backgroundColor;
+
+#pragma mark - TransferReceiveStep2ViewController
+extern NSString * const kTransferReceiveStep2ViewController_header_backgroundColor;
+
+#pragma mark - ValidatorViewController
+extern NSString * const kValidatorViewController_view_backgroundColor;
+extern NSString * const kValidatorViewController_btnSecond_borderColor;
+extern NSString * const kValidatorViewController_lblFirst_mode1_textColor;
+extern NSString * const kValidatorViewController_btnFirst_mode1_backgroundColor;
+extern NSString * const kValidatorViewController_btnFirst_mode1_titleColor;
+extern NSString * const kValidatorViewController_lblFirst_mode2_textColor;
+extern NSString * const kValidatorViewController_btnFirst_mode2_backgroundColor;
+extern NSString * const kValidatorViewController_btnFirst_mode2_titleColor;
+extern NSString * const kValidatorViewController_btnSecond_mode2_titleColor;
+extern NSString * const kValidatorViewController_btnSecond_mode2_backgroundColor;
+extern NSString * const kValidatorViewController_lblFirst_mode3_textColor;
+extern NSString * const kValidatorViewController_btnFirst_mode3_backgroundColor;
+extern NSString * const kValidatorViewController_btnFirst_mode3_titleColor;
+extern NSString * const kValidatorViewController_btnSecond_mode3_titleColor;
+extern NSString * const kValidatorViewController_btnSecond_mode3_backgroundColor;
+extern NSString * const kValidatorViewController_btnSecond_mode2_highlighted_backgroundColor;
+extern NSString * const kValidatorViewController_btnSecond_mode2_highlighted_titleColor;
+extern NSString * const kValidatorViewController_btnFirst_mode3_highlighted_backgroundColor;
+extern NSString * const kValidatorViewController_btnFirst_mode3_highlighted_titleColor;
+extern NSString * const kValidatorViewController_btnSecond_mode3_highlighted_titleColor;
+extern NSString * const kValidatorViewController_btnSecond_mode3_highlighted_backgroundColor;
+
+#pragma mark - InitialViewController
+extern NSString * const kInitialViewController_viewMiddle_backgroundColor;
+extern NSString * const kInitialViewController_viewBottom_backgroundColor;
+extern NSString * const kInitialViewController_btnCreateAccount_backgroundColor;
+extern NSString * const kInitialViewController_btnCreateAccount_highlighted_backgroundColor;
+extern NSString * const kInitialViewController_btnLogin_titleColor;
+extern NSString * const kinitialViewController_btnCreateAccount_highlighted_titleColor;
+
+#pragma mark - PaymentViewController
+extern NSString * const kPaymentViewController_viewBackgroundSetUserInfos_backgroundColor;
+extern NSString * const kPaymentViewController_btnSetUserInfos_backgroundColor;
+extern NSString * const kPaymentViewController_viewBackgroundAddCreditCard_backgroundColor;
+extern NSString * const kPaymentViewController_btnAddCreditCard_backgroundColor;
+
+#pragma mark - YourLoyaltyProgramsViewController
+extern NSString * const kYourLoyaltyProgramsViewController_tableViewYourPrograms_separatorColor;
+
+#pragma mark - YourLoyaltyProgramDetailsViewController
+extern NSString * const kYourLoyaltyProgramDetailsViewController_btnDeleteLoyaltyCard_highlighted_backgroundColor;
+
+#pragma mark - LoyaltyProgramDetailsViewController
+extern NSString * const kLoyaltyProgramDetailsViewController_btnSuscribe_highlighted_backgroundColor;
+
+#pragma mark - RegisterResponseViewController
+extern NSString * const kRegisterResponseViewController_btnValidate_backgroundColor;
+extern NSString * const kRegisterResponseViewController_viewValidate_backgroundColor;
+extern NSString * const kRegisterResponseViewController_btnValidate_titleColor;
+extern NSString * const kRegisterResponseViewController_btnValidate_highlighted_titleColor;
+extern NSString * const kRegisterResponseViewController_btnValidate_highlighted_backgroundColor;
+extern NSString * const kRegisterResponseViewController_viewBottom_unvalid_backgroundColor;
+extern NSString * const kRegisterResponseViewController_btnValidate_unvalid_backgroundColor;
+extern NSString * const kRegisterResponseViewController_btnValidate_unvalid_titleColor;
+extern NSString * const kRegisterResponseViewController_textfield_placeholderColor;
+extern NSString * const kRegisterResponseViewController_textField_textColor;
+
+#pragma mark - RegisterCaptchaViewController
+extern NSString * const kRegisterCaptchaViewController_btnValidate_bacgroundColor;
+extern NSString * const kRegisterCaptchaViewController_viewBottom_bacgroundColor;
+
+#pragma mark - TransferHomeViewController
+extern NSString * const kTransferHomeViewController_lblReceive_textColor;
+extern NSString * const kTransferHomeViewController_lblSend_textColor;
+
+#pragma mark - ForgottenPasswordSendMailViewController
+extern NSString * const kForgottenPasswordSendMailViewController_viewSubNavigation_backgroundColor;
+extern NSString * const kForgottenPasswordSendMailViewController_lblSubNavigation_textColor;
+extern NSString * const kForgottenPasswordSendMailViewController_viewBottom_backgroundColor;
+extern NSString * const kForgottenPasswordSendMailViewController_btnValidate_titleColor;
+extern NSString * const kForgottenPasswordSendMailViewController_btnValidate_backgroundColor;
+extern NSString * const kForgottenPasswordSendMailViewController_viewBottom_valid_backgroundColor;
+extern NSString * const kForgottenPasswordSendMailViewController_btnValidate_valid_titleColor;
+extern NSString * const kForgottenPasswordSendMailViewController_btnValidate_valid_backgroundColor;
+
+#pragma mark - ForgottenPasswordSecretAnswerViewController
+extern NSString * const kForgottenPasswordSecretAnswerViewController_viewNavigation_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_lblNavigation_textColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_viewQuestion_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_lblQuestion_textColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_viewBottom_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_btnValidate_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_viewBottom_valid_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_btnValidate_valid_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_viewBottom_bad_backgroundColor;
+extern NSString * const kForgottenPasswordSecretAnswerViewController_btnValidate_bad_backgroundColor;
+
+#pragma mark - ForgottenPasswordNewPasswordViewController
+extern NSString * const kForgottenPasswordNewPasswordViewController_viewNavigation_backgroundColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_lblNavigation_textColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_viewInstructions_backgroundColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_lblInstructions_textColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_viewBottom_backgroundColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_btnValidate_backgroundColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_viewBottom_valid_backgroundColor;
+extern NSString * const kForgottenPasswordNewPasswordViewController_btnValidate_valid_backgroundColor;
+
+#pragma mark - AccountBannerViewController
+extern NSString * const kAccountBannerViewController_lblYourBalance_textColor;
+extern NSString * const kAccountBannerViewController_lblCurrentBalance_textColor;
+
+@end

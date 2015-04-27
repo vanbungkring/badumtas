@@ -1,0 +1,39 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NetraCommonFunction.h"
+#import "AppDelegate.h"
+#import "netraResourceBlock.h"
+#import "NetraCommonFunction.h"
+#import "netraGlobalVariable.h"
+#import "DompetkuNavbarHelper.h"
+#define MAXLENGTH 6
+#define TimeStamp [NSString stringWithFormat:@"%0.0f",[[NSDate date] timeIntervalSince1970]]
+#define IS_IPHONE5 (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)
+#define IS_OS_5_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
+#define IS_OS_6_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+#define IS_OS_7_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 && [[[UIDevice currentDevice] systemVersion] floatValue] < 8.0)
+#define IS_OS_8_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define dompetku ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+#ifndef __OPTIMIZE__
+
+#    define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#    define NSLog(...) {}
+
+#endif
+#endif

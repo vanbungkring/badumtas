@@ -1,0 +1,24 @@
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif
+
+
+////////////////////////////////////////////////////////////////
+//////////////////////Framework Configuration///////////////////
+
+//Here you can redefine bundle file name
+#define kBundleResources @"FZPayment" //Do not add extension (.string)
+
+//Here you can redefine Localizable file name
+#define kBundleLocalizableName @"FZPayment" //Do not add extension (.string)
+
+
+////////////////End of Framework Configuration /////////////////
+////////////////////////////////////////////////////////////////
+
+#if DEBUG
+    #define FZPaymentLog(fmt,...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+    #define FZPaymentLog(...)
+#endif
+

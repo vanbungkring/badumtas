@@ -1,0 +1,36 @@
+/* 
+  NetworkErrors.strings
+  flashiz_ios_core_ui
+
+  Created by Matthieu Barile on 29/01/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** Global **/
+"app_validate" = "Aceptar";
+"app_yes" = "Sí";
+"app_no" = "No";
+"app_retype" = "Reintentar";
+"app_email" = "Email";
+"app_password" = "Contraseña";
+"app_back" = "Volver";
+"app_m" = "H";
+"app_f" = "M";
+"app_male" = "Hombre";
+"app_female" = "Mujer";
+"app_delete" = "Eliminar";
+"app_male_server_value" = "male";//Don't localize
+"app_female_server_value" = "female";//Don't localize
+"app_please_wait" = "Espere...";
+"app_error" = "Error";
+"app_error_default" = "Se ha producido un error, vuelva a intentarlo.";
+"app_error_default_simple" = "Se ha producido un error.";  //New - 21/10/13
+"app_error_mode" = "El aparato de fotos no está disponible.";
+"app_error_loading" = "Se ha producido un error mientras se cargaban los datos.";
+"app_warning" = "Atención";
+"app_loading" = "Cargando...";
+"app_ok" = "OK";
+"app_confirm" = "Confirmar";
+"app_cancel" = "Cancelar";
+"app_continue" = "Continuar";
+"app_more" = "Más";

@@ -1,0 +1,1 @@
+{"result":"success","account":{"id":747,"balance":8521.9,"openingDate":"2013-02-11T15:44:17Z","tag":[],"description":"FiZ FiD's Account","owner":{"id":932},"currency":"EUR"},"username":"16d44348-e609-48c8-9f78-63237d533341"}

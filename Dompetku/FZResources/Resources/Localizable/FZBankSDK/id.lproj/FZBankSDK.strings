@@ -1,0 +1,18 @@
+/*
+ Localizable.strings
+ FZPayment
+ 
+ Created by Julian Clémot on 07/07/14.
+ Copyright (c) 2014 Flashiz. All rights reserved.
+ */
+
+/** ActionSuccessfulAfterPaymentViewController **/
+"actionSuccessfulAfterPaymentViewController_label_success" = "Pembayaran berhasil, terima kasih";
+
+/* Gestion de Problème de facture */
+"3010" = "Kode QR tidak valid";
+
+
+//copied here to allow using "%@" instead of "%.0f" for the bank sdk only
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPoints"="%@ poin";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPoints_s"="%@ poin";

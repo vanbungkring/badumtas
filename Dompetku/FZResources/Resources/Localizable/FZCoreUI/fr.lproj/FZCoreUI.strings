@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  FZCoreUI
+
+  Created by Olivier Demolliens on 4/14/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** MenuViewController **/
+"menu_refill" = "Recharger";
+"menu_my_informations" = "Mes informations";
+"menu_my_cards" = "Mes cartes";
+"menu_security" = "Sécurité";
+"menu_check_my_account" = "Confirmer mon compte";
+"menu_shop_around_me" = "Commerces Flashiz à proximité";
+"menu_tutorial" = "Tutoriel";
+"menu_faq" = "FAQ";
+"menu_log_off" = "Déconnexion";
+"menu_home" = "Home";
+"menu_version" = "Flashiz 3.2.0";
+
+/** InitialViewController **/
+"initial_presentation_describe_1" = "Flashez le qr code... \net c'est payé !";
+"initial_presentation_describe_2" = "Avec Flashiz, payez en magasin, sur le web et entre amis";
+"initial_presentation_describe_3" = "Payez et gérez vos cartes de fidélité avec votre mobile";
+
+/** CountryViewController **/
+"countryViewController_country_downloading" = "Chargement de la liste des pays...";
+"countryViewController_navigation_title" = "Choisissez votre pays";
+"countryViewController_search" = "Rechercher";
+
+/** RegisterUserViewController **/
+"registerUserViewController_navigation_title" = "Inscrivez-vous !";
+"registerUserViewController_sub_navigation_title" = "Créer mes identifiants";
+"registerUserViewController_acknowledgement" = "En validant, vous reconnaissez avoir pris connaissance des";
+"registerUserViewController_terms_of_use" = "conditions générales d'utilisation";
+"registerUserViewController_check_email" = "Avez-vous bien vérifié votre email ?";
+"registerUserViewController_check_password" = "Avez-vous bien vérifié votre mot de passe ?";
+"registerUserViewController_unvalid_email" = "Votre email ne semble pas valide";
+"registerUserViewController_unvalid_password" = "Votre mot de passe ne semble pas valide. Il doit être composé au minimum de 8 caractères (chiffres et lettres).";
+
+/** RegisterResponseViewController **/
+"registerResponseViewController_response" = "Votre réponse";
+
+/** AccountBannerViewController **/
+"historic" = "Historique";
+"x" = "X";
+
+/** AccountBannerLightViewController **/
+"historic" = "Historique";
+"x" = "X";
+
+/** TimeoutViewController **/
+"timeoutViewController_deal_success" = "La modification a été effectuée avec succès";
+"timeoutViewController_min" = "min";
+"timeoutViewController_change_pin" = "Changer mon code personnel";
+"timeoutViewController_autolock_title" = "Changement de l’autolock";
+"timeoutViewController_autolock_description" = "Nombre de minutes avant que Flashiz ne se déconnecte s’il n’y a plus d’activité.";
+"timeoutViewController_pin_not_matching" = "Les codes personnels indiqués ne sont pas identiques.";
+
+/** CurrencyManager **/
+"currencyManager_error" = "La devise identifiée par le serveur n’est pas acceptée. Veuillez vous reconnecter.";
+
+/** AccountBannerViewController **/
+"accountBannerViewController_action_sheet" = "Sélectionner mon avatar :";
+"accountBannerViewController_from_library" = "Mes photos";
+"accountBannerViewController_from_camera" = "Prendre une photo";
+
+/** TermsOfUseViewController **/
+"termsOfUseViewController_header_title" = "Conditions générales d'utilisation";
+
+/** UserInformationViewController **/
+"userInformationViewController_navigation_title" = "Modifier mes informations";
+"userInformationViewController_last_name" = "Nom";
+"userInformationViewController_first_name" = "Prénom";
+"userInformationViewController_sex" = "Sexe";
+"userInformationViewController_birthday" = "Date de naissance";
+"userInformationViewController_nationality" = "Nationalité";
+"userInformationViewController_adress" = "Adresse";
+"userInformationViewController_city_code" = "Code postal";
+"userInformationViewController_city_name" = "Ville";
+"userInformationViewController_country" = "Pays";
+"userInformationViewController_phone_number" = "Tel. portable";
+"userInformationViewController_birthday_date_format" = "dd/MM/yyyy";
+"saving_user_data" = "Enregistrement des données";
+
+/** AutoCloseViewController **/
+"autoCloseWindow_3ds_session_expired_title" = "Votre session a expiré";
+"autoCloseWindow_3ds_session_expired_message" = "Par mesure de sécurité l'enregistrement de votre carte bancaire a été annulé, veuillez rééssayer.";
+
+/** ForgottenPassword **/
+"app_confirm_password" = "Confirmez le mot de passe ";
+
+"forgottenPasswordSendMailViewController_lblSubNavigation_text" = "Retrouver mon compte";
+"forgottenPasswordSendMailViewController_actionSuccessful_title" = "Veuillez consulter votre messagerie pour définir votre nouveau mot de passe.";
+
+"forgottenPasswordSecretAnswerViewController_lblQuestion_text" = "Question de sécurité";
+"forgottenPasswordSecretAnswerViewController_textFieldResponse_placeHolder" = "Votre réponse";
+"forgottenPasswordSecretAnswerViewController_lblBadAnswer_text" = "La réponse est incorrecte, veuillez réessayer.";
+
+"forgottenPasswordNewPasswordViewController_lblNavigation_text" = "Mon nouveau mot de passe";
+"forgottenPasswordNewPasswordViewController_lblInstructions_text" = "Votre mot de passe doit etre composé au minimum de 8 caractères (chiffres et lettres)";
+"forgottenPasswordNewPasswordViewController_password_identical" = "Les mots de passe indiqués ne sont pas identiques.";
+
+
+/** RegisterCaptchaViewController **/
+"registerCaptchaViewController_navigation_title" = "C'est bientôt fini";
+"registerCaptchaViewController_security_questions_downloading" = "Chargement des questions  de sécurité...";
+"registerCaptchaViewController_sub_navigation_title" = "Sécurité";
+"registerCaptchaViewController_sub_navigation_text" = "Cette étape nous assure que vous êtes bien à l’origine de votre inscription.";
+"registerCaptchaViewController_select_security_question" = "Choisissez votre question de sécurité";
+"registerCaptchaViewController_rewrite_captcha" = "Recopiez le code";
+"registerCaptchaViewController_validate" = "Valider et passer à la dernière étape";
+"registerCaptchaViewController_response_validate" = "Votre réponse a bien été enregistrée";
+"registerCaptchaViewController_enter_captcha" = "Recopiez le code";
+"registerCaptchaViewController_mail_notification_title" = "Activation du compte !"; //new
+"registerCaptchaViewController_info" = "Votre banque est susceptible de vous envoyer un SMS de confirmation. Aucun prélèvement ne sera effectué pour cette opération."; //New

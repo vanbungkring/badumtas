@@ -1,0 +1,48 @@
+/* 
+  NetworkErrors.strings
+  flashiz_ios_core_ui
+
+  Created by Matthieu Barile on 29/01/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+"-10000" = "Ha habido un error. Por favor, inténtelo otra vez."; //GENERIC_ERROR
+"10000" = "Ha habido un error. Por favor, inténtelo otra vez."; //UNHANDLED_EXCEPTION
+
+"ANSWER_NOT_VALID_CONTACT_SUPPORT_A" = "¿No puedes recuperar tu contraseña?";
+"ANSWER_NOT_VALID_CONTACT_SUPPORT_B" = "Ponte en contacto con Atención al cliente en contact@flashiz.com";
+"ANSWER_NOT_VALID_MAX_REACHED" = "Tu cuenta Flashiz ha sido bloqueada. Consulta tu correo electrónico.";
+
+/* Gestion de Problème de réseau */
+"10010" = "Tienes que estar conectado a internet para usar FLASHIZ. Conéctate y vuelve a intentarlo.";
+"10020" = "La conexión con FLASHIZ se ha interrumpido inesperadamente. Por favor, vuelve a intentarlo.";
+"10030" = "Ha habido un error. Por favor, inténtelo otra vez."; //Unvalid JSON
+
+/* Gestion de Problème de connexion */
+"1110" = "La dirección de email o la contraseña son incorrectas. Por favor, vuelve a introducirlas."; //WRONG_MAIL_PASSWORD
+"1111" = "¿No puedes recuperar tu contraseña?\nPonte en contacto con Atención al cliente en contact@flashiz.com"; //CUSTOM AFTER 4 CONNECTION TRIES
+
+/* Gestion de Problème création de compte */
+"1210" = "Para poder continuar con la apertura de tu cuenta. Por favor, ponte en contacto con contact@flashiz.com"; //USER_EXIST
+
+/* Gestion de Problème informations utilisateur */
+"1310" = "Has alcanzado tu límite anual de transacciones. Verifica tu cuenta para seguir usando Flashiz."; //LIMIT_AMOUNT_REACHED
+
+/* Gestion de forgotten password */
+/*
+ "1400" = ""; //TOKEN_NOT_EXIST
+ "1410" = ""; //ANSWER_NOT_VALID
+ "1420" = ""; //PASSWORD_NOT_CORRECT
+ */
+
+/* Gestion de Problème de carte bancaire */
+"2000" = "No hemos podido realizar el cargo en tu tarjeta de crédito."; //CB_ERROR
+"2010" = "Tu tarjeta de crédito no es válida. Por favor selecciona una nueva."; //CB_EXPIRED
+
+/* Gestion de Problème de facture */
+"3010" = "El código QR aún no está listo. Por favor, vuelve a intentarlo."; //INVOICE_NOT_ASSOCIATED
+
+/* Gestion de Problème de Paiement */
+"4000" = "No se ha podido realizar el pago. Por favor, vuelve a intentarlo."; //PAYMENT_ERROR
+"4010" = "No puedes enviar dinero a tu propia cuenta. Por favor, introduce una nueva dirección de email."; //SAME_USER
+"4020" = "No puedes enviar dinero a tu propia cuenta. Por favor, introduce una nueva dirección de email."; //SENDING_MONEY_ONESELF_FORBIDDEN idem as SAME_USER

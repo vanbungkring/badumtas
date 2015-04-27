@@ -1,0 +1,1 @@
+{"result":"success","newBalance":8541.9,"currency":"EUR","nbCouponsGenerated":0,"couponType":"UNKNOWN","couponAmount":1,"nbGeneratedPoints":8,"nbPointsToGetACoupon":10,"nbPointsOnLoyaltyCard":8}

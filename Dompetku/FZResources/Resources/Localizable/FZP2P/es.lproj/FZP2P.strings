@@ -1,0 +1,35 @@
+/*
+ Localizable.strings
+ FZP2P
+ 
+ Created by Olivier Demolliens on 4/14/14.
+ Copyright (c) 2014 Flashiz. All rights reserved.
+ */
+
+/** TransferHomeViewController **/
+"transferHomeViewController_navigation_title" = "Transferencia de dinero";
+"transferHomeViewController_deal_success" = "La transacción es válida";
+"transferHomeViewController_deal_success_with_amount" = "Felicidades, acabas de enviar %@.";
+"transferHomeViewController_receiveButton" = "Recibir";
+"transferHomeViewController_sendButton" = "Enviar";
+
+/** TransferStep1ViewController **/
+"transferStep1ViewController_EmptyAmount" = "El importe debe ser superior a 0";
+"transferStep1ViewController_FillEmail" = "Indique una dirección de email";
+"transferStep1ViewController_InsufficientAmount" = "El saldo de tu cuenta es insuficiente para realizar una transferencia de %@";
+"transferStep1ViewController_FillAmount" = "Introduzca una cantidad";
+"transferStep1ViewController_To" = "A:";
+"transferStep1ViewController_Amount" = "Cantidad:";
+"transferStep1ViewController_SearchEmailFriend" = "introduce el email de la persona";
+"transferStep1ViewController_SearchInAdressBook" = "BÚSCALO EN TU AGENDA";
+"transferStep1ViewController_Comment" = "";
+"transferStep1ViewController_Comment_title" = "Tu Mensaje";
+
+/** TransferReceiveStep1ViewController **/
+"transferReceiveStep1ViewController_your_balance" = "Mi saldo:";
+"transferReceiveStep1ViewController_amount" = "Cantidad:";
+"transferReceiveStep1ViewController_description" = "Introduce el importe a recibir para crear el código QR y muéstraselo a quien debe enviarte el dinero.";
+"transferReceiveStep1ViewController_alert_message" = "Introduzca una cantidad.";
+
+/** TransferReceiveStep2ViewController **/
+"transferReceiveStep2ViewController_flashAndPay" = "Escanea y paga";

@@ -1,0 +1,23 @@
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif
+
+
+////////////////////////////////////////////////////////////////
+//////////////////////Framework Configuration///////////////////
+
+//Here you can redefine bundle file name
+#define kBundleResources @"FZAPI" //Do not add extension (.string)
+
+//Here you can redefine Localizable file name
+#define kBundleLocalizableName @"FZAPI" //Do not add extension (.string)
+
+
+////////////////End of Framework Configuration /////////////////
+////////////////////////////////////////////////////////////////
+
+#if DEBUG
+    #define FZAPILog(fmt,...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+    #define FZAPILog(...)
+#endif

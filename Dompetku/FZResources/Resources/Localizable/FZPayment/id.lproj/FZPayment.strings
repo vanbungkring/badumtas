@@ -1,0 +1,152 @@
+/*
+ Localizable.strings
+ FZPayment
+ 
+ Created by Olivier Demolliens on 4/14/14.
+ Copyright (c) 2014 Flashiz. All rights reserved.
+ */
+
+/** PaymentHomeViewController **/
+"paymentHomeViewController_navigation_title" = "Bayar";
+
+/** PaymentViewController **/
+"paymentViewController_lbl_setUserInfos" = "Selesaikan pendaftaran Anda dengan memasukkan data Anda";
+"paymentViewController_btn_setUserInfos" = "Masukkan";
+"paymentViewController_lbl_addCreditCard" = "Tambahkan kartu kredit";
+"paymentViewController_btn_addCreditCard" = "Tambah";
+"paymentViewController_not_flashiz_invoice_alert_title" = "Error";
+"paymentViewController_not_flashiz_invoice_alert_message" = "Ini bukan Kode QR Flashiz. Anda akan diarahkan ke browser web.";
+"paymentViewController_not_flashiz_invoice_alert_message_default" = "Ini bukan Kode QR Flashiz.";
+"paymentViewController_not_flashiz_invoice_alert_message_not_rul_call_sms" = "Format dari kode QR tidak disupport oleh aplikasi ini.";//New
+"paymentViewController_not_flashiz_invoice_alert_message_not_url" = "Ini bukan kode QR FLASHiZ. Teks:";//New
+"paymentViewController_incorret_invoice_alert_message" = "Kode QR tidak valid";    //New
+"paymentViewController_not_flashiz_valid_account_title" = "Pengaktifan akun"; //New
+"paymentViewController_not_flashiz_valid_account" = "Anda harus memasukkan data Anda sebelum Anda dapat melakukan pembayaran pertama Anda."; //New
+"registerCaptchaViewController_mail_notification" = "Email baru saja dikirimkan kepada Anda. Harap memeriksa email Anda untuk mengaktifkan akun Anda."; //New
+
+/** PaymentCheckViewController **/
+"paymentCheckViewController_refill" = "Isi Ulang";
+"paymentCheckViewController_pay" = "Bayar";
+"paymentCheckViewController_tips" = "TIP";
+"paymentCheckViewController_use_bon" = "Gunakan kupon loyalti";
+"paymentCheckViewController_autorefill_of" = "Isi ulang otomatis sebesar %@ akan dilakukan";
+"paymentCheckViewController_fidelitiz_title"    = "Join dengan program ini?";
+"paymentCheckViewController_fidelitiz_create"   = "Apakah anda ingin menggunakan Reward FLASHiZ dan join dengan program loyalti ini?";
+"paymentCheckViewController_fidelitiz_register" = "Apakah Anda ingin join dengan program loyalti ini?";
+
+"paymentCheckViewController_included_rewards" = "Termasuk diskon: ";
+"paymentCheckViewController_included_tip" = "Termasuk tip %.1f%%: ";
+"paymentCheckViewController_included_tip_int" = "Termasuk tip %.0f%%: ";
+"paymentCheckViewController_btn_tip" = "Edit tip";
+"tipViewController_navigation_title" = "Edit tip";
+"tipViewController_lblNoTip" = "Tidak ada tip";
+"tipViewController_lblAddFirstRange" = "+ ";
+"tipViewController_lblAddSecondRange" = "+ ";
+"tipViewController_lblPersonalizedTipValue" = "atau tap jumlah tip\untuk memasukkan jumlah tip yang anda inginkan";"tipViewController_btnApplyTip" = "Konfirmasi";
+
+/** ActionSuccessfulAfterPaymentViewController **/
+"actionSuccessfulAfterPaymentViewController_label_success" = "PEMBAYARAN SUKSES, TERIMA KASIH!";
+"actionSuccessfulAfterPaymentViewController_btn_map" = "Lihat toko yang menerima FLASHiZ";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchasePoints" = "Pembayaran ini mendapatkan";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn" = "1 poin!";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn_s" = "%d point!";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchaseCoupons" = "Pembayaran ini mendapatkan";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons_s" = "%d %@ coupons";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons" = "1 %@ coupon";
+"actionSuccessfulAfterPaymentViewController_btnCongratulations" = "Hebat!";
+"actionSuccessfulAfterPaymentViewController_btnThanks" = "Terima Kasih!";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints_s" = "%d poin";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints" = "1 poin";
+
+/** PaymentRefillViewController **/
+"menu_refill_title" = "Isi Ulang Akun Anda";
+"refill_account" = "Mengisi Ulang Akun Anda...";
+"cancelling_autorefill_rule" = "Membatalkan pengisian otomatis…";
+"select_card_and_amount" = "Pilih kartu dan nilai";
+"auto_refill_account" = "Pengisian Otomatis…";
+"paymentRefillViewController_choose_amount" = "Pilih Nilai";
+"paymentRefillViewController_automatic_refill" = "Isi Ulang Otomatis ketika saldo mencapai 0";
+"paymentRefillViewController_your_balance" = "Saldo Saya";
+"paymentRefillViewController_select_card" = "Pilih Kartu untuk didebit";
+"paymentRefillViewController_activate" = "Aktivasi";
+"paymentRefillViewController_desactivate" = "Non Aktifkan";
+"paymentRefillViewController_success" = "Isi Ulang sukses";
+"paymentRefillViewController_success_setRule" = "Isi Ulang otomatis telah selesai dikonfigurasi";
+"paymentRefillViewController_success_setRule_off" = "Pengisian Ulang Otomatis telah dinon-aktifkan";
+"paymentRefillViewController_save" = "Menyimpan";
+"paymentRefillViewController_refill" = "Isi Ulang";
+
+/** HistoryConfirmationCell **/
+"thanks_you" = "PEMBAYARAN SUKSES, TERIMA KASIH!";
+
+/** HistoryDetailCell **/
+"canceled" = "Dibatalkan";
+"refused" = "Ditolak";
+"cancel" = "Batal";
+"accept" = "Menerima";
+
+/** HistoryViewCOntroller **/
+"loading_transactions" = "Loading transaksi…";
+"validating_transactions" = "Validasi…";
+"cancelling_transactions" = "Pembatalan…";
+"all" = "Semua";
+"output" = "Debit";
+"input" = "Kredit";
+"waiting" = "Menunggu";
+
+/** CardListViewController **/
+"cardListViewController_navigation_title" = "Kartu kredit saya";
+"cardListViewController_navigation_title_select" = "Kartu kredit saya";
+"cardListViewController_navigation_title_manage" = "Kartu kredit saya";
+"cardListViewController_expired" = "Masa Aktif berakhir pada %@/%@";
+"cardListViewController_already_expired" = "Peringatan kartu ini masa aktifnya telah berakhir";
+"cardListViewController_re_save" = "Daftar Ulang";
+"cardListViewController_add" = "Tambahkan kartu baru";
+"cardListViewController_alert_deletion_title"= "Peringatan ";
+"cardListViewController_alert_deletion_message" = "Apakah Anda yakin ingin menghapus kartu ini?";
+"cardListViewController_not_flashiz_valid_account" = "Please fill out your information to add a credit card";//TODO: need translation
+
+"credit_cards_loading" = "Loading kartu…";
+"no_expired" = "Anda tidak dapat memilih kartu yang masa aktifnya telah berakhir.";
+"deleting_credit_card" = "Hapus Kartu Kredit…";
+
+/** CreateCardViewController **/
+"createCardViewController_navigation_title" = "Tambahkan Kartu Kredit";
+"createCardViewController_alert_title" = "Namakan Kartu Anda";
+"createCardViewController_alert_message" = "Berikan Nama untuk Kartu Anda";
+"createCardViewController_namefield_placeholder" = "Nama pada kartu";
+"createCardViewController_alert_refill_on_flashiz" = "To credit your account, go to www.flashiz.com";
+
+/** PinViewController **/
+"pinViewController_your_personnal_code" = "PIN Saya";
+"pinViewController_your_personnal_code_inforamtion" = "PIN memastikan bahwa Anda adalah satu-satunya orang yang dapat menggunakan Flashiz pada ponsel ini. Anda dapat mengubahnya setiap saat.";
+"pinViewController_your_personnal_code_enter" = "Identifikasi diri Anda dengan memasukkan PIN Anda";
+"pinViewController_your_personnal_code_redefine" = "Masukkan PIN Anda";
+"pinViewController_your_personnal_code_confirm" = "Silakan konfirmasi PIN yang baru saja Anda masukkan";
+"pinViewController_navigation_title" = "Langkah Terakhir";
+"pinViewController_navigation_header" = "Modifikasi PIN";
+"loading" = "Sedang Diproses...";
+"pinViewController_error_pincode_alert_title" = "PIN Salah";
+"pinViewController_error_pincode_alert_message" = "Tinggal %d percobaan lagi";
+
+/** LoginViewController **/
+"loginViewController_navigation_title" = "Login";
+"user_invalid" = "Error pada saat Login";
+"pin_not_matching" = "PIN yang Anda masukkan tidak sama.";
+"loginviewController_alertview_user_empty" = "Masukkan user name.";
+"loginviewController_alertview_password_empty" = "Masukkan password.";
+"initial_create_account" = "Buat Akun";
+"loginviewController_link_with_flashiz" = "Hubungkan akun FLASHiZ Anda";
+
+/** ForgottenPasswordSendMailViewController **/
+"loginViewController_btnForgottenPassword_title" = "Lupa password Anda?";
+
+/** AccountBannerViewController **/
+"AccountBannerViewController_YourBalance" = "Saldo Saya";
+
+/** InitialViewController **/
+"initial_connect" = "Login";
+
+/* YourLoyaltyProgramDetailsViewController */
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon"="Hanya 1 poin";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon_s"="Hanya %@ poin";

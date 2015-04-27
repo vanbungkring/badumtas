@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  FZCoreUI
+
+  Created by Olivier Demolliens on 4/14/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** MenuViewController **/
+"menu_refill" = "Refill";
+"menu_my_informations" = "My information";
+"menu_my_cards" = "My cards";
+"menu_security" = "Security";
+"menu_check_my_account" = "Confirm my account";
+"menu_shop_around_me" = "Nearby Flashiz stores";
+"menu_tutorial" = "Tutorial";
+"menu_faq" = "FAQ";
+"menu_log_off" = "Logout";
+"menu_home" = "Home";
+"menu_version" = "Flashiz 3.2.0";
+
+/** InitialViewController **/
+"initial_presentation_describe_1" = "Flash the QR Code…\nand it's paid!";
+"initial_presentation_describe_2" = "With Flashiz you can pay in a store or online and pay your friends";
+"initial_presentation_describe_3" = "Pay and manage your loyalty cards with your Smartphone";
+
+/** CountryViewController **/
+"countryViewController_country_downloading" = "Loading the countries list…";
+"countryViewController_navigation_title" = "Select your country";
+"countryViewController_search" = "Search";
+
+/** RegisterUserViewController **/
+"registerUserViewController_navigation_title" = "Register in just 4 steps!";
+"registerUserViewController_sub_navigation_title" = "Create my login details";
+"registerUserViewController_acknowledgement" = "By validating you acknowledge that you have read and agree to our";
+"registerUserViewController_terms_of_use" = "terms and conditions";
+"registerUserViewController_check_email" = "Did you check your email?";
+"registerUserViewController_check_password" = "Did you check your password?";
+"registerUserViewController_unvalid_email" = "You email address seems to be invalid";
+"registerUserViewController_unvalid_password" = "Your password seems to be invalid. It must contain a minimum of 8 characters (numbers and letters).";
+
+/** RegisterResponseViewController **/
+"registerResponseViewController_response" = "Your answer";
+
+/** AccountBannerViewController **/
+"historic" = "History";
+"x" = "X";
+
+
+/** AccountBannerLightViewController **/
+"historic" = "History";
+"x" = "X";
+
+/** TimeoutViewController **/
+"timeoutViewController_deal_success" = "The modification was successfully completed";
+"timeoutViewController_min" = "min";
+"timeoutViewController_change_pin" = "Change my personal code";
+"timeoutViewController_autolock_title" = "Changing the autolock";
+"timeoutViewController_autolock_description" = "Number of minutes before Flashiz disconnects if there is no activity.";
+"timeoutViewController_pin_not_matching" = "The personal codes entered are not identical.";
+
+/** CurrencyManager **/
+"currencyManager_error" = "The currency identified by the server is not accepted. Please login again.";
+
+/** AccountBannerViewController **/
+"accountBannerViewController_action_sheet" = "Select my avatar:";
+"accountBannerViewController_from_library" = "My photos";
+"accountBannerViewController_from_camera" = "Take a photo";
+
+/** TermsOfUseViewController **/
+"termsOfUseViewController_header_title" = "Terms and conditions";
+
+/** UserInformationViewController **/
+"userInformationViewController_navigation_title" = "Change my information";
+"userInformationViewController_last_name" = "Last name";
+"userInformationViewController_first_name" = "First name";
+"userInformationViewController_sex" = "Gender";
+"userInformationViewController_birthday" = "Date of birth";
+"userInformationViewController_nationality" = "Nationality";
+"userInformationViewController_adress" = "Address";
+"userInformationViewController_city_code" = "Zip";
+"userInformationViewController_city_name" = "City";
+"userInformationViewController_country" = "Country";
+"userInformationViewController_phone_number" = "Cell phone number ";
+"userInformationViewController_birthday_date_format" = "MM/dd/yyyy";
+"saving_user_data" = "Saving the data";
+
+/** AutoCloseViewController **/
+"autoCloseWindow_3ds_session_expired_title" = "Your session has expired";
+"autoCloseWindow_3ds_session_expired_message" = "For security reasons, the registration of your credit card has been interrupted. Please try again.";
+
+/** ForgottenPasswordSendMailViewController **/
+"forgottenPasswordSendMailViewController_lblSubNavigation_text" = "Find Your Account";
+"forgottenPasswordSendMailViewController_actionSuccessful_title" = "Please go to your inbox to set your new password.";
+"forgottenPasswordNewPasswordViewController_lblNavigation_text" = "My new password";
+"app_confirm_password" = "Confirm password";
+"forgottenPasswordSecretAnswerViewController_lblQuestion_text" = "Security question";
+"forgottenPasswordSecretAnswerViewController_textFieldResponse_placeHolder" = "Your answer";
+"forgottenPasswordNewPasswordViewController_lblInstructions_text" = "Your password must contain a minimum of 8 characters (numbers and letters).";
+"forgottenPasswordSecretAnswerViewController_lblBadAnswer_text" = "Answer is incorrect, please retry";
+"forgottenPasswordNewPasswordViewController_password_identical" = "Passwords entered are not identical.";
+
+/** RegisterCaptchaViewController **/
+"registerCaptchaViewController_navigation_title" = "It's nearly done";
+"registerCaptchaViewController_security_questions_downloading" = "Loading security questions";
+"registerCaptchaViewController_sub_navigation_title" = "Security";
+"registerCaptchaViewController_sub_navigation_text" = "This step proves to us that you are the person who is registering.";
+"registerCaptchaViewController_select_security_question" = "Select your security question";
+"registerCaptchaViewController_rewrite_captcha" = "Re-enter the code";
+"registerCaptchaViewController_validate" = "Validate and go to the last step";
+"registerCaptchaViewController_response_validate" = "Your answer has been saved";
+"registerCaptchaViewController_enter_captcha" = "Re-enter the code";
+"registerCaptchaViewController_mail_notification_title" = "Account activation"; //new

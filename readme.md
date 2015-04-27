@@ -1,0 +1,1 @@
+[ ![Codeship Status for kilabs/Doompet](https://codeship.com/projects/115f2380-590f-0132-0c75-6e3b1978079c/status)](https://codeship.com/projects/50188)

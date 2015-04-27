@@ -1,0 +1,153 @@
+/* 
+  Localizable.strings
+  FZPayment
+
+  Created by Olivier Demolliens on 4/14/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** PaymentHomeViewController **/
+"paymentHomeViewController_navigation_title" = "Payment";
+
+/** PaymentViewController **/
+"paymentViewController_lbl_setUserInfos" = "Fill in your contact details to complete your registration";
+"paymentViewController_btn_setUserInfos" = "Enter";
+"paymentViewController_lbl_addCreditCard" = "Add a credit card";
+"paymentViewController_btn_addCreditCard" = "Add";
+"paymentViewController_not_flashiz_invoice_alert_title" = "Error";
+"paymentViewController_not_flashiz_invoice_alert_message" = "This is not a FLASHiZ QR Code. You will be redirected to your web browser.";
+"paymentViewController_not_flashiz_invoice_alert_message_default" = "This is not a FLASHiZ QR Code.";
+"paymentViewController_not_flashiz_invoice_alert_message_not_rul_call_sms" = "This is not a FLASHiZ QR Code. Call and SMS are not managed.";
+"paymentViewController_not_flashiz_invoice_alert_message_not_url" = "This is not a FLASHiZ QR Code. Text content:";
+"paymentViewController_incorret_invoice_alert_message" = "This QR Code is inactive.";    //New
+"paymentViewController_not_flashiz_valid_account_title" = "Account activation"; //New
+"paymentViewController_not_flashiz_valid_account" = "You must enter your information before you can make your first payment."; //New
+"registerCaptchaViewController_mail_notification" = "An email has just been sent to you.  Please check your messages to activate your account."; //New
+
+/** PaymentCheckViewController **/
+"paymentCheckViewController_refill" = "Top up";
+"paymentCheckViewController_pay" = "Pay";
+"paymentCheckViewController_tips" = "TIP";
+"paymentCheckViewController_use_bon" = "Select a coupon";
+"paymentCheckViewController_autorefill_of" = "An automatic recharge of %@ will be carried out";
+"paymentCheckViewController_fidelitiz_title"    = "Join the program";
+"paymentCheckViewController_fidelitiz_create"   = "Do you want to use FLASHiZ Rewards and join the company’s loyalty program?";
+"paymentCheckViewController_fidelitiz_register" = "Do you want to join the company’s loyalty program?";
+
+"paymentCheckViewController_included_rewards" = "Incl. Rewards: ";
+"paymentCheckViewController_included_tip" = "Incl. %.1f%% tip: ";
+"paymentCheckViewController_included_tip_int" = "Incl. %.0f%% tip: ";
+"paymentCheckViewController_btn_tip" = "Tip edit";
+"tipViewController_navigation_title" = "Edit tip amount";
+"tipViewController_lblNoTip" = "No tip";
+"tipViewController_lblAddFirstRange" = "+ ";
+"tipViewController_lblAddSecondRange" = "+ ";
+"tipViewController_lblPersonalizedTipValue" = "or tap the tip amount\nto enter your personalized value";
+"tipViewController_btnApplyTip" = "Apply";
+
+/** ActionSuccessfulAfterPaymentViewController **/
+"actionSuccessfulAfterPaymentViewController_label_success" = "Congrats, payment successful!";
+"actionSuccessfulAfterPaymentViewController_btn_map" = "FLASHiZ stores around you";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchasePoints" = "This purchase just earned you";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn" = "1 point!";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn_s" = "%d points!";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchaseCoupons" = "This purchase just earned you";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons_s" = "%d x %@ coupon";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons" = "a %@ coupon";
+"actionSuccessfulAfterPaymentViewController_btnCongratulations" = "That's great!";
+"actionSuccessfulAfterPaymentViewController_btnThanks" = "Thank you!";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints_s" = "%d points";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints" = "1 point";
+
+/** PaymentRefillViewController **/
+"menu_refill_title" = "Refill your account";
+"refill_account" = "Refill the account…";
+"cancelling_autorefill_rule" = "Cancelling automatic recharging…";
+"select_card_and_amount" = "Select a card and an amount";
+"auto_refill_account" = "Automatic charging of the account…";
+"paymentRefillViewController_choose_amount" = "Select an amount";
+"paymentRefillViewController_automatic_refill" = "Refill automatically when my balance reaches 0";
+"paymentRefillViewController_your_balance" = "Balance";
+"paymentRefillViewController_select_card" = "Select a card";
+"paymentRefillViewController_activate" = "Activate";
+"paymentRefillViewController_desactivate" = "Deactivate";
+"paymentRefillViewController_success" = "Refill successfull";
+"paymentRefillViewController_success_setRule" = "Automatic refill successfully set up";
+"paymentRefillViewController_success_setRule_off" = "Automatic refill has been deactivated";
+"paymentRefillViewController_save" = "Save";
+"paymentRefillViewController_refill" = "Refill";
+
+/** HistoryConfirmationCell **/
+"thanks_you" = "Thank you for your payment!";
+
+/** HistoryDetailCell **/
+"canceled" = "Cancelled";
+"refused" = "Refused";
+"cancel" = "Cancel";
+"accept" = "Accept";
+
+/** HistoryViewCOntroller **/
+"loading_transactions" = "Loading transactions…";
+"validating_transactions" = "Validation…";
+"cancelling_transactions" = "Cancellation…";
+"all" = "All";
+"output" = "Debit";
+"input" = "Credit";
+"waiting" = "Pending";
+
+/** CardListViewController **/
+"cardListViewController_navigation_title" = "Credit cards";
+"cardListViewController_navigation_title_select" = "Credit cards";
+"cardListViewController_navigation_title_manage" = "Credit cards";
+"cardListViewController_expired" = "Expires on %@/%@";
+"cardListViewController_already_expired" = "This card has expired";
+"cardListViewController_re_save" = "Reregister";
+"cardListViewController_add" = "New card";
+"cardListViewController_alert_deletion_title"= "Warning ";
+"cardListViewController_alert_deletion_message" = "Are you sure you want to delete this card?";
+"cardListViewController_not_flashiz_valid_account" = "Please fill out your information to add a credit card";
+
+"credit_cards_loading" = "Loading cards…";
+"no_expired" = "You cannot select a card that has expired";
+"deleting_credit_card" = "Deleting the credit card…";
+
+/** CreateCardViewController **/
+"createCardViewController_navigation_title" = "Add a credit card";
+"createCardViewController_alert_title" = "Name of your card";
+"createCardViewController_alert_message" = "Name your card";
+"createCardViewController_namefield_placeholder" = "Name of the card";
+"createCardViewController_alert_refill_on_flashiz" = "To refill your account, go to www.flashiz.com";
+
+/** PinViewController **/
+"pinViewController_your_personnal_code" = "My personal code";
+"pinViewController_your_personnal_code_inforamtion" = "Your personal code garantees you're the only one who can use flashiz on this phone. You can change it any time you want.";
+"pinViewController_your_personnal_code_enter" = "Please identify yourself by entering your personal code.";
+"pinViewController_your_personnal_code_redefine" = "Please enter a new personal code";
+"pinViewController_your_personnal_code_confirm" = "Please, confirm your personal code.";
+"pinViewController_navigation_title" = "Last step";
+"pinViewController_navigation_header" = "Modify my personal code";
+"loading" = "Loading…";
+"pinViewController_error_pincode_alert_title" = "Incorrect personal code";
+"pinViewController_error_pincode_alert_message" = "Only %d attempt(s) left";
+
+/** LoginViewController **/
+"loginViewController_navigation_title" = "Login";
+"user_invalid" = "An error has occurred during login";
+"pin_not_matching" = "The personal codes entered are not identical.";
+"loginviewController_alertview_user_empty" = "Please enter a user name.";
+"loginviewController_alertview_password_empty" = "Please enter a password.";
+"initial_create_account" = "Create an account";
+"loginviewController_link_with_flashiz" = "Link your FLASHiZ account";
+
+/** ForgottenPasswordSendMailViewController **/
+"loginViewController_btnForgottenPassword_title" = "Forgotten your password?";
+
+/** AccountBannerViewController **/
+"AccountBannerViewController_YourBalance" = "My balance";
+
+/** InitialViewController **/
+"initial_connect" = "Login";
+
+/* YourLoyaltyProgramDetailsViewController */
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon"="1 point left";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon_s"="%@ points left";

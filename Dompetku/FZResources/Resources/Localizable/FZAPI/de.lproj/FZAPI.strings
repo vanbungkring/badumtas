@@ -1,0 +1,48 @@
+/* 
+  NetworkErrors.strings
+  flashiz_ios_core_ui
+
+  Created by Matthieu Barile on 29/01/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+"-10000" = "Ein Fehler ist aufgetreten, versuchen Sie es erneut."; //GENERIC_ERROR
+"10000" = "Ein Fehler ist aufgetreten, versuchen Sie es erneut."; //UNHANDLED_EXCEPTION
+
+"ANSWER_NOT_VALID_CONTACT_SUPPORT_A" = "Sie haben Ihr Passwort vergessen?";
+"ANSWER_NOT_VALID_CONTACT_SUPPORT_B" = "Kontaktieren Sie unseren Kundendienst unter contact@flashiz.com";
+"ANSWER_NOT_VALID_MAX_REACHED" = "Ihr Flashiz-Account wurde gesperrt. Gehen Sie bitte zu Ihrem Postfach.";
+
+/* Gestion de Problème de réseau */
+"10010" = "Sie müssen mit dem Internet verbunden sein, um FLASHiZ benutzen zu können. Stellen Sie bitte eine Verbindung her, und versuchen Sie es noch einmal.";
+"10020" = "FLASHiZ-Login fehlgeschlagen, bitte versuchen Sie es erneut.";
+"10030" = "Ein Fehler ist aufgetreten, versuchen Sie es erneut."; //Unvalid JSON
+
+/* Gestion de Problème de connexion */
+"1110" = "Die eingegebene E-Mail-Adresse oder das Passwort ist nicht korrekt. Versuchen Sie es bitte noch einmal."; //WRONG_MAIL_PASSWORD
+"1111" = "Sie haben Ihr Passwort vergessen?\nKontaktieren Sie unseren Kundendienst unter contact@flashiz.com"; //CUSTOM AFTER 4 CONNECTION TRIES
+
+/* Gestion de Problème création de compte */
+"1210" = "Haben Sie ein Problem beim Einloggen? Bitte wenden Sie sich an contact@flashiz.com."; //USER_EXIST
+
+/* Gestion de Problème informations utilisateur */
+"1310" = "Sie haben Ihr jährliches Transaktionslimit erreicht. Lassen Sie bitte Ihr Konto bestätigen, um FLASHiZ weiterhin zu benutzen."; //LIMIT_AMOUNT_REACHED
+
+/* Gestion de forgotten password */
+/*
+ "1400" = ""; //TOKEN_NOT_EXIST
+ "1410" = ""; //ANSWER_NOT_VALID
+ "1420" = ""; //PASSWORD_NOT_CORRECT
+ */
+
+/* Gestion de Problème de carte bancaire */
+"2000" = "Die Abbuchung von Ihrer Bankkarte konnte nicht durchgeführt werden."; //CB_ERROR
+"2010" = "Ihre Bankkarte ist ungültig. Wählen Sie bitte eine andere."; //CB_EXPIRED
+
+/* Gestion de Problème de facture */
+"3010" = "Der QR-Code wurde noch nicht initialisiert, versuchen Sie es bitte noch einmal."; //INVOICE_NOT_ASSOCIATED
+
+/* Gestion de Problème de Paiement */
+"4000" = "Die Zahlung konnte nicht ausgeführt werden, bitte versuchen Sie es noch einmal."; //PAYMENT_ERROR
+"4010" = "Sie können kein Geld an Ihr eigenes Konto senden. Bitte geben Sie eine neue E-Mail-Adresse an."; //SAME_USER
+"4020" = "Sie können kein Geld an Ihr eigenes Konto senden. Bitte geben Sie eine neue E-Mail-Adresse an."; //SENDING_MONEY_ONESELF_FORBIDDEN isem as SAME_USER

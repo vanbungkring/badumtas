@@ -1,0 +1,37 @@
+/*
+ Localizable.strings
+ FZP2P
+ 
+ Created by Olivier Demolliens on 4/14/14.
+ Copyright (c) 2014 Flashiz. All rights reserved.
+ */
+
+/* NOT TRANSLATED */
+
+/** TransferHomeViewController **/
+"transferHomeViewController_navigation_title" = "Transfer money";
+"transferHomeViewController_deal_success" = "The transaction has been validated";
+"transferHomeViewController_deal_success_with_amount" = "Great, you have just sent %@";
+"transferHomeViewController_receiveButton" = "Receive";
+"transferHomeViewController_sendButton" = "Send";
+
+/** TransferStep1ViewController **/
+"transferStep1ViewController_EmptyAmount" = "The amount of your money transfer must be greater than 0";
+"transferStep1ViewController_FillEmail" = "Please enter an email address";
+"transferStep1ViewController_InsufficientAmount" = "Wordding?!!!";// TODO
+"transferStep1ViewController_FillAmount" = "Please enter an amount";
+"transferStep1ViewController_To" = "To:";
+"transferStep1ViewController_Amount" = "Amount:";
+"transferStep1ViewController_SearchEmailFriend" = "Enter your friend's email address or";
+"transferStep1ViewController_SearchInAdressBook" = "Search for it in your contacts";
+"transferStep1ViewController_Comment" = "Add a comment";
+"transferStep1ViewController_Comment_title" = "Comment";
+
+/** TransferReceiveStep1ViewController **/
+"transferReceiveStep1ViewController_your_balance" = "My balance:";
+"transferReceiveStep1ViewController_amount" = "Amount:";
+"transferReceiveStep1ViewController_description" = "Enter the amount you want to receive to generate the QR Code to be flashed by your friend.";
+"transferReceiveStep1ViewController_alert_message" = "Please enter an amount.";
+
+/** TransferReceiveStep2ViewController **/
+"transferReceiveStep2ViewController_flashAndPay" = "Flash and pay";

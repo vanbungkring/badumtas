@@ -1,0 +1,35 @@
+/*
+ Localizable.strings
+ FZP2P
+ 
+ Created by Olivier Demolliens on 4/14/14.
+ Copyright (c) 2014 Flashiz. All rights reserved.
+ */
+
+/** TransferHomeViewController **/
+"transferHomeViewController_navigation_title" = "Geld overmaken";
+"transferHomeViewController_deal_success" = "De transactie is bevestigd";
+"transferHomeViewController_deal_success_with_amount" = "Gelukt, u hebt %@ overgemaakt.";
+"transferHomeViewController_receiveButton" = "Ontvangen";
+"transferHomeViewController_sendButton" = "Versturen";
+
+/** TransferStep1ViewController **/
+"transferStep1ViewController_EmptyAmount" = "Het bedrag moet worden bovenste 0";
+"transferStep1ViewController_FillEmail" = "Vul uw emailadres in";
+"transferStep1ViewController_InsufficientAmount" = "Het saldo van uw account is niet toereikend voor een transfer van %@";
+"transferStep1ViewController_FillAmount" = "Vul een bedrag in";
+"transferStep1ViewController_To" = "Aan:";
+"transferStep1ViewController_Amount" = "Bedrag:";
+"transferStep1ViewController_SearchEmailFriend" = "Vult de email van uw vriend of";
+"transferStep1ViewController_SearchInAdressBook" = "Zoek in uw contactenlijst";
+"transferStep1ViewController_Comment" = "";
+"transferStep1ViewController_Comment_title" = "Commentaar";
+
+/** TransferReceiveStep1ViewController **/
+"transferReceiveStep1ViewController_your_balance" = "Mijn saldo:";
+"transferReceiveStep1ViewController_amount" = "Bedrag:";
+"transferReceiveStep1ViewController_description" = "Vul het te ontvangen bedrag in om een QR code aan te maken die uw vriend kan flashen.";
+"transferReceiveStep1ViewController_alert_message" = "Vul een bedrag in.";
+
+/** TransferReceiveStep2ViewController **/
+"transferReceiveStep2ViewController_flashAndPay" = "Flash en betaal";

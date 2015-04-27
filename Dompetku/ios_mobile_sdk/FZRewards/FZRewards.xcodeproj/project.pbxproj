@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		66F5F13314DB195B0068FD20 /* FZRewards */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66F5F13614DB195B0068FD20 /* Build configuration list for PBXAggregateTarget "FZRewards" */;
+			buildPhases = (
+				66F5F13A14DB19B20068FD20 /* Build .framework library */,
+			);
+			dependencies = (
+				66F5F13914DB19940068FD20 /* PBXTargetDependency */,
+			);
+			name = FZRewards;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		553562101980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5535620E1980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.h */; };
+		553562111980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5535620F1980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.m */; };
+		553562141980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 553562121980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.h */; };
+		553562151980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 553562131980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.m */; };
+		553562181980F07800696D93 /* FZAllLoyaltyProgramsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 553562161980F07800696D93 /* FZAllLoyaltyProgramsModel.h */; };
+		553562191980F07800696D93 /* FZAllLoyaltyProgramsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 553562171980F07800696D93 /* FZAllLoyaltyProgramsModel.m */; };
+		5535621C1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5535621A1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.h */; };
+		5535621D1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5535621B1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.m */; };
+		553562201980F0A500696D93 /* FZRewardsHomeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5535621E1980F0A500696D93 /* FZRewardsHomeModel.h */; };
+		553562211980F0A500696D93 /* FZRewardsHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5535621F1980F0A500696D93 /* FZRewardsHomeModel.m */; };
+		553562241980F0B800696D93 /* FZRewardsTermsOfUseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 553562221980F0B800696D93 /* FZRewardsTermsOfUseModel.h */; };
+		553562251980F0B800696D93 /* FZRewardsTermsOfUseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 553562231980F0B800696D93 /* FZRewardsTermsOfUseModel.m */; };
+		553562281980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 553562261980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.h */; };
+		553562291980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 553562271980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.m */; };
+		5535622C1980F0F400696D93 /* FZYourLoyaltyProgramsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5535622A1980F0F400696D93 /* FZYourLoyaltyProgramsModel.h */; };
+		5535622D1980F0F400696D93 /* FZYourLoyaltyProgramsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5535622B1980F0F400696D93 /* FZYourLoyaltyProgramsModel.m */; };
+		559EACDF19111ADD00F8F37A /* FZAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339ABBD7190E8D740023211F /* FZAPI.framework */; };
+		559EACE019111ADD00F8F37A /* FZBlackBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339ABBD8190E8D740023211F /* FZBlackBox.framework */; };
+		C4520F3019A338C600358DA3 /* FZResources-Rewards.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4520F0A19A338C500358DA3 /* FZResources-Rewards.bundle */; };
+		C4CCE93519A350D3006CCCCE /* FZAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCE93219A350D3006CCCCE /* FZAPI.framework */; };
+		C4CCE93619A350D3006CCCCE /* FZBlackBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCE93319A350D3006CCCCE /* FZBlackBox.framework */; };
+		C4CCE93719A350D3006CCCCE /* FZP2P.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCE93419A350D3006CCCCE /* FZP2P.framework */; };
+		C4CCE93819A35118006CCCCE /* FZRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4520F0C19A338C500358DA3 /* FZRewards.framework */; };
+		C4FE65EE1998BB2800C69BB8 /* FZRewards.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE65ED1998BB2800C69BB8 /* FZRewards.m */; };
+		C4FE65F81998BB6600C69BB8 /* AllLoyaltyProgramsNavBarOpenedViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE65F71998BB6600C69BB8 /* AllLoyaltyProgramsNavBarOpenedViewControllerTests.m */; };
+		C4FE65FC1998BBEF00C69BB8 /* AllLoyaltyProgramsNavBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE65F91998BBEF00C69BB8 /* AllLoyaltyProgramsNavBarViewControllerTests.m */; };
+		C4FE65FD1998BBEF00C69BB8 /* AllLoyaltyProgramsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE65FA1998BBEF00C69BB8 /* AllLoyaltyProgramsViewControllerTests.m */; };
+		C4FE65FE1998BBEF00C69BB8 /* LoyaltyProgramDetailsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE65FB1998BBEF00C69BB8 /* LoyaltyProgramDetailsViewControllerTests.m */; };
+		C4FE66081998C16200C69BB8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FE66071998C16200C69BB8 /* MobileCoreServices.framework */; };
+		C4FE660A1998C16C00C69BB8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FE66091998C16C00C69BB8 /* AudioToolbox.framework */; };
+		C4FE660C1998C17300C69BB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FE660B1998C17300C69BB8 /* AVFoundation.framework */; };
+		E1988F5E18D3365C00283EE4 /* FZRewards.h in Headers */ = {isa = PBXBuildFile; fileRef = E1988F4F18D3365C00283EE4 /* FZRewards.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1988F5F18D3365C00283EE4 /* FZRewards-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = E1988F5118D3365C00283EE4 /* FZRewards-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F031901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EE81901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F041901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EE91901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.m */; };
+		E1A43F051901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EEB1901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F061901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EEC1901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.m */; };
+		E1A43F071901467A005A6746 /* AllLoyaltyProgramsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EEE1901467A005A6746 /* AllLoyaltyProgramsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F081901467A005A6746 /* AllLoyaltyProgramsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EEF1901467A005A6746 /* AllLoyaltyProgramsViewController.m */; };
+		E1A43F091901467A005A6746 /* LoyaltyProgramDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EF11901467A005A6746 /* LoyaltyProgramDetailsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F0A1901467A005A6746 /* LoyaltyProgramDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EF21901467A005A6746 /* LoyaltyProgramDetailsViewController.m */; };
+		E1A43F0B1901467A005A6746 /* RewardsHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EF51901467A005A6746 /* RewardsHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F0C1901467A005A6746 /* RewardsHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EF61901467A005A6746 /* RewardsHomeViewController.m */; };
+		E1A43F0D1901467A005A6746 /* RewardsTermsOfUseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EF91901467A005A6746 /* RewardsTermsOfUseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F0E1901467A005A6746 /* RewardsTermsOfUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EFA1901467A005A6746 /* RewardsTermsOfUseViewController.m */; };
+		E1A43F0F1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43EFD1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F101901467A005A6746 /* YourLoyaltyProgramDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43EFE1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.m */; };
+		E1A43F111901467A005A6746 /* YourLoyaltyProgramsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43F001901467A005A6746 /* YourLoyaltyProgramsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F121901467A005A6746 /* YourLoyaltyProgramsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43F011901467A005A6746 /* YourLoyaltyProgramsViewController.m */; };
+		E1A43F2919014BB6005A6746 /* RewardsRulesEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43F2719014BB6005A6746 /* RewardsRulesEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F2A19014BB6005A6746 /* RewardsRulesEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43F2819014BB6005A6746 /* RewardsRulesEngine.m */; };
+		E1A43F3619014E8D005A6746 /* ProgramTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A43F3419014E8D005A6746 /* ProgramTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A43F3719014E8D005A6746 /* ProgramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A43F3519014E8D005A6746 /* ProgramTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F5F13814DB19940068FD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = Serenity;
+		};
+		C4FE65F01998BB2800C69BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = Library;
+		};
+		C4FE660E1998C2CB00C69BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = Library;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		339ABBD7190E8D740023211F /* FZAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZAPI.framework; sourceTree = FWR; };
+		339ABBD8190E8D740023211F /* FZBlackBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZBlackBox.framework; sourceTree = FWR; };
+		5535620E1980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAllLoyaltyProgramsNavBarOpenedModel.h; sourceTree = "<group>"; };
+		5535620F1980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAllLoyaltyProgramsNavBarOpenedModel.m; sourceTree = "<group>"; };
+		553562121980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAllLoyaltyProgramsNavBarModel.h; sourceTree = "<group>"; };
+		553562131980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAllLoyaltyProgramsNavBarModel.m; sourceTree = "<group>"; };
+		553562161980F07800696D93 /* FZAllLoyaltyProgramsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAllLoyaltyProgramsModel.h; sourceTree = "<group>"; };
+		553562171980F07800696D93 /* FZAllLoyaltyProgramsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAllLoyaltyProgramsModel.m; sourceTree = "<group>"; };
+		5535621A1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZLoyaltyProgramDetailsModel.h; sourceTree = "<group>"; };
+		5535621B1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZLoyaltyProgramDetailsModel.m; sourceTree = "<group>"; };
+		5535621E1980F0A500696D93 /* FZRewardsHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRewardsHomeModel.h; sourceTree = "<group>"; };
+		5535621F1980F0A500696D93 /* FZRewardsHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRewardsHomeModel.m; sourceTree = "<group>"; };
+		553562221980F0B800696D93 /* FZRewardsTermsOfUseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRewardsTermsOfUseModel.h; sourceTree = "<group>"; };
+		553562231980F0B800696D93 /* FZRewardsTermsOfUseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRewardsTermsOfUseModel.m; sourceTree = "<group>"; };
+		553562261980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZYourLoyaltyProgramDetailsModel.h; sourceTree = "<group>"; };
+		553562271980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZYourLoyaltyProgramDetailsModel.m; sourceTree = "<group>"; };
+		5535622A1980F0F400696D93 /* FZYourLoyaltyProgramsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZYourLoyaltyProgramsModel.h; sourceTree = "<group>"; };
+		5535622B1980F0F400696D93 /* FZYourLoyaltyProgramsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZYourLoyaltyProgramsModel.m; sourceTree = "<group>"; };
+		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		66E8B6D314D899500074EAA4 /* libFZRewards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFZRewards.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4520F0A19A338C500358DA3 /* FZResources-Rewards.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-Rewards.bundle"; sourceTree = "<group>"; };
+		C4520F0C19A338C500358DA3 /* FZRewards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZRewards.framework; sourceTree = "<group>"; };
+		C4CCE93219A350D3006CCCCE /* FZAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZAPI.framework; path = ../../_FZFWS/FZAPI.framework; sourceTree = "<group>"; };
+		C4CCE93319A350D3006CCCCE /* FZBlackBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZBlackBox.framework; path = ../../_FZFWS/FZBlackBox.framework; sourceTree = "<group>"; };
+		C4CCE93419A350D3006CCCCE /* FZP2P.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZP2P.framework; path = ../../_FZFWS/FZP2P.framework; sourceTree = "<group>"; };
+		C4FE65E91998BB2800C69BB8 /* FZRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FE65EC1998BB2800C69BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FE65ED1998BB2800C69BB8 /* FZRewards.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRewards.m; sourceTree = "<group>"; };
+		C4FE65F71998BB6600C69BB8 /* AllLoyaltyProgramsNavBarOpenedViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLoyaltyProgramsNavBarOpenedViewControllerTests.m; sourceTree = "<group>"; };
+		C4FE65F91998BBEF00C69BB8 /* AllLoyaltyProgramsNavBarViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLoyaltyProgramsNavBarViewControllerTests.m; sourceTree = "<group>"; };
+		C4FE65FA1998BBEF00C69BB8 /* AllLoyaltyProgramsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLoyaltyProgramsViewControllerTests.m; sourceTree = "<group>"; };
+		C4FE65FB1998BBEF00C69BB8 /* LoyaltyProgramDetailsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoyaltyProgramDetailsViewControllerTests.m; sourceTree = "<group>"; };
+		C4FE65FF1998C0E900C69BB8 /* libFZBlackBox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFZBlackBox.a; path = "../FZBlackBox/build/Release-iphoneos/libFZBlackBox.a"; sourceTree = "<group>"; };
+		C4FE66011998C0F200C69BB8 /* libFZAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFZAPI.a; path = "../FZAPI/build/Release-iphoneos/libFZAPI.a"; sourceTree = "<group>"; };
+		C4FE66031998C11E00C69BB8 /* FZAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZAPI.framework; path = "../../DerivedData/FZProjects/Build/Products/Release-iphoneos/FZAPI.framework"; sourceTree = "<group>"; };
+		C4FE66041998C11E00C69BB8 /* FZBlackBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZBlackBox.framework; path = "../../DerivedData/FZProjects/Build/Products/Release-iphoneos/FZBlackBox.framework"; sourceTree = "<group>"; };
+		C4FE66071998C16200C69BB8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C4FE66091998C16C00C69BB8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C4FE660B1998C17300C69BB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1988F4F18D3365C00283EE4 /* FZRewards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRewards.h; sourceTree = "<group>"; };
+		E1988F5118D3365C00283EE4 /* FZRewards-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FZRewards-Prefix.pch"; sourceTree = "<group>"; };
+		E1988F5318D3365C00283EE4 /* FZRewardsResources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FZRewardsResources-Info.plist"; sourceTree = "<group>"; };
+		E19A76AA18D6DF9B0037BD02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1A43EE81901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLoyaltyProgramsNavBarOpenedViewController.h; sourceTree = "<group>"; };
+		E1A43EE91901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLoyaltyProgramsNavBarOpenedViewController.m; sourceTree = "<group>"; };
+		E1A43EEB1901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLoyaltyProgramsNavBarViewController.h; sourceTree = "<group>"; };
+		E1A43EEC1901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLoyaltyProgramsNavBarViewController.m; sourceTree = "<group>"; };
+		E1A43EEE1901467A005A6746 /* AllLoyaltyProgramsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLoyaltyProgramsViewController.h; sourceTree = "<group>"; };
+		E1A43EEF1901467A005A6746 /* AllLoyaltyProgramsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLoyaltyProgramsViewController.m; sourceTree = "<group>"; };
+		E1A43EF11901467A005A6746 /* LoyaltyProgramDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoyaltyProgramDetailsViewController.h; sourceTree = "<group>"; };
+		E1A43EF21901467A005A6746 /* LoyaltyProgramDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoyaltyProgramDetailsViewController.m; sourceTree = "<group>"; };
+		E1A43EF51901467A005A6746 /* RewardsHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardsHomeViewController.h; sourceTree = "<group>"; };
+		E1A43EF61901467A005A6746 /* RewardsHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardsHomeViewController.m; sourceTree = "<group>"; };
+		E1A43EF91901467A005A6746 /* RewardsTermsOfUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardsTermsOfUseViewController.h; sourceTree = "<group>"; };
+		E1A43EFA1901467A005A6746 /* RewardsTermsOfUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardsTermsOfUseViewController.m; sourceTree = "<group>"; };
+		E1A43EFD1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourLoyaltyProgramDetailsViewController.h; sourceTree = "<group>"; };
+		E1A43EFE1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourLoyaltyProgramDetailsViewController.m; sourceTree = "<group>"; };
+		E1A43F001901467A005A6746 /* YourLoyaltyProgramsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourLoyaltyProgramsViewController.h; sourceTree = "<group>"; };
+		E1A43F011901467A005A6746 /* YourLoyaltyProgramsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourLoyaltyProgramsViewController.m; sourceTree = "<group>"; };
+		E1A43F2719014BB6005A6746 /* RewardsRulesEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardsRulesEngine.h; sourceTree = "<group>"; };
+		E1A43F2819014BB6005A6746 /* RewardsRulesEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardsRulesEngine.m; sourceTree = "<group>"; };
+		E1A43F3419014E8D005A6746 /* ProgramTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramTableViewCell.h; sourceTree = "<group>"; };
+		E1A43F3519014E8D005A6746 /* ProgramTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E8B6D014D899500074EAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559EACDF19111ADD00F8F37A /* FZAPI.framework in Frameworks */,
+				559EACE019111ADD00F8F37A /* FZBlackBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FE65E61998BB2800C69BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE660C1998C17300C69BB8 /* AVFoundation.framework in Frameworks */,
+				C4FE660A1998C16C00C69BB8 /* AudioToolbox.framework in Frameworks */,
+				C4CCE93519A350D3006CCCCE /* FZAPI.framework in Frameworks */,
+				C4CCE93619A350D3006CCCCE /* FZBlackBox.framework in Frameworks */,
+				C4CCE93719A350D3006CCCCE /* FZP2P.framework in Frameworks */,
+				C4FE66081998C16200C69BB8 /* MobileCoreServices.framework in Frameworks */,
+				C4CCE93819A35118006CCCCE /* FZRewards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5535620D1980F04300696D93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5535620E1980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.h */,
+				5535620F1980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.m */,
+				553562121980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.h */,
+				553562131980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.m */,
+				553562161980F07800696D93 /* FZAllLoyaltyProgramsModel.h */,
+				553562171980F07800696D93 /* FZAllLoyaltyProgramsModel.m */,
+				5535621A1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.h */,
+				5535621B1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.m */,
+				5535621E1980F0A500696D93 /* FZRewardsHomeModel.h */,
+				5535621F1980F0A500696D93 /* FZRewardsHomeModel.m */,
+				553562221980F0B800696D93 /* FZRewardsTermsOfUseModel.h */,
+				553562231980F0B800696D93 /* FZRewardsTermsOfUseModel.m */,
+				553562261980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.h */,
+				553562271980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.m */,
+				5535622A1980F0F400696D93 /* FZYourLoyaltyProgramsModel.h */,
+				5535622B1980F0F400696D93 /* FZYourLoyaltyProgramsModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66E8B6C814D899500074EAA4 = {
+			isa = PBXGroup;
+			children = (
+				E1988F4A18D3365C00283EE4 /* CodeSource */,
+				E1988F4D18D3365C00283EE4 /* Configuration */,
+				C4FE65EA1998BB2800C69BB8 /* FZRewardsTest */,
+				66E8B6D514D899500074EAA4 /* Frameworks */,
+				66E8B6D414D899500074EAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E8B6D414D899500074EAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E8B6D314D899500074EAA4 /* libFZRewards.a */,
+				C4FE65E91998BB2800C69BB8 /* FZRewardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E8B6D514D899500074EAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4CCE93219A350D3006CCCCE /* FZAPI.framework */,
+				C4CCE93319A350D3006CCCCE /* FZBlackBox.framework */,
+				C4CCE93419A350D3006CCCCE /* FZP2P.framework */,
+				C4FE660B1998C17300C69BB8 /* AVFoundation.framework */,
+				C4FE66091998C16C00C69BB8 /* AudioToolbox.framework */,
+				C4FE66071998C16200C69BB8 /* MobileCoreServices.framework */,
+				C4FE66031998C11E00C69BB8 /* FZAPI.framework */,
+				C4FE66041998C11E00C69BB8 /* FZBlackBox.framework */,
+				C4FE66011998C0F200C69BB8 /* libFZAPI.a */,
+				C4FE65FF1998C0E900C69BB8 /* libFZBlackBox.a */,
+				E1A43F13190146D4005A6746 /* FZ */,
+				E19A76AA18D6DF9B0037BD02 /* UIKit.framework */,
+				66E8B6D614D899500074EAA4 /* Foundation.framework */,
+				664A268414E3222700C297E6 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4520E3119A338C500358DA3 /* _FZFWS */ = {
+			isa = PBXGroup;
+			children = (
+				C4520F0A19A338C500358DA3 /* FZResources-Rewards.bundle */,
+				C4520F0C19A338C500358DA3 /* FZRewards.framework */,
+			);
+			name = _FZFWS;
+			path = ../../../_FZFWS;
+			sourceTree = "<group>";
+		};
+		C4FE65EA1998BB2800C69BB8 /* FZRewardsTest */ = {
+			isa = PBXGroup;
+			children = (
+				C4520E3119A338C500358DA3 /* _FZFWS */,
+				C4FE65F51998BB4D00C69BB8 /* Controllers */,
+				C4FE65ED1998BB2800C69BB8 /* FZRewards.m */,
+				C4FE65EB1998BB2800C69BB8 /* Supporting Files */,
+			);
+			name = FZRewardsTest;
+			path = FZRewards;
+			sourceTree = "<group>";
+		};
+		C4FE65EB1998BB2800C69BB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE65EC1998BB2800C69BB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4FE65F51998BB4D00C69BB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE65F91998BBEF00C69BB8 /* AllLoyaltyProgramsNavBarViewControllerTests.m */,
+				C4FE65FA1998BBEF00C69BB8 /* AllLoyaltyProgramsViewControllerTests.m */,
+				C4FE65FB1998BBEF00C69BB8 /* LoyaltyProgramDetailsViewControllerTests.m */,
+				C4FE65F71998BB6600C69BB8 /* AllLoyaltyProgramsNavBarOpenedViewControllerTests.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E1988F4A18D3365C00283EE4 /* CodeSource */ = {
+			isa = PBXGroup;
+			children = (
+				5535620D1980F04300696D93 /* Models */,
+				E1A43F2619014BB6005A6746 /* Rules */,
+				E1A43EE61901467A005A6746 /* Controllers */,
+			);
+			path = CodeSource;
+			sourceTree = "<group>";
+		};
+		E1988F4D18D3365C00283EE4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F4E18D3365C00283EE4 /* AllHeaders */,
+				E1988F5018D3365C00283EE4 /* Prefix */,
+				E1988F5218D3365C00283EE4 /* Resources */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E1988F4E18D3365C00283EE4 /* AllHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F4F18D3365C00283EE4 /* FZRewards.h */,
+			);
+			path = AllHeaders;
+			sourceTree = "<group>";
+		};
+		E1988F5018D3365C00283EE4 /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F5118D3365C00283EE4 /* FZRewards-Prefix.pch */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		E1988F5218D3365C00283EE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F5318D3365C00283EE4 /* FZRewardsResources-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1A43EE61901467A005A6746 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43F3319014E8D005A6746 /* Cells */,
+				E1A43EE71901467A005A6746 /* AllLoyaltyPrograms */,
+				E1A43EF41901467A005A6746 /* Home */,
+				E1A43EF81901467A005A6746 /* TermsOfUse */,
+				E1A43EFC1901467A005A6746 /* YourLoyaltyPrograms */,
+			);
+			name = Controllers;
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		E1A43EE71901467A005A6746 /* AllLoyaltyPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43EE81901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.h */,
+				E1A43EE91901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.m */,
+				E1A43EEB1901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.h */,
+				E1A43EEC1901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.m */,
+				E1A43EEE1901467A005A6746 /* AllLoyaltyProgramsViewController.h */,
+				E1A43EEF1901467A005A6746 /* AllLoyaltyProgramsViewController.m */,
+				E1A43EF11901467A005A6746 /* LoyaltyProgramDetailsViewController.h */,
+				E1A43EF21901467A005A6746 /* LoyaltyProgramDetailsViewController.m */,
+			);
+			path = AllLoyaltyPrograms;
+			sourceTree = "<group>";
+		};
+		E1A43EF41901467A005A6746 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43EF51901467A005A6746 /* RewardsHomeViewController.h */,
+				E1A43EF61901467A005A6746 /* RewardsHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E1A43EF81901467A005A6746 /* TermsOfUse */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43EF91901467A005A6746 /* RewardsTermsOfUseViewController.h */,
+				E1A43EFA1901467A005A6746 /* RewardsTermsOfUseViewController.m */,
+			);
+			path = TermsOfUse;
+			sourceTree = "<group>";
+		};
+		E1A43EFC1901467A005A6746 /* YourLoyaltyPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43EFD1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.h */,
+				E1A43EFE1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.m */,
+				E1A43F001901467A005A6746 /* YourLoyaltyProgramsViewController.h */,
+				E1A43F011901467A005A6746 /* YourLoyaltyProgramsViewController.m */,
+			);
+			path = YourLoyaltyPrograms;
+			sourceTree = "<group>";
+		};
+		E1A43F13190146D4005A6746 /* FZ */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43F15190146E4005A6746 /* FWs */,
+				E1A43F14190146E0005A6746 /* Bundle */,
+			);
+			name = FZ;
+			sourceTree = "<group>";
+		};
+		E1A43F14190146E0005A6746 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
+		E1A43F15190146E4005A6746 /* FWs */ = {
+			isa = PBXGroup;
+			children = (
+				339ABBD7190E8D740023211F /* FZAPI.framework */,
+				339ABBD8190E8D740023211F /* FZBlackBox.framework */,
+			);
+			name = FWs;
+			sourceTree = "<group>";
+		};
+		E1A43F2619014BB6005A6746 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43F2719014BB6005A6746 /* RewardsRulesEngine.h */,
+				E1A43F2819014BB6005A6746 /* RewardsRulesEngine.m */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		E1A43F3319014E8D005A6746 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1A43F3419014E8D005A6746 /* ProgramTableViewCell.h */,
+				E1A43F3519014E8D005A6746 /* ProgramTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66E8B6D114D899500074EAA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1988F5E18D3365C00283EE4 /* FZRewards.h in Headers */,
+				E1A43F0D1901467A005A6746 /* RewardsTermsOfUseViewController.h in Headers */,
+				E1A43F0B1901467A005A6746 /* RewardsHomeViewController.h in Headers */,
+				E1A43F051901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.h in Headers */,
+				E1A43F111901467A005A6746 /* YourLoyaltyProgramsViewController.h in Headers */,
+				553562281980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.h in Headers */,
+				E1A43F031901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.h in Headers */,
+				553562141980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.h in Headers */,
+				E1988F5F18D3365C00283EE4 /* FZRewards-Prefix.pch in Headers */,
+				5535622C1980F0F400696D93 /* FZYourLoyaltyProgramsModel.h in Headers */,
+				553562101980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.h in Headers */,
+				553562201980F0A500696D93 /* FZRewardsHomeModel.h in Headers */,
+				E1A43F091901467A005A6746 /* LoyaltyProgramDetailsViewController.h in Headers */,
+				E1A43F071901467A005A6746 /* AllLoyaltyProgramsViewController.h in Headers */,
+				553562181980F07800696D93 /* FZAllLoyaltyProgramsModel.h in Headers */,
+				E1A43F2919014BB6005A6746 /* RewardsRulesEngine.h in Headers */,
+				553562241980F0B800696D93 /* FZRewardsTermsOfUseModel.h in Headers */,
+				E1A43F0F1901467A005A6746 /* YourLoyaltyProgramDetailsViewController.h in Headers */,
+				E1A43F3619014E8D005A6746 /* ProgramTableViewCell.h in Headers */,
+				5535621C1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66E8B6D214D899500074EAA4 /* Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Library" */;
+			buildPhases = (
+				66E8B6CF14D899500074EAA4 /* Sources */,
+				66E8B6D014D899500074EAA4 /* Frameworks */,
+				66E8B6D114D899500074EAA4 /* Headers */,
+				66E8B6E814D8A4D10074EAA4 /* Build .a library */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library;
+			productName = Serenity;
+			productReference = 66E8B6D314D899500074EAA4 /* libFZRewards.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4FE65E81998BB2800C69BB8 /* FZRewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FE65F41998BB2800C69BB8 /* Build configuration list for PBXNativeTarget "FZRewardsTests" */;
+			buildPhases = (
+				C4FE65E51998BB2800C69BB8 /* Sources */,
+				C4FE65E61998BB2800C69BB8 /* Frameworks */,
+				C4FE65E71998BB2800C69BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FE65F11998BB2800C69BB8 /* PBXTargetDependency */,
+				C4FE660F1998C2CB00C69BB8 /* PBXTargetDependency */,
+			);
+			name = FZRewardsTests;
+			productName = FZRewards;
+			productReference = C4FE65E91998BB2800C69BB8 /* FZRewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E8B6CA14D899500074EAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					C4FE65E81998BB2800C69BB8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 66E8B6D214D899500074EAA4;
+					};
+				};
+			};
+			buildConfigurationList = 66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "FZRewards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				de,
+				es,
+				nl,
+			);
+			mainGroup = 66E8B6C814D899500074EAA4;
+			productRefGroup = 66E8B6D414D899500074EAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F5F13314DB195B0068FD20 /* FZRewards */,
+				66E8B6D214D899500074EAA4 /* Library */,
+				C4FE65E81998BB2800C69BB8 /* FZRewardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4FE65E71998BB2800C69BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4520F3019A338C600358DA3 /* FZResources-Rewards.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E8B6E814D8A4D10074EAA4 /* Build .a library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build .a library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# The following conditionals come from\n# https://github.com/jverkoey/iOS-Framework\n#\n\nset -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+		66F5F13A14DB19B20068FD20 /* Build .framework library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build .framework library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# The following conditionals come from\n# https://github.com/jverkoey/iOS-Framework\n#\n\n\nset -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\nSF_BUNDLE_WRAPPER_NAME=\"${SF_TARGET_NAME}.bundle\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\n#cp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n\n# Old my-self working compile SDK (Don't manage bundle project)\n\n#SIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${SF_EXECUTABLE_PATH}\"\n\n#DEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${SF_EXECUTABLE_PATH}\"\n\n#UNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\n#UNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/${SF_WRAPPER_NAME}\"\n\n#BUNDLE_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${SF_BUNDLE_WRAPPER_NAME}\"\n\n#LIBRARY_PATH_SIMULATOR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${SF_BUNDLE_WRAPPER_NAME}\"\n\n#echo \"SIMULATOR_LIBRARY_PATH: ${SIMULATOR_LIBRARY_PATH}\"\n#echo \"DEVICE_LIBRARY_PATH: ${DEVICE_LIBRARY_PATH}\"\n#echo \"UNIVERSAL_LIBRARY_DIR: ${UNIVERSAL_LIBRARY_DIR}\"\n#echo \"UNIVERSAL_LIBRARY_PATH: ${UNIVERSAL_LIBRARY_PATH}\"\n#echo \"FRAMEWORK: ${FRAMEWORK}\"\n#echo \"SF_WRAPPER_NAME: ${SF_WRAPPER_NAME}\"\n#echo \"BUNDLE: ${BUNDLE}\"\n#echo \"BUNDLEVERSION: ${CFBundleVersion}\"\n\n\n# Create framework directory structure.\n#rm -rf \"${FRAMEWORK}\" &&\n#mkdir -p \"${UNIVERSAL_LIBRARY_DIR}\"\n#mkdir -p \"${FRAMEWORK}/Versions/A/Headers\" &&\n#mkdir -p \"${FRAMEWORK}/Versions/A/Resources\" &&\n\n# Generate universal binary for the device and simulator.\n#lipo -create \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -output \"${UNIVERSAL_LIBRARY_PATH}\"\n\n#cp -r ${BUNDLE_PATH}  ${UNIVERSAL_LIBRARY_DIR}\n\n# Move files to appropriate locations in framework paths.\n#cp \"${UNIVERSAL_LIBRARY_PATH}\" \"${FRAMEWORK}/Versions/A\" &&\n#ln -s \"A\" \"${FRAMEWORK}/Versions/Current\" &&\n#ln -s \"Versions/Current/Headers\" \"${FRAMEWORK}/Headers\" &&\n#ln -s \"Versions/Current/Resources\" \"${FRAMEWORK}/Resources\" &&\n#ln -s \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK}/${PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E8B6CF14D899500074EAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A43F2A19014BB6005A6746 /* RewardsRulesEngine.m in Sources */,
+				E1A43F061901467A005A6746 /* AllLoyaltyProgramsNavBarViewController.m in Sources */,
+				E1A43F101901467A005A6746 /* YourLoyaltyProgramDetailsViewController.m in Sources */,
+				553562191980F07800696D93 /* FZAllLoyaltyProgramsModel.m in Sources */,
+				553562151980F06900696D93 /* FZAllLoyaltyProgramsNavBarModel.m in Sources */,
+				E1A43F041901467A005A6746 /* AllLoyaltyProgramsNavBarOpenedViewController.m in Sources */,
+				5535621D1980F08A00696D93 /* FZLoyaltyProgramDetailsModel.m in Sources */,
+				553562211980F0A500696D93 /* FZRewardsHomeModel.m in Sources */,
+				E1A43F081901467A005A6746 /* AllLoyaltyProgramsViewController.m in Sources */,
+				553562251980F0B800696D93 /* FZRewardsTermsOfUseModel.m in Sources */,
+				E1A43F0A1901467A005A6746 /* LoyaltyProgramDetailsViewController.m in Sources */,
+				E1A43F121901467A005A6746 /* YourLoyaltyProgramsViewController.m in Sources */,
+				E1A43F0E1901467A005A6746 /* RewardsTermsOfUseViewController.m in Sources */,
+				E1A43F3719014E8D005A6746 /* ProgramTableViewCell.m in Sources */,
+				5535622D1980F0F400696D93 /* FZYourLoyaltyProgramsModel.m in Sources */,
+				553562111980F05600696D93 /* FZAllLoyaltyProgramsNavBarOpenedModel.m in Sources */,
+				E1A43F0C1901467A005A6746 /* RewardsHomeViewController.m in Sources */,
+				553562291980F0E700696D93 /* FZYourLoyaltyProgramDetailsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FE65E51998BB2800C69BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE65FE1998BBEF00C69BB8 /* LoyaltyProgramDetailsViewControllerTests.m in Sources */,
+				C4FE65EE1998BB2800C69BB8 /* FZRewards.m in Sources */,
+				C4FE65F81998BB6600C69BB8 /* AllLoyaltyProgramsNavBarOpenedViewControllerTests.m in Sources */,
+				C4FE65FD1998BBEF00C69BB8 /* AllLoyaltyProgramsViewControllerTests.m in Sources */,
+				C4FE65FC1998BBEF00C69BB8 /* AllLoyaltyProgramsNavBarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F5F13914DB19940068FD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8B6D214D899500074EAA4 /* Library */;
+			targetProxy = 66F5F13814DB19940068FD20 /* PBXContainerItemProxy */;
+		};
+		C4FE65F11998BB2800C69BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8B6D214D899500074EAA4 /* Library */;
+			targetProxy = C4FE65F01998BB2800C69BB8 /* PBXContainerItemProxy */;
+		};
+		C4FE660F1998C2CB00C69BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8B6D214D899500074EAA4 /* Library */;
+			targetProxy = C4FE660E1998C2CB00C69BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66E8B6DE14D899500074EAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		66E8B6DF14D899500074EAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E8B6E114D899500074EAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ODiSyFramework.dst;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Configuration/Prefix/FZRewards-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = FZRewards;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		66E8B6E214D899500074EAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ODiSyFramework.dst;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Configuration/Prefix/FZRewards-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = FZRewards;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		66F5F13414DB195B0068FD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = FZRewards;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				VERSION_INFO_FILE = "";
+			};
+			name = Debug;
+		};
+		66F5F13514DB195B0068FD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = FZRewards;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				VERSION_INFO_FILE = "";
+			};
+			name = Release;
+		};
+		C4FE65F21998BB2800C69BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FZRewards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4FE65F31998BB2800C69BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FZRewards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "FZRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8B6DE14D899500074EAA4 /* Debug */,
+				66E8B6DF14D899500074EAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8B6E114D899500074EAA4 /* Debug */,
+				66E8B6E214D899500074EAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F5F13614DB195B0068FD20 /* Build configuration list for PBXAggregateTarget "FZRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F5F13414DB195B0068FD20 /* Debug */,
+				66F5F13514DB195B0068FD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FE65F41998BB2800C69BB8 /* Build configuration list for PBXNativeTarget "FZRewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FE65F21998BB2800C69BB8 /* Debug */,
+				C4FE65F31998BB2800C69BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E8B6CA14D899500074EAA4 /* Project object */;
+}

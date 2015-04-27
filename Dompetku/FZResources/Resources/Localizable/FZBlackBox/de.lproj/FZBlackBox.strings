@@ -1,0 +1,36 @@
+/* 
+  NetworkErrors.strings
+  flashiz_ios_core_ui
+
+  Created by Matthieu Barile on 29/01/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** Global **/
+"app_validate" = "Senden";
+"app_yes" = "Ja";
+"app_no" = "Nein";
+"app_retype" = "Überarbeiten";
+"app_email" = "E-Mail";
+"app_password" = "Passwort";
+"app_back" = "Zurück";
+"app_male" = "Männlich";
+"app_female" = "Weiblich";
+"app_m" = "M";
+"app_f" = "W";
+"app_delete" = "Löschen";
+"app_male_server_value" = "male";//Don't localize
+"app_female_server_value" = "female";//Don't localize
+"app_please_wait" = "Bitte warten Sie ...";
+"app_error" = "Fehler";
+"app_error_default" = "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut.";
+"app_error_default_simple" = "Ein Fehler ist aufgetreten";
+"app_error_mode" = "Die Kamera ist nicht verfügbar.";
+"app_error_loading" = "Ein Fehler ist beim Laden der Daten aufgetreten.";
+"app_warning" = "Vorsicht";
+"app_loading" = "Wird geladen ...";
+"app_ok" = "OK";
+"app_confirm" = "Bestätigen";
+"app_cancel" = "Abbrechen";
+"app_continue" = "Weiter";
+"app_more" = "Mehr";

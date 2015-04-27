@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  FZCoreUI
+
+  Created by Olivier Demolliens on 4/14/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** MenuViewController **/
+"menu_refill" = "Opwaarderen";
+"menu_my_informations" = "Mijn informatie";
+"menu_my_cards" = "Mijn kaarten";
+"menu_security" = "Veiligheid";
+"menu_check_my_account" = "Mijn account bevestigen";
+"menu_shop_around_me" = "Flashiz winkels in de buurt";
+"menu_tutorial" = "Zelfcursus";
+"menu_faq" = "FAQ";
+"menu_log_off" = "Verbinding verbreken";
+"menu_home" = "Home";
+"menu_version" = "Flashiz 3.2.0";
+
+/** InitialViewController **/
+"initial_presentation_describe_1" = "Flash de qr code...\nen u heeft betaald!";
+"initial_presentation_describe_2" = "Met Flasiz kunt u betalen in winkels, op het web en aan vrienden";
+"initial_presentation_describe_3" = "Betaal en beheer uw klantenkaarten met uw mobiele telefoon";
+
+/** CountryViewController **/
+"countryViewController_country_downloading" = "Landenlijst laden...";
+"countryViewController_navigation_title" = "Kies uw land";
+"countryViewController_search" = "Zoeken";
+
+/** RegisterUserViewController **/
+"registerUserViewController_navigation_title" = "Schrijf nu in!";
+"registerUserViewController_sub_navigation_title" = "Mijn gebruikersgegevens aanmaken";
+"registerUserViewController_acknowledgement" = "Door te valideren bevestigt u dat u kennis heeft genomen van";
+"registerUserViewController_terms_of_use" = "de algemene gebruiksvoorwaarden";
+"registerUserViewController_check_email" = "Heeft u uw email gecontroleerd?";
+"registerUserViewController_check_password" = "Heeft u uw wachtwoord gecontroleerd?";
+"registerUserViewController_unvalid_email" = "Uw email is niet geldig";
+"registerUserViewController_unvalid_password" = "Uw wachtwoord is niet geldig. Deze moet bestaan uit minimaal 8 karakters (cijfers en letters).";
+
+/** RegisterResponseViewController **/
+"registerResponseViewController_response" = "Uw antwoord";
+
+/** AccountBannerViewController **/
+"historic" = "Geschiedenis";
+"x" = "X";
+
+/** AccountBannerLightViewController **/
+"historic" = "Geschiedenis";
+"x" = "X";
+
+/** TimeoutViewController **/
+"timeoutViewController_deal_success" = "De wijziging is uitgevoerd";
+"timeoutViewController_min" = "min";
+"timeoutViewController_change_pin" = "Mijn persoonlijke code wijzigen";
+"timeoutViewController_autolock_title" = "Autolock wijzigen";
+"timeoutViewController_autolock_description" = "Aantal minuten voordat Flashiz uitschakelt als er geen activiteiten meer zijn.";
+"timeoutViewController_pin_not_matching" = "De ingevulde persoonlijke codes komen niet overeen.";
+
+/** CurrencyManager **/
+"currencyManager_error" = "Het apparaat wordt niet geaccepteerd door de server. Probeer opnieuw te verbinden.";
+
+/** AccountBannerViewController **/
+"accountBannerViewController_action_sheet" = "Mijn avatar selecteren:";
+"accountBannerViewController_from_library" = "Mijn foto's";
+"accountBannerViewController_from_camera" = "Een foto maken";
+
+/** TermsOfUseViewController **/
+"termsOfUseViewController_header_title" = "Algemene gebruiksvoorwaarden";
+
+/** UserInformationViewController **/
+"userInformationViewController_navigation_title" = "Mijn gegevens wijzigen";
+"userInformationViewController_last_name" = "Naam";
+"userInformationViewController_first_name" = "Voornaam";
+"userInformationViewController_sex" = "Geslacht";
+"userInformationViewController_birthday" = "Geboortedatum";
+"userInformationViewController_nationality" = "Nationaliteit";
+"userInformationViewController_adress" = "Adres";
+"userInformationViewController_city_code" = "Postcode";
+"userInformationViewController_city_name" = "Woonplaats";
+"userInformationViewController_country" = "Land";
+"userInformationViewController_phone_number" = "Mobiele telefoon";
+"userInformationViewController_birthday_date_format" = "dd/MM/yyyy";
+"saving_user_data" = "Gegevensregistratie";
+
+/** AutoCloseViewController **/
+"autoCloseWindow_3ds_session_expired_title" = "Uw sessie is verlopen";
+"autoCloseWindow_3ds_session_expired_message" = "Om veiligheidsredenen wordt uw creditcard registratie gesuspendeerd. Probeer het opnieuw.";
+
+/** ForgottenPasswordSendMailViewController **/
+"forgottenPasswordSendMailViewController_lblSubNavigation_text" = "Mijn account vinden";
+"forgottenPasswordSendMailViewController_actionSuccessful_title" = "Raadpleeg uw inbox om uw nieuwe wachtwoord vast te stellen";
+"forgottenPasswordNewPasswordViewController_lblNavigation_text" = "Mijn nieuwe wachtwoord";
+"app_confirm_password" = "Bevestig uw nieuwe wachtwoord";
+"forgottenPasswordSecretAnswerViewController_lblQuestion_text" = "Veiligheidsvraag";
+"forgottenPasswordSecretAnswerViewController_textFieldResponse_placeHolder" = "Uw antwoord";
+"forgottenPasswordNewPasswordViewController_lblInstructions_text" = "Uw wachtwoord .deze moet bestaan uit minimaal 8 karakters (cijfers en letters).";
+"forgottenPasswordSecretAnswerViewController_lblBadAnswer_text" = "Het antwoord is onjuist, probeer het nogmaals.";
+"forgottenPasswordNewPasswordViewController_password_identical" = "Wachtwoorden zijn niet gelijk.";
+
+/** RegisterCaptchaViewController **/
+"registerCaptchaViewController_navigation_title" = "Het is bijna klaar";
+"registerCaptchaViewController_security_questions_downloading" = "Laden van veiligheidsvraag...";
+"registerCaptchaViewController_sub_navigation_title" = "Veiligheid";
+"registerCaptchaViewController_sub_navigation_text" = "Met deze stap bevestigt u dat u degene bent die deze aanvraag doet.";
+"registerCaptchaViewController_select_security_question" = "Selecteer uw veiligheidsvraag";
+"registerCaptchaViewController_rewrite_captcha" = "Kopieer de code";
+"registerCaptchaViewController_validate" = "Bevestigen en doorgaan naar de laatste stap";
+"registerCaptchaViewController_response_validate" = "Uw antwoord is geregistreerd";
+"registerCaptchaViewController_enter_captcha" = "Kopieer de code";
+"registerCaptchaViewController_mail_notification_title" = "Account activatie"; //new
+

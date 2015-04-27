@@ -1,0 +1,48 @@
+/* 
+  NetworkErrors.strings
+  flashiz_ios_core_ui
+
+  Created by Matthieu Barile on 29/01/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+"-10000" = "Een fout is opgetreden, probeer het opnieuw."; //GENERIC_ERROR
+"10000" = "Een fout is opgetreden, probeer het opnieuw."; //UNHANDLED_EXCEPTION
+
+"ANSWER_NOT_VALID_CONTACT_SUPPORT_A" = "Bent u uw wachtwoord vergeten?";
+"ANSWER_NOT_VALID_CONTACT_SUPPORT_B" = "Neem contact op met onze Klantenservice via contact@flashiz.com";
+"ANSWER_NOT_VALID_MAX_REACHED" = "Uw Flashiz-account is geblokkeerd. Raadpleeg uw inbox.";
+
+/* Gestion de Problème de réseau */
+"10010" = "U moet een internetverbinding hebben om FLASiZ te gebruiken. Maak de verbinding en probeer opnieuw.";
+"10020" = "De verbinding met FLASHiZ is mislukt, probeer alstublieft opnieuw.";
+"10030" = "Een fout is opgetreden, probeer het opnieuw."; //Unvalid JSON
+
+/* Gestion de Problème de connexion */
+"1110" = "Het ingevoerde e-mail adres of paswoord is niet juist, probeer opnieuw."; //WRONG_MAIL_PASSWORD
+"1111" = "Bent u uw wachtwoord vergeten?\nNeem contact op met onze Klantenservice via contact@flashiz.com"; //CUSTOM AFTER 4 CONNECTION TRIES
+
+/* Gestion de Problème création de compte */
+"1210" = "Neem alstublieft contact op met contact@flashiz.com om verder te gaan met het aanmaken van uw rekening."; //USER_EXIST
+
+/* Gestion de Problème informations utilisateur */
+"1310" = "U hebt de limiet voor het aantal transacties per jaar bereikt. Laat alstublieft uw rekening certificeren om FLASHiZ te blijven gebruiken."; //LIMIT_AMOUNT_REACHED
+
+/* Gestion de forgotten password */
+/*
+ "1400" = ""; //TOKEN_NOT_EXIST
+ "1410" = ""; //ANSWER_NOT_VALID
+ "1420" = ""; //PASSWORD_NOT_CORRECT
+ */
+
+/* Gestion de Problème de carte bancaire */
+"2000" = "Wij hebben geen geld van uw bankkaart kunnen afnemen."; //CB_ERROR
+"2010" = "Uw bankkaart is ongeldig. Kies alstublieft een nieuwe kaart."; //CB_EXPIRED
+
+/* Gestion de Problème de facture */
+"3010" = "De QR code is nog niet geïnitialiseerd, probeer opnieuw."; //INVOICE_NOT_ASSOCIATED
+
+/* Gestion de Problème de Paiement */
+"4000" = "De betaling kon niet uitgevoerd worden, probeer opnieuw."; //PAYMENT_ERROR
+"4010" = "U kunt geen geld naar uw eigen rekening zenden. Voer alstublieft een nieuw e-mail adres in."; //SAME_USER
+"4020" = "U kunt geen geld naar uw eigen rekening zenden. Voer alstublieft een nieuw e-mail adres in."; //SENDING_MONEY_ONESELF_FORBIDDEN idem as SAME_USER

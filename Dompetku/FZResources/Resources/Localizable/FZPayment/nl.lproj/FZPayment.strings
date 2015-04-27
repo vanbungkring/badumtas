@@ -1,0 +1,153 @@
+/* 
+  Localizable.strings
+  FZPayment
+
+  Created by Olivier Demolliens on 4/14/14.
+  Copyright (c) 2014 Flashiz. All rights reserved.
+*/
+
+/** PaymentHomeViewController **/
+"paymentHomeViewController_navigation_title" = "Betaling";
+
+/** PaymentViewController **/
+"paymentViewController_lbl_setUserInfos" = "Maak uw inschrijving compleet door uw gegevens in te vullen";
+"paymentViewController_btn_setUserInfos" = "Invullen";
+"paymentViewController_lbl_addCreditCard" = "Een rekening toevoegen";
+"paymentViewController_btn_addCreditCard" = "Toevoegen";
+"paymentViewController_not_flashiz_invoice_alert_title" = "Error";
+"paymentViewController_not_flashiz_invoice_alert_message" = "Dit is geen QR code van Flashiz. U wordt doorgestuurd naar uw webbrowser.";
+"paymentViewController_not_flashiz_invoice_alert_message_default" = "Dit is geen QR code van Flashiz.";
+"paymentViewController_not_flashiz_invoice_alert_message_not_rul_call_sms" = "";//New
+"paymentViewController_not_flashiz_invoice_alert_message_not_url" = "";//New
+"paymentViewController_incorret_invoice_alert_message" = "Deze QR code is niet actief";
+"paymentViewController_not_flashiz_valid_account_title" = "Account activatie";
+"paymentViewController_not_flashiz_valid_account" = "Om uw eerste betaling te voldoen dient u de gevraagde informatie in te vullen. ";
+"registerCaptchaViewController_mail_notification" = "Er is een email aan u verzonden. Check uw mailbox om uw account te activeren."; //New Dutch
+
+/** PaymentCheckViewController **/
+"paymentCheckViewController_refill" = "Opwaarderen";
+"paymentCheckViewController_pay" = "Betalen";
+"paymentCheckViewController_tips" = "FOOI";
+"paymentCheckViewController_use_bon" = "Gebruik uw bonuspunten";
+"paymentCheckViewController_autorefill_of" = "Automatisch opwaarderen van %@ wordt uitgevoerd";
+"paymentCheckViewController_fidelitiz_title"    = "Aansluiten bij het programma";
+"paymentCheckViewController_fidelitiz_create"   = "Wilt u uw Flashiz Rewards gebruiken en u aansluiten bij het klantenprogramma van de winkelier?";
+"paymentCheckViewController_fidelitiz_register" = "Wilt u aansluiten bij het klantenprogramma van de winkelier?";
+
+"paymentCheckViewController_included_rewards" = "Incl. Rewards : "; //TODO: to translate
+"paymentCheckViewController_included_tip" = "Incl. %.1f%% tip : "; //TODO: to translate
+"paymentCheckViewController_included_tip_int" = "Incl. %.0f%% tip: "; //TODO: to translate
+"paymentCheckViewController_btn_tip" = "Tip edit"; //TODO: to translate
+"tipViewController_navigation_title" = "Edit tip amount"; //TODO: to translate
+"tipViewController_lblNoTip" = "No tip"; //TODO: to translate
+"tipViewController_lblAddFirstRange" = "+ ";
+"tipViewController_lblAddSecondRange" = "+ ";
+"tipViewController_lblPersonalizedTipValue" = "or tap the tip amount\nto enter your personalized value"; //TODO: to translate
+"tipViewController_btnApplyTip" = "Apply"; //TODO: to translate
+
+/** ActionSuccessfulAfterPaymentViewController **/
+"actionSuccessfulAfterPaymentViewController_label_success" = "De betaling is uitgevoerd";
+"actionSuccessfulAfterPaymentViewController_btn_map" = "Flashiz winkels in de buurt zoeken";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchasePoints" = "Deze aankoop levert u";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn" = "1 punt op!";
+"actionSuccessfulAfterPaymentViewController_lblNbOfPointsEarn_s" = "%d punten op!";
+"actionSuccessfulAfterPaymentViewController_lblThisPurchaseCoupons" = "Deze aankoop heeft u";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons_s" = "%d bonnen van %@ opgeleverd.";
+"actionSuccessfulAfterPaymentViewController_lblNbOfCoupons" = "1 bon van %@ opgeleverd.";
+"actionSuccessfulAfterPaymentViewController_btnCongratulations" = "Gefeliciteerd!";
+"actionSuccessfulAfterPaymentViewController_btnThanks" = "Bedankt!";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints_s" = "%d punten";
+"actionSuccessfulAfterPaymentViewController_lblNumberOfPoints" = "1 punt";
+
+/** PaymentRefillViewController **/
+"menu_refill_title" = "Mijn rekening opwaarderen";
+"refill_account" = "Rekening opwaarderen...";
+"cancelling_autorefill_rule" = "Annuleren van automatisch opwaarderen...";
+"select_card_and_amount" = "Een kaart en een bedrag selecteren";
+"auto_refill_account" = "Automatisch opwaarderen van rekening...";
+"paymentRefillViewController_choose_amount" = "Een bedrag selecteren";
+"paymentRefillViewController_automatic_refill" = "Automatisch opwaarderen wanneer mijn rekening op 0 staat";
+"paymentRefillViewController_your_balance" = "Mijn saldo";
+"paymentRefillViewController_select_card" = "Een kaart selecteren om bij te schrijven";
+"paymentRefillViewController_activate" = "Activeren";
+"paymentRefillViewController_desactivate" = "Deactiveren";
+"paymentRefillViewController_success" = "Het opwaarderen is gelukt";
+"paymentRefillViewController_success_setRule" = "Het automatisch opwaarderen is ingesteld";
+"paymentRefillViewController_success_setRule_off" = "Het automatisch opwaarderen is gedeactiveerd";
+"paymentRefillViewController_save" = "Registreren";
+"paymentRefillViewController_refill" = "Opwaarderen";
+
+/** HistoryConfirmationCell **/
+"thanks_you" = "Bedankt voor uw betaling!";
+
+/** HistoryDetailCell **/
+"canceled" = "Geannuleerd";
+"refused" = "Geweigerd";
+"cancel" = "Annuleren";
+"accept" = "Accepteren";
+
+/** HistoryViewCOntroller **/
+"loading_transactions" = "Transacties laden...";
+"validating_transactions" = "Bevestiging...";
+"cancelling_transactions" = "Annuleren...";
+"all" = "Alle";
+"output" = "Debet";
+"input" = "Credit";
+"waiting" = "In behandeling";
+
+/** CardListViewController **/
+"cardListViewController_navigation_title" = "Mijn betaalpassen";
+"cardListViewController_navigation_title_select" = "Mijn betaalpassen";
+"cardListViewController_navigation_title_manage" = "Mijn betaalpassen";
+"cardListViewController_expired" = "Verloopdatum %@/%@";
+"cardListViewController_already_expired" = "Let op, deze pas is verlopen";
+"cardListViewController_re_save" = "Opnieuw registreren";
+"cardListViewController_add" = "Een nieuwe pas toevoegen";
+"cardListViewController_alert_deletion_title"= "Let op";
+"cardListViewController_alert_deletion_message" = "Weet u zeker dat u deze pas wilt verwijderen?";
+"cardListViewController_not_flashiz_valid_account" = "Om uw kaart te koppelen, moet u aan uw gegevens";
+
+"credit_cards_loading" = "Laden van de passen...";
+"no_expired" = "Niet mogelijk een pas te selecteren die verlopen is";
+"deleting_credit_card" = "Verwijderen van de betaalpas...";
+
+/** CreateCardViewController **/
+"createCardViewController_navigation_title" = "Een rekening toevoegen";
+"createCardViewController_alert_title" = "Naam van uw rekening";
+"createCardViewController_alert_message" = "Geef een naam aan uw rekening.";
+"createCardViewController_namefield_placeholder" = "Naam van de rekening";
+"createCardViewController_alert_refill_on_flashiz" = "Om je account te crediteren, ga naar www.flashiz.com";
+
+/** LoginViewController **/
+"loginViewController_navigation_title" = "Verbinden";
+"user_invalid" = "Er is iets fout gegaan bij de verbinding";
+"pin_not_matching" = "De persoonlijke codes zijn niet gelijk.";
+"loginviewController_alertview_user_empty" = "Vul uw gebruikersnaam in.";
+"loginviewController_alertview_password_empty" = "Vul uw wachtwoord in.";
+"initial_create_account" = "Een account aanmaken";
+"loginviewController_link_with_flashiz" = "Link uw FLASHiZ account";
+
+/** PinViewController **/
+"pinViewController_your_personnal_code" = "Mijn persoonlijke code";
+"pinViewController_your_personnal_code_inforamtion" = "Met de persoonlijke code kunt u er zeker van zijn dat u de enige bent die Flashiz kunt gebruiken op deze telefoon. U kunt hem op elk gewenst moment wijzigen.";
+"pinViewController_your_personnal_code_enter" = "Identificeert u zich met uw persoonlijke code."; //New
+"pinViewController_your_personnal_code_redefine" = "Maak een nieuwe persoonlijke code aan";
+"pinViewController_your_personnal_code_confirm" = "Bevestig de nieuwe persoonlijke code";
+"pinViewController_navigation_title" = "Laatste stap";
+"pinViewController_navigation_header" = "Mijn persoonlijke code wijzigen";
+"loading" = "Laden...";
+"pinViewController_error_pincode_alert_title" = "Foutieve persoonlijke code";
+"pinViewController_error_pincode_alert_message" = "Nog %d pogingen";
+
+/** ForgottenPasswordSendMailViewController **/
+"loginViewController_btnForgottenPassword_title" = "Wachtwoord vergeten?";
+
+/** AccountBannerViewController **/
+"AccountBannerViewController_YourBalance" = "Mijn saldo";
+
+/** InitialViewController **/
+"initial_connect" = "Verbinden";
+
+/* YourLoyaltyProgramDetailsViewController */
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon"="Meer dan 1 punt";
+"yourLoyaltyProgramDetailsViewController_lblNumberOfPointsBeforeACoupon_s"="Meer dan %@ punten";
