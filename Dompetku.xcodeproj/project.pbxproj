@@ -147,6 +147,7 @@
 		0CFF88CD1A25EDFE00DD5F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF88CC1A25EDFE00DD5F0F /* Main.storyboard */; };
 		0CFF88CF1A25F00B00DD5F0F /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF88CE1A25F00B00DD5F0F /* tabbar@2x.png */; };
 		0CFF88EC1A26410F00DD5F0F /* netraGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF88EB1A26410F00DD5F0F /* netraGlobalVariable.m */; };
+		43141BF81AF3AAC500B5F3EC /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43141BF71AF3AAC500B5F3EC /* libiconv.2.4.0.dylib */; };
 		7F26F7CE1A0E497500123DB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26F7CD1A0E497500123DB6 /* Foundation.framework */; };
 		7F26F7D01A0E497500123DB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26F7CF1A0E497500123DB6 /* CoreGraphics.framework */; };
 		7F26F7D21A0E497500123DB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26F7D11A0E497500123DB6 /* UIKit.framework */; };
@@ -846,6 +847,7 @@
 		0CFF88EB1A26410F00DD5F0F /* netraGlobalVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netraGlobalVariable.m; sourceTree = "<group>"; };
 		3A32D0662E46B1036F3342DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE0FBE7D3102A340A5459F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		43141BF71AF3AAC500B5F3EC /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
 		7F26F7CA1A0E497500123DB6 /* Dompetku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dompetku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F26F7CD1A0E497500123DB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F26F7CF1A0E497500123DB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -915,6 +917,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43141BF81AF3AAC500B5F3EC /* libiconv.2.4.0.dylib in Frameworks */,
 				0C11E4991ADCD11E004DA7DA /* libPods-ZBarSDK.a in Frameworks */,
 				7F26F7D01A0E497500123DB6 /* CoreGraphics.framework in Frameworks */,
 				0CD2BCA21ADC475000D01209 /* CoreText.framework in Frameworks */,
@@ -2611,6 +2614,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		43141BDC1AF3A43900B5F3EC /* FlazhIz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlazhIz;
+			sourceTree = "<group>";
+		};
 		7F26F7C11A0E497500123DB6 = {
 			isa = PBXGroup;
 			children = (
@@ -2635,6 +2645,7 @@
 		7F26F7CC1A0E497500123DB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43141BF71AF3AAC500B5F3EC /* libiconv.2.4.0.dylib */,
 				0C11E4981ADCD11E004DA7DA /* libPods-ZBarSDK.a */,
 				0CB4EB811ADC63800067194D /* ios_mobile_sdk */,
 				0CD2BCA11ADC475000D01209 /* CoreText.framework */,
@@ -2670,6 +2681,7 @@
 		7F26F7D31A0E497500123DB6 /* Dompetku */ = {
 			isa = PBXGroup;
 			children = (
+				43141BDC1AF3A43900B5F3EC /* FlazhIz */,
 				0C3DC00D1A42CF9800BC4193 /* Storyboard */,
 				0C3DC0091A42C7E800BC4193 /* Helper */,
 				0C7E5D051A29DC450021EB87 /* Left Menu */,
@@ -3360,6 +3372,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6BDB669F639999385889D5F /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3368,6 +3381,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FlazhIz",
+					"/Users/arieprasetyo/Downloads/Debug-iphoneos",
+					"$(PROJECT_DIR)/Dompetku/FlazhIz/FZResources-API.bundle",
+					"$(PROJECT_DIR)/Dompetku/FlazhIz",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dompetku/Dompetku-Prefix.pch";
@@ -3428,6 +3445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3EE0FBE7D3102A340A5459F2 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3437,6 +3455,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FlazhIz",
+					"/Users/arieprasetyo/Downloads/Debug-iphoneos",
+					"$(PROJECT_DIR)/Dompetku/FlazhIz/FZResources-API.bundle",
+					"$(PROJECT_DIR)/Dompetku/FlazhIz",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dompetku/Dompetku-Prefix.pch";
