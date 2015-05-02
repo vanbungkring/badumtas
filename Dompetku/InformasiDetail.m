@@ -7,7 +7,7 @@
 //
 
 #import "InformasiDetail.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface infomasiDetail ()<UIWebViewDelegate>
 @property (strong, nonatomic)  UIWebView *webviw;
 

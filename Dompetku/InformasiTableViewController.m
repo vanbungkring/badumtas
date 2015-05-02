@@ -11,7 +11,7 @@
 #import "HistoryTransaksiTableViewController.h"
 #import "DompetkuNavbarHelper.h"
 #import "DaftarMerchantCollectionViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface InformasiTableViewController ()<SWRevealViewControllerDelegate>
 @property (nonatomic,strong)NSArray *arrayMenu;
 @end

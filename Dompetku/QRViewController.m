@@ -7,10 +7,11 @@
 //
 
 #import "QRViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
+#import <FZSDK/BankSDKMultiTargetManager.h>
+#import "QrcodePresentViewController.h"
 @interface QRViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageResult;
-
 @end
 
 @implementation QRViewController
@@ -19,52 +20,26 @@
     [super viewDidLoad];
     [self setDefaultNavigationBar];
         [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
-    // Do any additional setup after loading the view.
-}
+   
 
+    
+   
+}
+-(BOOL)isClosingSdkAfterInvalidQrCode{
+    return YES;
+}
+-(BOOL)isClosingSdkAfterPaymentFailedOrSucceeded{
+    return YES;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)scan:(id)sender {
-    // ADD: present a barcode reader that scans from the camera feed
-    reader = [ZBarReaderViewController new];
-    reader.readerDelegate = self;
-    reader.supportedOrientationsMask = ZBarOrientationMaskAll;
-    
-    ZBarImageScanner *scanner = reader.scanner;
-    // TODO: (optional) additional reader configuration here
-    
-    // EXAMPLE: disable rarely used I2/5 to improve performance
-    [scanner setSymbology: ZBAR_I25
-                   config: ZBAR_CFG_ENABLE
-                       to: 0];
-    
-    // present and release the controller
-    [self presentModalViewController: reader
-                            animated: YES];
+
+- (IBAction)scan:(id)sender{
+
 }
 
-- (void) imagePickerController: (UIImagePickerController*) reader
- didFinishPickingMediaWithInfo: (NSDictionary*) info
-{
-    // ADD: get the decode results
-    id<NSFastEnumeration> results =
-    [info objectForKey: ZBarReaderControllerResults];
-    ZBarSymbol *symbol = nil;
-    for(symbol in results)
-        // EXAMPLE: just grab the first barcode
-        break;
-    
-    // EXAMPLE: do something useful with the barcode data
-    
-    // EXAMPLE: do something useful with the barcode image
-    _imageResult.image =
-    [info objectForKey: UIImagePickerControllerOriginalImage];
-    
-    // ADD: dismiss the controller (NB dismiss from the *reader*!)
-    [reader dismissModalViewControllerAnimated: YES];
-}
 
 /*
 #pragma mark - Navigation

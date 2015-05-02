@@ -7,7 +7,7 @@
 //
 
 #import "LeftMenuTableViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 #import "NetraUserInquiry.h"
 #import "AdministrasiListTableViewController.h"
 #import "InformasiTableViewController.h"
@@ -162,18 +162,18 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 6;
+    return 7;
 }
 -(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     
     NSLog(@"index path row-->%d",indexPath.row);
-//        if (indexPath.row %2==0) {
-//            cell.backgroundColor = [UIColor colorWithRed:0.353 green:0.353 blue:0.353 alpha:1];
-//        }
-//        else{
-//            cell.backgroundColor = [UIColor colorWithRed:0.29 green:0.29 blue:0.29 alpha:1];
-//        }
+    //        if (indexPath.row %2==0) {
+    //            cell.backgroundColor = [UIColor colorWithRed:0.353 green:0.353 blue:0.353 alpha:1];
+    //        }
+    //        else{
+    //            cell.backgroundColor = [UIColor colorWithRed:0.29 green:0.29 blue:0.29 alpha:1];
+    //        }
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UINavigationController *nav = (UINavigationController *) self.revealViewController.frontViewController;
@@ -203,15 +203,15 @@
         // Then push the new view controller in the usual way:
         [self.revealViewController pushFrontViewController:nav animated:YES];
     }
-//    if (indexPath.row==2) {
-//        // Get the storyboard named secondStoryBoard from the main bundle:
-//        storyboard = [UIStoryboard storyboardWithName:@"qrcode" bundle:nil];
-//        InboxTableViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"QRViewController"];
-//        nav.viewControllers = [NSArray arrayWithObjects:controller, nil];
-//        // Then push the new view controller in the usual way:
-//        [self.revealViewController pushFrontViewController:nav animated:YES];
-//    }
     if (indexPath.row==2) {
+        // Get the storyboard named secondStoryBoard from the main bundle:
+        storyboard = [UIStoryboard storyboardWithName:@"qrcode" bundle:nil];
+        InboxTableViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"QRViewController"];
+        nav.viewControllers = [NSArray arrayWithObjects:controller, nil];
+        // Then push the new view controller in the usual way:
+        [self.revealViewController pushFrontViewController:nav animated:YES];
+    }
+    if (indexPath.row==3) {
         
         // Get the storyboard named secondStoryBoard from the main bundle:
         storyboard = [UIStoryboard storyboardWithName:@"Favorite" bundle:nil];
@@ -221,7 +221,7 @@
         [self.revealViewController pushFrontViewController:nav animated:YES];
         
     }
-    if (indexPath.row==3) {
+    if (indexPath.row==4) {
         // Get the storyboard named secondStoryBoard from the main bundle:
         storyboard = [UIStoryboard storyboardWithName:@"Administrasi" bundle:nil];
         UIViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"AdministrasiView"];
@@ -229,7 +229,7 @@
         // Then push the new view controller in the usual way:
         [self.revealViewController pushFrontViewController:nav animated:YES];
     }
-    if (indexPath.row==4) {
+    if (indexPath.row==5) {
         // Get the storyboard named secondStoryBoard from the main bundle:
         storyboard = [UIStoryboard storyboardWithName:@"Informasi" bundle:nil];
         InformasiTableViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"InformasiTableViewController"];
@@ -237,7 +237,7 @@
         // Then push the new view controller in the usual way:
         [self.revealViewController pushFrontViewController:nav animated:YES];
     }
-    if (indexPath.row==5) {
+    if (indexPath.row==6) {
         [self logout];
     }
     switch (indexPath.row) {
@@ -250,17 +250,9 @@
             _InformasiLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _logoutLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             break;
-//                    case 2:
-//                        _qrcodeLabel.textColor = [UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
-//                        _FavoriteLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-//                        _AdministrasiLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-//                        _inboxLabek.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-//                        _InformasiLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-//                        _logoutLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-//                        break;
         case 2:
-            _qrcodeLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-            _FavoriteLabel.textColor = [UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
+            _qrcodeLabel.textColor = [UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
+            _FavoriteLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _AdministrasiLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _inboxLabek.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _InformasiLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
@@ -268,8 +260,8 @@
             break;
         case 3:
             _qrcodeLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-            _FavoriteLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
-            _AdministrasiLabel.textColor = [UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
+            _FavoriteLabel.textColor = [UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
+            _AdministrasiLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _inboxLabek.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _InformasiLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _logoutLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
@@ -277,12 +269,20 @@
         case 4:
             _qrcodeLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _FavoriteLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
+            _AdministrasiLabel.textColor = [UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
+            _inboxLabek.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
+            _InformasiLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
+            _logoutLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
+            break;
+        case 5:
+            _qrcodeLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
+            _FavoriteLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _AdministrasiLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _inboxLabek.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _InformasiLabel.textColor =[UIColor colorWithRed:0.953 green:0.431 blue:0.122 alpha:1];
             _logoutLabel.textColor =[UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             break;
-        case 5:
+        case 6:
             _qrcodeLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _FavoriteLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];
             _AdministrasiLabel.textColor = [UIColor colorWithRed:0.859 green:0.859 blue:0.859 alpha:1];

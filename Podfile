@@ -4,11 +4,8 @@ pod 'Realm'
 pod 'M13Checkbox'
 pod 'ActionSheetPicker-3.0'
 pod 'MBProgressHUD'
-pod 'PPRevealSideViewController'
-pod 'SWRevealViewController'
 pod 'SplunkMint-iOS'
 pod 'SVPullToRefresh'
-pod 'ZBarSDK', '~> 1.3'
 
 post_install do |installer_representation|
     installer_representation.project.targets.each do |target|

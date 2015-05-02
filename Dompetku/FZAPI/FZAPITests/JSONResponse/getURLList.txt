@@ -1,1 +1,0 @@
-{"result":"success","content":{"urls":["http://www.mes-courses-avec-mon-mobile.fr/paiementflash.html/fr/infos/","http://www.flashiz.com/de/infos/","http://www.flashiz.com/nl/infos/","http://www.flashiz.com/fr/infos/","http://www.flashiz.com/en/infos/","http://www.flashiz.com/es/infos/"]}}

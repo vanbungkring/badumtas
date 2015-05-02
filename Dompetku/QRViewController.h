@@ -1,16 +1,18 @@
+////
+////  QRViewController.h
+////  Dompetku
+////
+////  Created by Arie Prasetyo on 4/14/15.
+////
+////
 //
-//  QRViewController.h
-//  Dompetku
-//
-//  Created by Arie Prasetyo on 4/14/15.
-//
-//
-
 #import <UIKit/UIKit.h>
-#import "ZBarSDK.h"
-@interface QRViewController : UIViewController<ZBarReaderDelegate>
-{
-    ZBarReaderViewController *reader;
-}
+#import <FZBlackBox/FlashizFacade.h>
 
+
+@interface QRViewController : UIViewController<FlashizFacadeDelegate>
+{
+    
+}
+@property (retain, nonatomic) FlashizFacade *sdkFlashizFacade;
 @end

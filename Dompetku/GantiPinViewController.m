@@ -13,7 +13,7 @@
 #import "NRealmSingleton.h"
 #import "HomeViewController.h"
 #import <MBProgressHUD.h>
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface GantiPinViewController ()<UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *oldPin;
 @property (strong, nonatomic) IBOutlet UITextField *pinRequest;

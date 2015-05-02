@@ -1,6 +1,0 @@
-{"result":"success",
-"balance":12,
-"username":"82422069-7eee-4a8d-ab34-f0ee318d051f",
-"currency":"EUR",
-"status":"EXE"
-}

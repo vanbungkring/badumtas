@@ -10,7 +10,7 @@
 #import "InboxTableViewCell.h"
 #import "Log.h"
 #import "InboxDetailViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface InboxTableViewController ()<SWRevealViewControllerDelegate>
 @property (nonatomic,strong)NSMutableArray *data;
 @end

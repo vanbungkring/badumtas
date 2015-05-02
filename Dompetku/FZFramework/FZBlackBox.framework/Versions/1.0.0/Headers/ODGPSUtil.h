@@ -1,0 +1,44 @@
+//
+//  ODGPSUtil.h
+//  ostalgo
+//
+//  Created by Olivier Demolliens on 30/04/11.
+//  Copyright 2010 company. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
+
+#define kActionSheetGPSFLASHiZMaps @"FLASHiZ Maps"
+#define kActionSheetGPSNavigon @"Navigon"
+#define kActionSheetGPSTomTom @"TomTom"
+#define kActionSheetGPSPlans @"Apple Maps"
+
+@interface ODGPSUtil : NSObject {
+
+	
+}
+
+//Old version (ios<6)
++(void)showMapWithStart:(MKMapView*)mapView ToGo:(NSDecimalNumber*)eLongi and:(NSDecimalNumber*)eLat __attribute__((deprecated));
+
+//Apple Maps App
++(void)showMapWithAppleMaps:(MKMapView*)mapView ToGo:(NSDecimalNumber*)eLongi and:(NSDecimalNumber*)eLat;
+
+//TomTom App
++(BOOL)tomtomAppsInstalled;
++(void)showMapWithTomTom:(MKMapView*)mapView ToGo:(NSDecimalNumber*)eLongi and:(NSDecimalNumber*)eLat withTitle:(NSString*)title;
+
+//FLASHiZMaps App
++(BOOL)FLASHiZMapsAppsInstalled;
++(void)showMapWithFLASHiZMaps:(MKMapView*)mapView ToGo:(NSDecimalNumber*)eLongi and:(NSDecimalNumber*)eLat;
+
+//Navigon App
++(BOOL)navigonAppsInstalled;
++(void)showMapWithNavigon:(MKMapView*)mapView ToGo:(NSDecimalNumber*)eLongi and:(NSDecimalNumber*)eLat withTitle:(NSString*)title;
+
+
+//ActionSheet
++ (UIActionSheet*)getActionbar:(UIViewController*)ctrl withTitle:(NSString*)title andCancelButtonTitle:(NSString*)cancelButton;
+
+@end

@@ -8,7 +8,7 @@
 
 #import "AdministrasiListTableViewController.h"
 #import "GantiPinViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface AdministrasiListTableViewController ()<SWRevealViewControllerDelegate>
 @property (strong,nonatomic)NSArray *menu;
 @end

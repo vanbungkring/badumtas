@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		0C11E47D1ADCCE9E004DA7DA /* qrcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C11E47C1ADCCE9E004DA7DA /* qrcode.storyboard */; };
 		0C11E4971ADCD0BF004DA7DA /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C11E4961ADCD0BF004DA7DA /* QRViewController.m */; };
-		0C11E4991ADCD11E004DA7DA /* libPods-ZBarSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11E4981ADCD11E004DA7DA /* libPods-ZBarSDK.a */; };
 		0C1248AA1A288631005C792D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248A91A288631005C792D /* libPods.a */; };
 		0C1248B31A288639005C792D /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248AB1A288639005C792D /* libPods-AFNetworking.a */; };
 		0C1248B41A288639005C792D /* libPods-ActionSheetPicker-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248AC1A288639005C792D /* libPods-ActionSheetPicker-3.0.a */; };
 		0C1248B61A288639005C792D /* libPods-M13Checkbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248AE1A288639005C792D /* libPods-M13Checkbox.a */; };
-		0C1248B81A288639005C792D /* libPods-PPHelpMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248B01A288639005C792D /* libPods-PPHelpMe.a */; };
-		0C1248B91A288639005C792D /* libPods-PPRevealSideViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248B11A288639005C792D /* libPods-PPRevealSideViewController.a */; };
 		0C1248BA1A288639005C792D /* libPods-SDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1248B21A288639005C792D /* libPods-SDWebImage.a */; };
 		0C1248BC1A288ED9005C792D /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1248BB1A288ED9005C792D /* profile-image-placeholder@2x.png */; };
 		0C31AD321A287873007833D7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C31AD311A287873007833D7 /* readme.md */; };
@@ -148,6 +145,20 @@
 		0CFF88CF1A25F00B00DD5F0F /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF88CE1A25F00B00DD5F0F /* tabbar@2x.png */; };
 		0CFF88EC1A26410F00DD5F0F /* netraGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF88EB1A26410F00DD5F0F /* netraGlobalVariable.m */; };
 		43141BF81AF3AAC500B5F3EC /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43141BF71AF3AAC500B5F3EC /* libiconv.2.4.0.dylib */; };
+		4316F8F81AF3F9FD00FF0FEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4316F8F71AF3F9FD00FF0FEA /* CoreLocation.framework */; };
+		4385FCC31AF4065600F85BA1 /* FZResources-API.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCB71AF4065600F85BA1 /* FZResources-API.bundle */; };
+		4385FCC41AF4065600F85BA1 /* FZResources-BlackBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCB81AF4065600F85BA1 /* FZResources-BlackBox.bundle */; };
+		4385FCC51AF4065600F85BA1 /* FZResources-CoreUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCB91AF4065600F85BA1 /* FZResources-CoreUI.bundle */; };
+		4385FCC61AF4065600F85BA1 /* FZResources-Flashiz.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCBA1AF4065600F85BA1 /* FZResources-Flashiz.bundle */; };
+		4385FCC71AF4065600F85BA1 /* FZResources-Payment.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCBB1AF4065600F85BA1 /* FZResources-Payment.bundle */; };
+		4385FCC81AF4065600F85BA1 /* FZResources-Rewards.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCBC1AF4065600F85BA1 /* FZResources-Rewards.bundle */; };
+		4385FCC91AF4065600F85BA1 /* FZResources-SDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4385FCBD1AF4065600F85BA1 /* FZResources-SDK.bundle */; };
+		4385FCCA1AF4065600F85BA1 /* FZAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4385FCBE1AF4065600F85BA1 /* FZAPI.framework */; };
+		4385FCCB1AF4065600F85BA1 /* FZBlackBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4385FCBF1AF4065600F85BA1 /* FZBlackBox.framework */; };
+		4385FCCC1AF4065600F85BA1 /* FZPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4385FCC01AF4065600F85BA1 /* FZPayment.framework */; };
+		4385FCCD1AF4065600F85BA1 /* FZRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4385FCC11AF4065600F85BA1 /* FZRewards.framework */; };
+		4385FCCE1AF4065600F85BA1 /* FZSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4385FCC21AF4065600F85BA1 /* FZSDK.framework */; };
+		4385FCE11AF4105200F85BA1 /* QrcodePresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4385FCE01AF4105200F85BA1 /* QrcodePresentViewController.m */; };
 		7F26F7CE1A0E497500123DB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26F7CD1A0E497500123DB6 /* Foundation.framework */; };
 		7F26F7D01A0E497500123DB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26F7CF1A0E497500123DB6 /* CoreGraphics.framework */; };
 		7F26F7D21A0E497500123DB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26F7D11A0E497500123DB6 /* UIKit.framework */; };
@@ -848,6 +859,21 @@
 		3A32D0662E46B1036F3342DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE0FBE7D3102A340A5459F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		43141BF71AF3AAC500B5F3EC /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+		4316F8F71AF3F9FD00FF0FEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4385FCB71AF4065600F85BA1 /* FZResources-API.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-API.bundle"; sourceTree = "<group>"; };
+		4385FCB81AF4065600F85BA1 /* FZResources-BlackBox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-BlackBox.bundle"; sourceTree = "<group>"; };
+		4385FCB91AF4065600F85BA1 /* FZResources-CoreUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-CoreUI.bundle"; sourceTree = "<group>"; };
+		4385FCBA1AF4065600F85BA1 /* FZResources-Flashiz.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-Flashiz.bundle"; sourceTree = "<group>"; };
+		4385FCBB1AF4065600F85BA1 /* FZResources-Payment.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-Payment.bundle"; sourceTree = "<group>"; };
+		4385FCBC1AF4065600F85BA1 /* FZResources-Rewards.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-Rewards.bundle"; sourceTree = "<group>"; };
+		4385FCBD1AF4065600F85BA1 /* FZResources-SDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "FZResources-SDK.bundle"; sourceTree = "<group>"; };
+		4385FCBE1AF4065600F85BA1 /* FZAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZAPI.framework; sourceTree = "<group>"; };
+		4385FCBF1AF4065600F85BA1 /* FZBlackBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZBlackBox.framework; sourceTree = "<group>"; };
+		4385FCC01AF4065600F85BA1 /* FZPayment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZPayment.framework; sourceTree = "<group>"; };
+		4385FCC11AF4065600F85BA1 /* FZRewards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZRewards.framework; sourceTree = "<group>"; };
+		4385FCC21AF4065600F85BA1 /* FZSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FZSDK.framework; sourceTree = "<group>"; };
+		4385FCDF1AF4105200F85BA1 /* QrcodePresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrcodePresentViewController.h; sourceTree = "<group>"; };
+		4385FCE01AF4105200F85BA1 /* QrcodePresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrcodePresentViewController.m; sourceTree = "<group>"; };
 		7F26F7CA1A0E497500123DB6 /* Dompetku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dompetku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F26F7CD1A0E497500123DB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F26F7CF1A0E497500123DB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -917,25 +943,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4316F8F81AF3F9FD00FF0FEA /* CoreLocation.framework in Frameworks */,
+				4385FCCC1AF4065600F85BA1 /* FZPayment.framework in Frameworks */,
 				43141BF81AF3AAC500B5F3EC /* libiconv.2.4.0.dylib in Frameworks */,
-				0C11E4991ADCD11E004DA7DA /* libPods-ZBarSDK.a in Frameworks */,
 				7F26F7D01A0E497500123DB6 /* CoreGraphics.framework in Frameworks */,
+				4385FCCE1AF4065600F85BA1 /* FZSDK.framework in Frameworks */,
 				0CD2BCA21ADC475000D01209 /* CoreText.framework in Frameworks */,
 				0CD2BCA01ADC474100D01209 /* CoreMedia.framework in Frameworks */,
 				0CD2BC9E1ADC473500D01209 /* QuartzCore.framework in Frameworks */,
 				0CD2BC9C1ADC472D00D01209 /* AudioToolbox.framework in Frameworks */,
+				4385FCCD1AF4065600F85BA1 /* FZRewards.framework in Frameworks */,
 				0CD2BC9A1ADC472300D01209 /* MobileCoreServices.framework in Frameworks */,
 				0CD2BC981ADC471700D01209 /* AVFoundation.framework in Frameworks */,
 				0CAF2B751A35D4D700EA3943 /* libPods-MBProgressHUD.a in Frameworks */,
 				0CAF2B761A35D4D700EA3943 /* libPods-Realm.a in Frameworks */,
 				7F26F7D21A0E497500123DB6 /* UIKit.framework in Frameworks */,
+				4385FCCA1AF4065600F85BA1 /* FZAPI.framework in Frameworks */,
 				7F26F7CE1A0E497500123DB6 /* Foundation.framework in Frameworks */,
 				0C1248AA1A288631005C792D /* libPods.a in Frameworks */,
 				0C1248B31A288639005C792D /* libPods-AFNetworking.a in Frameworks */,
 				0C1248B41A288639005C792D /* libPods-ActionSheetPicker-3.0.a in Frameworks */,
+				4385FCCB1AF4065600F85BA1 /* FZBlackBox.framework in Frameworks */,
 				0C1248B61A288639005C792D /* libPods-M13Checkbox.a in Frameworks */,
-				0C1248B81A288639005C792D /* libPods-PPHelpMe.a in Frameworks */,
-				0C1248B91A288639005C792D /* libPods-PPRevealSideViewController.a in Frameworks */,
 				0C1248BA1A288639005C792D /* libPods-SDWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -958,6 +987,8 @@
 			children = (
 				0C11E4951ADCD0BF004DA7DA /* QRViewController.h */,
 				0C11E4961ADCD0BF004DA7DA /* QRViewController.m */,
+				4385FCDF1AF4105200F85BA1 /* QrcodePresentViewController.h */,
+				4385FCE01AF4105200F85BA1 /* QrcodePresentViewController.m */,
 			);
 			name = QRCODE;
 			sourceTree = "<group>";
@@ -2614,11 +2645,31 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		43141BDC1AF3A43900B5F3EC /* FlazhIz */ = {
+		4385FCB51AF4065600F85BA1 /* FZFramework */ = {
 			isa = PBXGroup;
 			children = (
+				4385FCB61AF4065600F85BA1 /* Bundle */,
+				4385FCBE1AF4065600F85BA1 /* FZAPI.framework */,
+				4385FCBF1AF4065600F85BA1 /* FZBlackBox.framework */,
+				4385FCC01AF4065600F85BA1 /* FZPayment.framework */,
+				4385FCC11AF4065600F85BA1 /* FZRewards.framework */,
+				4385FCC21AF4065600F85BA1 /* FZSDK.framework */,
 			);
-			path = FlazhIz;
+			path = FZFramework;
+			sourceTree = "<group>";
+		};
+		4385FCB61AF4065600F85BA1 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				4385FCB71AF4065600F85BA1 /* FZResources-API.bundle */,
+				4385FCB81AF4065600F85BA1 /* FZResources-BlackBox.bundle */,
+				4385FCB91AF4065600F85BA1 /* FZResources-CoreUI.bundle */,
+				4385FCBA1AF4065600F85BA1 /* FZResources-Flashiz.bundle */,
+				4385FCBB1AF4065600F85BA1 /* FZResources-Payment.bundle */,
+				4385FCBC1AF4065600F85BA1 /* FZResources-Rewards.bundle */,
+				4385FCBD1AF4065600F85BA1 /* FZResources-SDK.bundle */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 		7F26F7C11A0E497500123DB6 = {
@@ -2645,6 +2696,7 @@
 		7F26F7CC1A0E497500123DB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4316F8F71AF3F9FD00FF0FEA /* CoreLocation.framework */,
 				43141BF71AF3AAC500B5F3EC /* libiconv.2.4.0.dylib */,
 				0C11E4981ADCD11E004DA7DA /* libPods-ZBarSDK.a */,
 				0CB4EB811ADC63800067194D /* ios_mobile_sdk */,
@@ -2681,7 +2733,7 @@
 		7F26F7D31A0E497500123DB6 /* Dompetku */ = {
 			isa = PBXGroup;
 			children = (
-				43141BDC1AF3A43900B5F3EC /* FlazhIz */,
+				4385FCB51AF4065600F85BA1 /* FZFramework */,
 				0C3DC00D1A42CF9800BC4193 /* Storyboard */,
 				0C3DC0091A42C7E800BC4193 /* Helper */,
 				0C7E5D051A29DC450021EB87 /* Left Menu */,
@@ -3034,9 +3086,11 @@
 				7F26F8421A0E71B200123DB6 /* Icon-Small-40@2x.png in Resources */,
 				0C1248BC1A288ED9005C792D /* profile-image-placeholder@2x.png in Resources */,
 				0C8F07AD1A2AEE6700617586 /* button-menu-beliactive@2x.png in Resources */,
+				4385FCC91AF4065600F85BA1 /* FZResources-SDK.bundle in Resources */,
 				0C8F07A31A2AEC2000617586 /* button-menu-beli@2x.png in Resources */,
 				8897D2D51A13BD4B009DBC74 /* button-simpan@2x.png in Resources */,
 				7F26F8431A0E71B200123DB6 /* Icon-Small-40.png in Resources */,
+				4385FCC61AF4065600F85BA1 /* FZResources-Flashiz.bundle in Resources */,
 				0C7905C61A502CEF00FAC954 /* Inbox.storyboard in Resources */,
 				0C8F07971A2AE5B700617586 /* transfer@2x.png in Resources */,
 				0C74252E1A46E6A500DDAE72 /* ListMerchant.storyboard in Resources */,
@@ -3053,11 +3107,13 @@
 				0C7425171A46D80800DDAE72 /* Bayar.storyboard in Resources */,
 				0C74251F1A46DF0000DDAE72 /* Tentang Dompetku.html in Resources */,
 				7F26F7D81A0E497500123DB6 /* InfoPlist.strings in Resources */,
+				4385FCC71AF4065600F85BA1 /* FZResources-Payment.bundle in Resources */,
 				0C8F07AE1A2AEE6700617586 /* button-menu-tokenactive@2x.png in Resources */,
 				0CABCCC11A4F41A8008AF4A7 /* transfer-state@2x.png in Resources */,
 				0C7425291A46E2B500DDAE72 /* Favorite.storyboard in Resources */,
 				0C8F07591A29FD2C00617586 /* navbar-logo@2x.png in Resources */,
 				0C9A9A731A2F42E200B3C785 /* Syarat & Ketentuan.html in Resources */,
+				4385FCC51AF4065600F85BA1 /* FZResources-CoreUI.bundle in Resources */,
 				7F26F8461A0E71B200123DB6 /* Icon-57@2x.png in Resources */,
 				0C8F07951A2AE5B700617586 /* beli-bar@2x.png in Resources */,
 				0C8F07A71A2AEC2000617586 /* button-menu-transfer@2x.png in Resources */,
@@ -3074,6 +3130,7 @@
 				88A017AD1A12B8AC0085921E /* bg-orange.png in Resources */,
 				0C74253A1A46EEEB00DDAE72 /* HistoryTransaksi.storyboard in Resources */,
 				0CAF2B781A35DDD700EA3943 /* star@2x.png in Resources */,
+				4385FCC41AF4065600F85BA1 /* FZResources-BlackBox.bundle in Resources */,
 				0C3DC0161A42D94500BC4193 /* Informasi.storyboard in Resources */,
 				88A017AA1A12B8AC0085921E /* logo@2x.png in Resources */,
 				0C8F07A11A2AEC2000617586 /* buttonmenubayar@2x.png in Resources */,
@@ -3084,6 +3141,8 @@
 				0CCB51841A4475D0009F4B26 /* Hubungi Kami.html in Resources */,
 				8897D2D61A13BD4B009DBC74 /* button-submit.png in Resources */,
 				88A017AB1A12B8AC0085921E /* logo.png in Resources */,
+				4385FCC81AF4065600F85BA1 /* FZResources-Rewards.bundle in Resources */,
+				4385FCC31AF4065600F85BA1 /* FZResources-API.bundle in Resources */,
 				0C3DC0141A42D52D00BC4193 /* Login.storyboard in Resources */,
 				88A017AC1A12B8AC0085921E /* bg-orange@2x.png in Resources */,
 				0CAF2B7A1A35DF5600EA3943 /* star_@2x.png in Resources */,
@@ -3205,6 +3264,7 @@
 				0CEA94461AA6F6F4009DA27A /* KSDIdlingWindow.m in Sources */,
 				0C4AF8BB1A2DF8B8001D70C6 /* searchBankTableViewController.m in Sources */,
 				0CEB47471A5FB96700AC6295 /* Config.m in Sources */,
+				4385FCE11AF4105200F85BA1 /* QrcodePresentViewController.m in Sources */,
 				7F26F7E41A0E497500123DB6 /* LoginController.m in Sources */,
 				0CEB474F1A62925F00AC6295 /* OTPViewController.m in Sources */,
 				0C43C4EA1A32C72700814F36 /* NetraUserModel.m in Sources */,
@@ -3375,7 +3435,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3385,6 +3445,8 @@
 					"/Users/arieprasetyo/Downloads/Debug-iphoneos",
 					"$(PROJECT_DIR)/Dompetku/FlazhIz/FZResources-API.bundle",
 					"$(PROJECT_DIR)/Dompetku/FlazhIz",
+					"$(PROJECT_DIR)/FZFramework",
+					"$(PROJECT_DIR)/Dompetku/FZFramework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dompetku/Dompetku-Prefix.pch";
@@ -3403,12 +3465,9 @@
 					"-l\"Pods-ActionSheetPicker-3.0\"",
 					"-l\"Pods-M13Checkbox\"",
 					"-l\"Pods-MBProgressHUD\"",
-					"-l\"Pods-PPHelpMe\"",
-					"-l\"Pods-PPRevealSideViewController\"",
 					"-l\"Pods-Realm\"",
 					"-l\"Pods-SDWebImage\"",
 					"-l\"Pods-SVPullToRefresh\"",
-					"-l\"Pods-SWRevealViewController\"",
 					"-l\"Pods-SplunkMint-iOS\"",
 					"-l\"c++\"",
 					"-l\"tightdb-ios\"",
@@ -3436,7 +3495,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c331f32d-a168-4ed2-88d3-d8de6f0bddcb";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3448,8 +3507,8 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3459,6 +3518,8 @@
 					"/Users/arieprasetyo/Downloads/Debug-iphoneos",
 					"$(PROJECT_DIR)/Dompetku/FlazhIz/FZResources-API.bundle",
 					"$(PROJECT_DIR)/Dompetku/FlazhIz",
+					"$(PROJECT_DIR)/FZFramework",
+					"$(PROJECT_DIR)/Dompetku/FZFramework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dompetku/Dompetku-Prefix.pch";
@@ -3477,12 +3538,9 @@
 					"-l\"Pods-ActionSheetPicker-3.0\"",
 					"-l\"Pods-M13Checkbox\"",
 					"-l\"Pods-MBProgressHUD\"",
-					"-l\"Pods-PPHelpMe\"",
-					"-l\"Pods-PPRevealSideViewController\"",
 					"-l\"Pods-Realm\"",
 					"-l\"Pods-SDWebImage\"",
 					"-l\"Pods-SVPullToRefresh\"",
-					"-l\"Pods-SWRevealViewController\"",
 					"-l\"Pods-SplunkMint-iOS\"",
 					"-l\"c++\"",
 					"-l\"tightdb-ios\"",
@@ -3510,7 +3568,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c331f32d-a168-4ed2-88d3-d8de6f0bddcb";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

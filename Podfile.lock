@@ -23,9 +23,6 @@ PODS:
     - AFNetworking/NSURLSession
   - M13Checkbox (1.1.2)
   - MBProgressHUD (0.9)
-  - PPHelpMe (1.0.2)
-  - PPRevealSideViewController (1.2.0):
-    - PPHelpMe
   - Realm (0.89.0):
     - Realm/Headers (= 0.89.0)
   - Realm/Headers (0.89.0)
@@ -34,34 +31,25 @@ PODS:
   - SDWebImage/Core (3.7.1)
   - SplunkMint-iOS (4.0.24)
   - SVPullToRefresh (0.4.1)
-  - SWRevealViewController (2.3.0)
-  - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
   - ActionSheetPicker-3.0
   - AFNetworking
   - M13Checkbox
   - MBProgressHUD
-  - PPRevealSideViewController
   - Realm
   - SDWebImage
   - SplunkMint-iOS
   - SVPullToRefresh
-  - SWRevealViewController
-  - ZBarSDK (~> 1.3)
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: 03f1e57bfc9833eb7d6cf8a2c8acfc07d2fccaeb
   AFNetworking: 96ac9bf3eda33582701cb1fcc5b896aa1e20311e
   M13Checkbox: 0c0bb08dcd144c4ea33f883b68270f3f56908ea2
   MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
-  PPHelpMe: 243c40d2fad33ebdcc6b158c0db54893e0cc2d14
-  PPRevealSideViewController: 2eefff99d726e145da229ae66a19247dbaeddad3
   Realm: 585a4f557cccfb302f40fe086b5401e682b2f9bf
   SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
   SplunkMint-iOS: 6dca12ac7a8a8f4c1f503f70b2abeebc4d1cf90a
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
-  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
-  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
 COCOAPODS: 0.36.4

@@ -11,7 +11,7 @@
 #import <UIImageView+AFNetworking.h>
 #import "CollectionViewCell.h"
 #import <MBProgressHUD.h>
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface DaftarMerchantCollectionViewController ()
 @property (nonatomic,strong) NSMutableArray *array;
 @property (nonatomic, strong) UIImageView *imageView;

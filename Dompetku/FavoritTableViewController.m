@@ -11,7 +11,7 @@
 #import "FavoriteTableViewCell.h"
 #import "BayarSharedDetailViewController.h"
 #import "BeliSharedDetailViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface FavoritTableViewController ()<SWRevealViewControllerDelegate>
 @property (nonatomic,strong)NSMutableArray *userFavorite;
 @end

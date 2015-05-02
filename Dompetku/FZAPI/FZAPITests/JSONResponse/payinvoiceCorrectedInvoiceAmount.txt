@@ -1,1 +1,0 @@
-{"result":"success","newBalance":8531.9,"currency":"EUR","nbCouponsGenerated":1,"couponType":"CASH","couponAmount":1,"nbGeneratedPoints":10,"nbPointsToGetACoupon":10,"nbPointsOnLoyaltyCard":6}

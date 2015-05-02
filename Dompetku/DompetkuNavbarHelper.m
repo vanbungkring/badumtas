@@ -7,7 +7,7 @@
 //
 
 #import "DompetkuNavbarHelper.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @implementation UIViewController (DompetkuNavbarHelper)
 
 - (void)sidebarButtonTouched {

@@ -25,7 +25,7 @@
 #import "ModelBeli+Bayar.h"
 #import "HistoryTransaksiTableViewController.h"
 #import "PromoViewController.h"
-#import <SWRevealViewController.h>
+#import <FZBlackBox/SWRevealViewController.h>
 @interface HomeViewController ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,SWRevealViewControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIScrollView *basicScroll;
 @property (strong, nonatomic) IBOutlet UILabel *nowTime;

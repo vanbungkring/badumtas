@@ -601,7 +601,7 @@ shouldPerformDefaultActionForPerson:(ABRecordRef)person
                     totalTagihanSummon =[NSString stringWithFormat:@"\n Jumlah: %@",_totalTagihan];
                     
                     
-                    
+                    NSLog(@"post--->%@",posts);
                     NSString *message = [NSString stringWithFormat:@"Anda Akan  Membayar %@ %@ dengan detail sebagai berikut :%@ \n Nama Pelanggan: %@ %@ %@ %@",_transactionNameParent,self.title,noPelanggan,[[posts objectAtIndex:0]objectForKey:@"name"],totalSum,feeString,totalTagihanSummon];
                     _amount =[[posts objectAtIndex:0]objectForKey:@"price"];
                     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Konfirmasi" message:message delegate:self cancelButtonTitle:@"Batal" otherButtonTitles:@"Bayar", nil] ;
